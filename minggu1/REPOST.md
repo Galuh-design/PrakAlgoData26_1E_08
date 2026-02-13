@@ -8,7 +8,9 @@ TI-1E
 
 ## Getting Started
 
-### Dependencies
+### Pemilihan
+<img width="891" height="674" alt="image" src="https://github.com/user-attachments/assets/a68b9eb7-6347-4778-b722-8887e2b58098" />
+
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
