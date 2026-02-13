@@ -1,16 +1,21 @@
-# KONSEP DASAR PEMROGRAMAN 2026
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 1 Konsep Dasar Pemrograman
 
-Mengimplementasikan pemilihan, perulangan, array, dan fungsi dalam kode program Java.
+<h4>Nama : Galuh Pramudya Ananta<h4>
+<h4>NIM : 254107020127<h4>
+<h4>Kelas : TI-1E<h4>
 
-## Jobsheet 01
-Galuh Pramudya Ananta (08)
-TI-1E
-## Deskripsi
-Mengulang kembali materi yang ada pada Mata Kuliah Dasar Pemrograman Semester 1
 
-## PRAKTIKUM
 
-### Pemilihan
+## 2.2.1 Praktikum Pemilihan
+
+
+### Pertanyaan Praktikum 1
+1. Buatlah program untuk menghitung nilai akhir dari mahasiswa dengan ketentuan 20% nilai
+tugas, 20% dari nilai kuis, 30% nilai UTS, dan 40% nilai UAS. Setiap nilai yang dimasukkan
+mempunyai batas nilai 0 ‐ 100. Ketika pengguna memasukkan di luar rentang tersebut maka
+akan keluar output “nilai tidak valid”. Ketika nilai akhir sudah didapatkan selanjutnya lakukan
+konversi nilai dengan ketentuan sebagai berikut:
+
 
 #### Code Program
 <img width="891" height="674" alt="image" src="https://github.com/user-attachments/assets/a68b9eb7-6347-4778-b722-8887e2b58098" />
