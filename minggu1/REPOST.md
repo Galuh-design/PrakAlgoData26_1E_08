@@ -6,7 +6,7 @@ Mengimplementasikan pemilihan, perulangan, array, dan fungsi dalam kode program 
 Galuh Pramudya Ananta (08)
 TI-1E 
 
-## Getting Started
+## PRAKTIKUM
 
 ### Pemilihan
 
@@ -23,6 +23,7 @@ TI-1E
 <img width="579" height="368" alt="image" src="https://github.com/user-attachments/assets/ac2ef7f9-32df-4e8e-a993-b2fe38e9ceaa" />
 
 ### Perulangan
+
 #### Code Program
 <img width="768" height="724" alt="image" src="https://github.com/user-attachments/assets/b9e25f6b-49cf-4800-9bdb-2f44196496c0" />
 
@@ -30,6 +31,25 @@ TI-1E
 
 #### Output
 <img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/b7d01937-c6c6-4dc7-96ee-e5025ee680d5" />
+
+### Array
+
+#### Code Program
+<img width="918" height="732" alt="image" src="https://github.com/user-attachments/assets/95cb2143-a5e5-4ae3-a7b4-80322fea5a9f" />
+
+<img width="699" height="739" alt="image" src="https://github.com/user-attachments/assets/8fc3210a-9219-4e7c-9ddf-8ba70a0b159e" />
+
+<img width="718" height="359" alt="image" src="https://github.com/user-attachments/assets/efb137e1-4f63-48a3-b2c2-1413b1aff5be" />
+
+<img width="815" height="711" alt="image" src="https://github.com/user-attachments/assets/79cfc155-4fdd-4adf-b195-693686a94fb7" />
+
+#### Output
+<img width="748" height="645" alt="image" src="https://github.com/user-attachments/assets/ec18293d-d3e1-4a67-b149-481d9ce9329e" />
+
+
+
+
+
 
 
 
