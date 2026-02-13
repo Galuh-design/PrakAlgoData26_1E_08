@@ -76,6 +76,12 @@ TI-1E
 <img width="668" height="382" alt="image" src="https://github.com/user-attachments/assets/833aa73a-b817-4d74-a61a-bc547bec787c" />
 
 #### Output
+<img width="535" height="537" alt="image" src="https://github.com/user-attachments/assets/b0dcdc20-1931-42dd-8308-d82bcde91053" />
+
+<img width="735" height="686" alt="image" src="https://github.com/user-attachments/assets/5acefdfb-0512-48ae-899c-f364ed2f9025" />
+
+<img width="738" height="633" alt="image" src="https://github.com/user-attachments/assets/2fa0ae0a-b702-4b24-a88a-04544f20ccf9" />
+
 
 ## Authors
 
