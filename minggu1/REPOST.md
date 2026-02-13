@@ -46,7 +46,20 @@ TI-1E
 #### Output
 <img width="748" height="645" alt="image" src="https://github.com/user-attachments/assets/ec18293d-d3e1-4a67-b149-481d9ce9329e" />
 
+### Fungsi
 
+#### Code Program
+<img width="859" height="713" alt="image" src="https://github.com/user-attachments/assets/65a1cafa-3d5a-447f-ac3d-2d6feb88caf4" />
+
+#### Output
+<img width="547" height="377" alt="image" src="https://github.com/user-attachments/assets/5c33c58d-1172-4001-a8a1-82a163995611" />
+
+### Tugas 1
+#### Code Program
+#### Output
+### Tugas 2
+#### Code Program
+#### Output
 ## Authors
 
 Galuh Pramudya Ananta
