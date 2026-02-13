@@ -55,11 +55,28 @@ TI-1E
 <img width="547" height="377" alt="image" src="https://github.com/user-attachments/assets/5c33c58d-1172-4001-a8a1-82a163995611" />
 
 ### Tugas 1
+
 #### Code Program
+<img width="854" height="732" alt="image" src="https://github.com/user-attachments/assets/ab6f8f9e-a62d-494c-a7dd-334ae15428b2" />
+
+<img width="746" height="314" alt="image" src="https://github.com/user-attachments/assets/6767c15d-3927-488a-8d55-ba2289d60ac4" />
+
 #### Output
+<img width="510" height="252" alt="image" src="https://github.com/user-attachments/assets/80bfc476-456f-4e19-900a-d4b7495e7d82" />
+
 ### Tugas 2
+
 #### Code Program
+<img width="810" height="735" alt="image" src="https://github.com/user-attachments/assets/e606a6fe-351e-437e-88b7-9fd4a86e5881" />
+
+<img width="953" height="736" alt="image" src="https://github.com/user-attachments/assets/68124a71-111a-4c94-b915-4f0d70fc2a50" />
+
+<img width="976" height="738" alt="image" src="https://github.com/user-attachments/assets/bf94d394-610a-45c2-b318-1318aab19b6e" />
+
+<img width="668" height="382" alt="image" src="https://github.com/user-attachments/assets/833aa73a-b817-4d74-a61a-bc547bec787c" />
+
 #### Output
+
 ## Authors
 
 Galuh Pramudya Ananta
