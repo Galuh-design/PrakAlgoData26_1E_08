@@ -29,6 +29,7 @@ TI-1E
 <img width="777" height="430" alt="image" src="https://github.com/user-attachments/assets/f1e5320e-658a-49f5-b3ed-f034cadcd7c4" />
 
 #### Output
+<img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/b7d01937-c6c6-4dc7-96ee-e5025ee680d5" />
 
 
 
