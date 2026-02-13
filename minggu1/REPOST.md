@@ -1,10 +1,10 @@
-# KONSEP DASAR PEMROGRAMAN
+# KONSEP DASAR PEMROGRAMAN 2026
 
-Simple overview of use/purpose.
+Mengimplementasikan pemilihan, perulangan, array, dan fungsi dalam kode program Java.
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
+## Jobsheet 01
+Galuh Pramudya Ananta (08)
+TI-1E 
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ An in-depth paragraph about your project and overview of use.
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
-![A beautiful sunset over the ocean](images/sunset.jpeg "Golden Hour Sunset")
+
 
 ### Installing
 
