@@ -4,7 +4,15 @@ Mengimplementasikan pemilihan, perulangan, array, dan fungsi dalam kode program 
 
 ## Jobsheet 01
 Galuh Pramudya Ananta (08)
-TI-1E 
+TI-1E Konsep Dasar Pemrograman
+Tim Ajar Algoritma dan Struktur Data 
+202
+Jurusan Teknologi Informasi
+Politeknik 
+5
+202
+6 
+Negeri Malan
 
 ## PRAKTIKUM
 
