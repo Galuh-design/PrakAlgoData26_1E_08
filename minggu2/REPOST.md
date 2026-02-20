@@ -159,6 +159,32 @@ Output :
 
 <img width="487" height="329" alt="image" src="https://github.com/user-attachments/assets/5e99b6b0-414f-4be9-89d3-65804cc9934e" />
 
+## Latihan 2
+
+<img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/131df15a-7d19-45d9-8438-0f2a82cb7a8c" />
+
+Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang
+terdiri dari:
+#### - Class Dosen (Dosen<NoAbsen>.java)
+#### - Class DosenMain (DosenMain<NoAbsen>.java)
+Pada class DosenMain buatlah minimal 2 objek. Gunakan konstruktor default dan konstruktor
+berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah dibuat pada
+class Dosen
+Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai berikut:
+### a. Atribut
+#### • idDosen (String): id unik untuk setiap dosen.
+#### • nama (String): nama lengkap dari dosen.
+#### • statusAktif (boolean): menunjukkan apakah dosen tersebut aktif (true) atau tidak aktif (false) dalam menjalankan tugasnya.
+#### • tahunBergabung (int): tahun ketika dosen mulai bergabung dengan perguruan tinggi
+
+#### • bidangKeahlian (String): bidang keahlian dosen, yang menjelaskan spesialisasi atau fokus akademik dosen
+### b. Method
+#### • tampilInformasi(): method ini digunakan untuk menampilkan informasi lengkap tentang dosen
+#### • setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif. Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
+#### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
+#### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
+
+
 
 
 
