@@ -75,10 +75,15 @@ jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum a
 
 ## Percobaan 3: Membuat Konstruktor
 Code Program modifikasi Mahasiswa08 Percobaan 3;
+
 <img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
+
 Code Program modifikasi MahasiswaMain08 Percobaan 3;
+
 <img width="917" height="496" alt="image" src="https://github.com/user-attachments/assets/20914af7-4bd7-411c-a029-aecdfa5fa72e" />
+
 output :
+
 <img width="582" height="318" alt="image" src="https://github.com/user-attachments/assets/9768a4e3-2398-4d78-8f7b-b355ba6fe50c" />
 
 ### Pertanyaan Percobaan 3
@@ -94,7 +99,24 @@ baris code tersebut adalah untuk menginputkan nilai kedalam konstruktor dengan i
 #### 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
 jawab:
 berikut adalah output;
+
 <img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
+
 hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor menjadi global. dengan hilangnya konstruktor public default maka file mahasiswamain08 tidak dapat mengakses konstruktor pada file mahasiswa08. 
+
+#### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
+
+#### 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+
+jawab:
+berikut adalah code program modifikasi class mahasiswamain08;
+
+<img width="874" height="187" alt="image" src="https://github.com/user-attachments/assets/5a656c76-8d59-4156-bcda-ee27e23f4363" />
+
+berikut adalah output;
+
+<img width="532" height="415" alt="image" src="https://github.com/user-attachments/assets/e21d6a9a-275d-439b-822c-0bd1d1d9e11d" />
+
 
 
