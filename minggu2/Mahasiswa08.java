@@ -1,10 +1,9 @@
-import java.util.Scanner;
+
 public class Mahasiswa08 {
     String nama;
     String nim;
     String kelas;
     double ipk;
-public static Scanner galuh = new Scanner(System.in);
     void tampilkanInformasi() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
@@ -15,9 +14,7 @@ public static Scanner galuh = new Scanner(System.in);
     kelas = kelasBaru;
    }
    void updateIpk(double ipkBaru){
-    do {
-    System.out.print("input ipk: ");    
-    ipkBaru = galuh.nextDouble();
+    do { 
     if (ipkBaru <= 0.0 || ipkBaru >= 4.0) {
         System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
     } else {
