@@ -74,11 +74,14 @@ jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum a
 
 
 ## Percobaan 3: Membuat Konstruktor
+Code Program modifikasi Mahasiswa08 Percobaan 3;
+<img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
+Code Program modifikasi MahasiswaMain08 Percobaan 3;
+<img width="917" height="496" alt="image" src="https://github.com/user-attachments/assets/20914af7-4bd7-411c-a029-aecdfa5fa72e" />
+output :
+<img width="582" height="318" alt="image" src="https://github.com/user-attachments/assets/9768a4e3-2398-4d78-8f7b-b355ba6fe50c" />
 
-
-
-
-### Pertanyaan Praktikum 3
+### Pertanyaan Percobaan 3
 1. Buatlah program untuk menghitung IP Semester dari mata kuliah yang Anda tempuh
 semester lalu. Formula untuk menghitung IP semester sebagai berikut:
 
