@@ -40,7 +40,8 @@ terdapat 4 method yaitu:
 Jawab:
 berikut modifikasi percobaan 1 pertanyaan 4; 
 
-<img width="735" height="337" alt="image" src="https://github.com/user-attachments/assets/96de30aa-c12b-481f-8943-e093965d64c9" />
+<img width="781" height="273" alt="image" src="https://github.com/user-attachments/assets/fc51be61-65fa-4f53-8846-17dbf4019385" />
+
 
 #### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
 Jawab:
