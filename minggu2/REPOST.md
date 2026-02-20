@@ -49,7 +49,8 @@ nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada meth
 
 
 
-## 2.3.1 Praktikum Perulangan
+## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+
 
 
 ### Pertanyaan Praktikum 2
