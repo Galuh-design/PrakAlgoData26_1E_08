@@ -119,5 +119,48 @@ berikut adalah output;
 <img width="532" height="415" alt="image" src="https://github.com/user-attachments/assets/e21d6a9a-275d-439b-822c-0bd1d1d9e11d" />
 
 ### Latihan Praktikum
+## Latihan 1
+
+<img width="455" height="217" alt="image" src="https://github.com/user-attachments/assets/be83b153-939a-4611-a592-630dd45138b9" />
+
+Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas,
+yang terdiri dari:
+#### - Class MataKuliah (MataKuliah<NoAbsen>.java)
+#### - Class MataKuliahMain (MataKuliahMain<NoAbsen>.java)
+Pada class MataKuliahMain buatlah minimal 2 objek. Gunakan konstruktor default dan
+konstruktor berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah
+dibuat pada class MataKuliah.
+Penjelasan dari atribut dan method pada class MataKuliah tersebut adalah sebagai berikut:
+### a. Atribut
+#### • kodeMK (String): kode unik untuk mata kuliah.
+#### • nama (String): nama lengkap dari mata kuliah
+#### • sks (int): SKS (Satuan Kredit Semester)
+#### • jumlahJam (int): jumlah total jam pertemuan per minggu untuk mata kuliah
+### b. Method
+#### • tampilInformasi(): method ini digunakan untuk menampilkan semua informasi yang berkaitan dengan mata kuliah.
+
+#### • ubahSKS(int sksBaru): method ini memungkinkan pengubahan nilai SKS untuk matakuliah. Setelah mengubah nilai, method ini memberi tahu pengguna bahwa SKS telah diubah.
+#### • tambahJam(int jam): method ini menambahkan jumlah jam tambahan ke jumlah jam yang sudah ada untuk mata kuliah.
+#### • kurangiJam(int jam): method ini berfungsi untuk mengurangi jumlah jam dari mata kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi (jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
+
+Code Program : 
+class matkulMain
+
+<img width="896" height="542" alt="image" src="https://github.com/user-attachments/assets/842b75db-ec16-46ac-b821-909949528d65" />
+
+
+class matkul
+
+<img width="767" height="723" alt="image" src="https://github.com/user-attachments/assets/d3b9d5ab-5ce5-41b6-9777-aea426bb82c1" />
+
+<img width="678" height="476" alt="image" src="https://github.com/user-attachments/assets/3c2c1e4f-eeb1-407c-a4af-61e55fec44a3" />
+
+Output :
+
+<img width="487" height="329" alt="image" src="https://github.com/user-attachments/assets/5e99b6b0-414f-4be9-89d3-65804cc9934e" />
+
+
+
+
 
 
