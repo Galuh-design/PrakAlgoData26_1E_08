@@ -48,8 +48,6 @@ Jawab:
 nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada method updateipk. dalam kondisi nilaikinerja terdapat berbagai kondisi if - else if - else yang meliputi syarat kondisi nilai true berupa jumlah ipk >=. bila salah satu kondisi if maupun else if bernilai true maka akan di return string sesuai dengan isi dari kondisi yang bernilai true tersebut. bila tidak ada kondisi yang true maka di returnkan isi dari else.
 
 
-
-
 ## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
 Code Program:
 
@@ -59,30 +57,24 @@ Output:
 
 <img width="454" height="314" alt="image" src="https://github.com/user-attachments/assets/c9553be4-9238-44ed-8e48-8ce716e0a857" />
 
+### Pertanyaan Percobaan 2
+
+#### 1.Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+Jawab: 
+pada baris ini;
+<img width="301" height="31" alt="image" src="https://github.com/user-attachments/assets/79bbe0a0-835d-4beb-b39e-5db6ec8419e2" />
+nama object yang dihasilkan adalah mhs1
+#### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+Jawab:
+dengan cara memanggil menggunakan objek mhs1 seperti yang dicontohkan pada kode program mahasiswa main, contohnya sebagai berikut; 
+<img width="300" height="46" alt="image" src="https://github.com/user-attachments/assets/c6c410c5-d13d-4f6e-947e-8fb00c2af6b0" />
+
+#### 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum ada komputasi dari method, sedangkan output tampilkaninformasi kedua setelah method ubahkelas dan updateipk dipanggil sehingga nilai attribut berubah karena telah di proses pada method.
 
 
-### Pertanyaan Praktikum 2
-1. Buatlah program yang dapat menampilkan deretan bilangan dari angka 1 sampai n, dengan
-n = 2-digit terakhir NIM Anda. Berikut Adalah ketentuan untuk mencetak deretnya;
-##### a. Bilangan kelipatan 3 dicetak dengan simbol #
-##### b. Bilangan genap selain kelipatan 3 dicetak sesuai angkanya
-##### c. Bilangan ganjil dicetak dengan simbol *
-##### d. Bilangan 10 dan 15 tidak dicetak
-*bila n<10 maka tambahkan 10 (n+=10)
-##### Contoh 1: Input NIM: 2541720102 maka n=12
-Output: * 2 # 4 * # * 8 # * #
-##### Contoh 2: Input NIM: 2541720120 maka n=20
-Output: * 2 # 4 * # * 8 # * # * 14 16 * # * 20
+## Percobaan 3: Membuat Konstruktor
 
-#### Code Program
-<img width="768" height="724" alt="image" src="https://github.com/user-attachments/assets/b9e25f6b-49cf-4800-9bdb-2f44196496c0" />
-
-<img width="777" height="430" alt="image" src="https://github.com/user-attachments/assets/f1e5320e-658a-49f5-b3ed-f034cadcd7c4" />
-
-#### Output
-<img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/b7d01937-c6c6-4dc7-96ee-e5025ee680d5" />
-
-## 2.4.1 Praktikum Array
 
 
 
