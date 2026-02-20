@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 1 Konsep Dasar Pemrograman
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 Konsep Dasar Pemrograman
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,7 +6,14 @@
 
 
 
-## 2.2.1 Praktikum Pemilihan
+## Percobaan 1: Deklarasi Class, Atribut dan Method
+Code program :
+
+<img width="493" height="690" alt="image" src="https://github.com/user-attachments/assets/b80d7599-d69e-4ac3-9bd3-790ce7a30c4b" />
+
+Output :
+
+<img width="476" height="105" alt="image" src="https://github.com/user-attachments/assets/2940230c-5837-4227-8e2c-e9ad2ffcc488" />
 
 
 ### Pertanyaan Praktikum 1
