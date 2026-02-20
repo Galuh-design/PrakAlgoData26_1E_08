@@ -40,7 +40,8 @@ terdapat 4 method yaitu:
 Jawab:
 berikut modifikasi percobaan 1 pertanyaan 4; 
 
-<img width="735" height="337" alt="image" src="https://github.com/user-attachments/assets/96de30aa-c12b-481f-8943-e093965d64c9" />
+<img width="781" height="273" alt="image" src="https://github.com/user-attachments/assets/fc51be61-65fa-4f53-8846-17dbf4019385" />
+
 
 #### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
 Jawab:
@@ -50,6 +51,13 @@ nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada meth
 
 
 ## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+Code Program:
+
+<img width="485" height="486" alt="image" src="https://github.com/user-attachments/assets/26714005-bed5-44fe-8d36-7996d119822f" />
+
+Output:
+
+<img width="454" height="314" alt="image" src="https://github.com/user-attachments/assets/c9553be4-9238-44ed-8e48-8ce716e0a857" />
 
 
 
