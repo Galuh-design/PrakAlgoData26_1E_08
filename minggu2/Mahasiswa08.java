@@ -42,4 +42,5 @@ public Mahasiswa08(String nm, String nim, double ipk,String kls){
     this.ipk = ipk;
     kelas = kls;
 }
+
 }
