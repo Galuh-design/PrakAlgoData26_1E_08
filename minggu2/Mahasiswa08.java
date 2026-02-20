@@ -26,7 +26,7 @@ public class Mahasiswa08 {
     } else {
         return "Kinerja kurang";
     }
-
+//
    }
 
 }
