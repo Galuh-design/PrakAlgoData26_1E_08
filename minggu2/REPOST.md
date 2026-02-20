@@ -16,33 +16,38 @@ Output :
 <img width="476" height="105" alt="image" src="https://github.com/user-attachments/assets/2940230c-5837-4227-8e2c-e9ad2ffcc488" />
 
 
-### Pertanyaan Praktikum 1
-1. Buatlah program untuk menghitung nilai akhir dari mahasiswa dengan ketentuan 20% nilai
-tugas, 20% dari nilai kuis, 30% nilai UTS, dan 40% nilai UAS. Setiap nilai yang dimasukkan
-mempunyai batas nilai 0 ‐ 100. Ketika pengguna memasukkan di luar rentang tersebut maka
-akan keluar output “nilai tidak valid”. Ketika nilai akhir sudah didapatkan selanjutnya lakukan
-konversi nilai dengan ketentuan sebagai berikut:
+### Pertanyaan Percobaan 1
+#### 1. Sebutkan dua karakteristik class atau object!
+Jawab:
+didalam code tersebut terdapat dua karakteristik object, yaitu
+mempunyai sesuatu dan melakukan sesuatu. dalam class Mahasiswa
+tersebut terdapat String nama dan lain lain sebagai variabel dan void ubahkelas(string) sebagai method.
+#### 2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
+Jawab:
+terdapat 4 attribut yaitu String nama,
+    String nim,
+    String kelas, dan
+    double ipk.
 
-<img width="460" height="236" alt="image" src="https://github.com/user-attachments/assets/3f8a376c-4513-4f33-aea7-8e155ba0c570" />
+#### 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
+terdapat 4 method yaitu:
+##### - void tampilkanInformasi() {}
+##### - void ubahKelas(String kelasBaru){}
+##### - void updateIpk(double ipkBaru){}
+##### - String nilaiKinerja(){}
 
-Jika Nilai Huruf yang didapatkan adalah A, B+, B, C+, C maka LULUS, jika nilai huruf D dan E
-maka TIDAK LULUS.
+#### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
+Jawab:
+berikut modifikasi percobaan 1 pertanyaan 4; 
 
-##### • Input dari program berupa komponen nilai tugas, kuis, UTS, UAS
-##### • Output dari program “nilai tidak valid” jika nilai yang dimasukkan diluar ketentuan
-##### • Output dari program berupa hasil nilai akhir, nilai huruf, dan keterangan LULUS / TIDAK LULUS
+<img width="735" height="337" alt="image" src="https://github.com/user-attachments/assets/96de30aa-c12b-481f-8943-e093965d64c9" />
 
-#### Code Program
-<img width="891" height="674" alt="image" src="https://github.com/user-attachments/assets/a68b9eb7-6347-4778-b722-8887e2b58098" />
+#### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
+Jawab:
+nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada method updateipk. dalam kondisi nilaikinerja terdapat berbagai kondisi if - else if - else yang meliputi syarat kondisi nilai true berupa jumlah ipk >=. bila salah satu kondisi if maupun else if bernilai true maka akan di return string sesuai dengan isi dari kondisi yang bernilai true tersebut. bila tidak ada kondisi yang true maka di returnkan isi dari else.
 
-<img width="1049" height="717" alt="image" src="https://github.com/user-attachments/assets/da2078e5-f2ff-4503-9b30-584a74ba8e5f" />
 
-<img width="687" height="417" alt="image" src="https://github.com/user-attachments/assets/cbc2ffbc-b2bf-4b68-8093-f2294b98248d" />
 
-#### Output
-<img width="500" height="373" alt="image" src="https://github.com/user-attachments/assets/6ce1eba1-9572-4eaa-9674-269f9f7282ba" />
-
-<img width="579" height="368" alt="image" src="https://github.com/user-attachments/assets/ac2ef7f9-32df-4e8e-a993-b2fe38e9ceaa" />
 
 ## 2.3.1 Praktikum Perulangan
 
