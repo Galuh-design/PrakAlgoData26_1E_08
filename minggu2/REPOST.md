@@ -184,6 +184,26 @@ Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai beri
 #### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
 #### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
 
+Code Program Dosen08 ;
+
+<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/e2902968-1539-44f1-a779-238b028b9cb3" />
+
+<img width="999" height="564" alt="image" src="https://github.com/user-attachments/assets/eab0fed4-b557-4fdb-bea7-9f3ce81a6669" />
+
+Code Program DosenMain08 ;
+
+<img width="989" height="573" alt="image" src="https://github.com/user-attachments/assets/bad7c72e-810e-4a0f-9b0f-8850a6242911" />
+
+Output ;
+
+<img width="1094" height="476" alt="image" src="https://github.com/user-attachments/assets/8bcbac1d-0461-44df-ab47-1dcf90bfe30c" />
+
+
+
+
+
+
+
 
 
 
