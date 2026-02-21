@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 Konsep Dasar Pemrograman
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 OBJECT
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
