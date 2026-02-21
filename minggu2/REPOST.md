@@ -102,7 +102,7 @@ berikut adalah output;
 
 <img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
 
-hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor menjadi global. dengan hilangnya konstruktor public default maka file mahasiswamain08 tidak dapat mengakses konstruktor pada file mahasiswa08. 
+hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor tanpa parameter. dengan hilangnya konstruktor public default maka class mahasiswamain08 instansiasi mahasiswa08 tanpa parameter tidak dapat mengakses konstruktor ataupun objek pada class mahasiswa08. 
 
 #### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
 jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
