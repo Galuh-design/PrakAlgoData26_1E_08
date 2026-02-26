@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 Konsep Dasar Pemrograman
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 OBJECT
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -102,7 +102,7 @@ berikut adalah output;
 
 <img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
 
-hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor menjadi global. dengan hilangnya konstruktor public default maka file mahasiswamain08 tidak dapat mengakses konstruktor pada file mahasiswa08. 
+hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor tanpa parameter. dengan hilangnya konstruktor public default maka class mahasiswamain08 instansiasi mahasiswa08 tanpa parameter tidak dapat mengakses konstruktor ataupun objek pada class mahasiswa08. 
 
 #### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
 jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
@@ -183,6 +183,26 @@ Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai beri
 #### • setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif. Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
 #### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
 #### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
+
+Code Program Dosen08 ;
+
+<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/e2902968-1539-44f1-a779-238b028b9cb3" />
+
+<img width="999" height="564" alt="image" src="https://github.com/user-attachments/assets/eab0fed4-b557-4fdb-bea7-9f3ce81a6669" />
+
+Code Program DosenMain08 ;
+
+<img width="989" height="573" alt="image" src="https://github.com/user-attachments/assets/bad7c72e-810e-4a0f-9b0f-8850a6242911" />
+
+Output ;
+
+<img width="1094" height="476" alt="image" src="https://github.com/user-attachments/assets/8bcbac1d-0461-44df-ab47-1dcf90bfe30c" />
+
+
+
+
+
+
 
 
 
