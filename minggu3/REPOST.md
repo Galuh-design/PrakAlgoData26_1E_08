@@ -58,31 +58,53 @@ Karena untuk dilakukannya konstruktor default yang memanggil class antar file.
 
 
 ## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
-Code Program:
+Code Program Mahasiswa08:
 
-<img width="485" height="486" alt="image" src="https://github.com/user-attachments/assets/26714005-bed5-44fe-8d36-7996d119822f" />
+<img width="319" height="301" alt="image" src="https://github.com/user-attachments/assets/afd4cbaf-b68e-4fe7-ba64-013027fe1747" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="697" height="544" alt="image" src="https://github.com/user-attachments/assets/57166c17-505c-4b33-bfa6-d4b64f2ce54b" />
+
+<img width="743" height="420" alt="image" src="https://github.com/user-attachments/assets/e8df4ac0-b786-46c0-8543-046bbbcd9296" />
 
 Output:
 
-<img width="454" height="314" alt="image" src="https://github.com/user-attachments/assets/c9553be4-9238-44ed-8e48-8ce716e0a857" />
+<img width="621" height="719" alt="image" src="https://github.com/user-attachments/assets/08ab73f9-d9ef-45e3-8818-163d1b8c127d" />
 
 ### Pertanyaan Percobaan 2
 
-#### 1.Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+#### 1.Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
+
 Jawab: 
-pada baris ini;
-<img width="301" height="31" alt="image" src="https://github.com/user-attachments/assets/79bbe0a0-835d-4beb-b39e-5db6ec8419e2" />
-nama object yang dihasilkan adalah mhs1
-#### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+berikut code program  Mahasiswa08 modifikasi percobaan 2:
+
+<img width="835" height="533" alt="image" src="https://github.com/user-attachments/assets/3b7576a0-32d6-4b83-bc06-fabfb53f4d1a" />
+
+
+berikut code program  MahasiswaDemo08 modifikasi percobaan 2:
+
+<img width="861" height="724" alt="image" src="https://github.com/user-attachments/assets/4f454907-aafa-4aec-bf3c-d4da2e7833c7" />
+
+
+Output:
+
+<img width="556" height="703" alt="image" src="https://github.com/user-attachments/assets/7eb54232-a1fa-4f19-b0cf-b24ae68ef1c2" />
+
+ 
+#### 2.Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+
+<img width="536" height="155" alt="image" src="https://github.com/user-attachments/assets/b40088f0-20e7-420d-8f6f-55d6fdd77a1a" />
+
+
 Jawab:
 dengan cara memanggil menggunakan objek mhs1 seperti yang dicontohkan pada kode program mahasiswa main, contohnya sebagai berikut; 
 <img width="300" height="46" alt="image" src="https://github.com/user-attachments/assets/c6c410c5-d13d-4f6e-947e-8fb00c2af6b0" />
 
-#### 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
-jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum ada komputasi dari method, sedangkan output tampilkaninformasi kedua setelah method ubahkelas dan updateipk dipanggil sehingga nilai attribut berubah karena telah di proses pada method.
+Jawab: dikarenakan tidak adanya instansiasi objek sehingga attribute myArrayOfMahasiswa tidak ada acuan.
 
-
-## Percobaan 3: Membuat Konstruktor
+## Percobaan 3: Constructor Berparameter
 Code Program modifikasi Mahasiswa08 Percobaan 3;
 
 <img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
