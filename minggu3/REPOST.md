@@ -57,7 +57,7 @@ Jawab:
 Karena untuk dilakukannya konstruktor default yang memanggil class antar file.
 
 
-## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
 Code Program:
 
 <img width="485" height="486" alt="image" src="https://github.com/user-attachments/assets/26714005-bed5-44fe-8d36-7996d119822f" />
