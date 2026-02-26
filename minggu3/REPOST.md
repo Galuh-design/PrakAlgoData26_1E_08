@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 OBJECT
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 3 ARRAY OF OBJECTS
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,46 +6,55 @@
 
 
 
-## Percobaan 1: Deklarasi Class, Atribut dan Method
-Code program :
+## Percobaan 1: Membuat Array dari Object, Mengisi dan Menampilkan
+Code program mahasiswa08 :
 
-<img width="493" height="690" alt="image" src="https://github.com/user-attachments/assets/b80d7599-d69e-4ac3-9bd3-790ce7a30c4b" />
+<img width="358" height="311" alt="image" src="https://github.com/user-attachments/assets/be8035eb-90d5-4d7a-a9f7-8bd3d0041cf3" />
+
+Code program MahasiswaDemo08 :
+
+<img width="768" height="732" alt="image" src="https://github.com/user-attachments/assets/35048905-4d63-406a-803a-cf2fdd070f41" />
+
+<img width="707" height="444" alt="image" src="https://github.com/user-attachments/assets/1b7ea45e-9200-434a-b5e7-00092f9a257a" />
+
 
 Output :
 
-<img width="476" height="105" alt="image" src="https://github.com/user-attachments/assets/2940230c-5837-4227-8e2c-e9ad2ffcc488" />
-
+<img width="456" height="445" alt="image" src="https://github.com/user-attachments/assets/5258c83d-f8c7-407f-8e70-f1952abe4540" />
 
 ### Pertanyaan Percobaan 1
-#### 1. Sebutkan dua karakteristik class atau object!
+#### 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method? Jelaskan!
 Jawab:
-didalam code tersebut terdapat dua karakteristik object, yaitu
-mempunyai sesuatu dan melakukan sesuatu. dalam class Mahasiswa
-tersebut terdapat String nama dan lain lain sebagai variabel dan void ubahkelas(string) sebagai method.
-#### 2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
+untuk attribute diperlukan karena untuk memberi identitas pada objek array seperti memisahkan dua objek dan memberi identitas contohnya arrayofmahasiswa[0] dan arrayofmahasiswa[1] sehingga dapat dipisahkan datanya, sedangkan method bersifat optional karena sebagai pemisah operasi yang butuh dipanggil sehingga tidak diwajibkan menggunakan method.
+
+#### 2. Apa yang dilakukan oleh kode program berikut?
+
+<img width="679" height="33" alt="image" src="https://github.com/user-attachments/assets/b6b12dd9-7a32-4142-9b01-042c7f9178a8" />
+
 Jawab:
-terdapat 4 attribut yaitu String nama,
-    String nim,
-    String kelas, dan
-    double ipk.
+untuk menginstansiasi objek kedalam array indeks ke 3.
 
-#### 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
-terdapat 4 method yaitu:
-##### - void tampilkanInformasi() {}
-##### - void ubahKelas(String kelasBaru){}
-##### - void updateIpk(double ipkBaru){}
-##### - String nilaiKinerja(){}
+#### 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan konstruktur pada baris program berikut?
 
-#### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
+<img width="478" height="35" alt="image" src="https://github.com/user-attachments/assets/b25c59ef-b238-4ae3-8958-d7187730a85e" />
+
 Jawab:
-berikut modifikasi percobaan 1 pertanyaan 4; 
-
-<img width="781" height="273" alt="image" src="https://github.com/user-attachments/assets/fc51be61-65fa-4f53-8846-17dbf4019385" />
+ya, kode tersebut memiliki konstruktor default tanpa parameter karena dilakukan pemanggilan class mahasiswa.
 
 
-#### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
+#### 4. Apa yang dilakukan oleh kode program berikut?
+
+<img width="472" height="111" alt="image" src="https://github.com/user-attachments/assets/fd004587-5cdd-40db-a175-b1d09d2b96df" />
+
 Jawab:
-nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada method updateipk. dalam kondisi nilaikinerja terdapat berbagai kondisi if - else if - else yang meliputi syarat kondisi nilai true berupa jumlah ipk >=. bila salah satu kondisi if maupun else if bernilai true maka akan di return string sesuai dengan isi dari kondisi yang bernilai true tersebut. bila tidak ada kondisi yang true maka di returnkan isi dari else.
+
+memberikan input kepada objek yang ada pada array indeks ke 0.
+
+
+#### 5. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
+Jawab:
+
+Karena untuk dilakukannya konstruktor default yang memanggil class antar file.
 
 
 ## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
