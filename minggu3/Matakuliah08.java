@@ -6,6 +6,7 @@ public class Matakuliah08 {
     String dummy;
     public int sks, jumlahJam;
     public int iNO = 1;
+    public int iN2 = 1;
     Scanner galuh = new Scanner(System.in);
     
     
@@ -26,6 +27,15 @@ public class Matakuliah08 {
 
     }
 
+    public void cetakInfo (String KODE, String NAMA, int SKS, int JUMLAH){
+     System.out.println("Data Matakuliah ke-" +iN2 );
+        System.out.println("Kode        :"+KODE);
+        System.out.println("Nama        :"+NAMA);
+        System.out.println("SKS         :"+SKS);
+        System.out.println("Jumlah Jam  :"+JUMLAH);
+        System.out.println("-----------------------");
+        iN2 +=1;
+    }
 
 
 
