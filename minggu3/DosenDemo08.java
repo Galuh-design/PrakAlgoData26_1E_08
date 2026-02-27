@@ -27,7 +27,7 @@ public class DosenDemo08 {
             } else {
                 jenisKelamin = false;
             }
-            
+
             System.out.print("Usia          : ");
             dummy = galuh.nextLine();
             usia = Integer.parseInt(dummy);
@@ -35,26 +35,13 @@ public class DosenDemo08 {
             daftarDosen[i] = new Dosen08(KODE, NAMA, jenisKelamin, usia);
         }
 
-        System.out.println("===============================");
-        System.out.println("       DATA SELURUH DOSEN      ");
-        System.out.println("===============================");
-        
-        int no = 1;
-        for (Dosen08 dosen : daftarDosen) {
-            System.out.println("Data Dosen ke-" + no);
-            System.out.println("Kode          : " + dosen.kode);
-            System.out.println("Nama          : " + dosen.nama);
-            System.out.print("Jenis Kelamin : ");
-            if (dosen.jenisKelamin == true) {
-                System.out.print("Pria");
-                System.out.println();
-            } else {
-                System.out.print("Wanita");
-                System.out.println();
-            }
-            System.out.println("Usia          : " + dosen.usia);
-            System.out.println("-------------------------------");
-            no++;
-        }
+
+
+        DataDosen08 dataPengolah = new DataDosen08();
+        dataPengolah.dataSemuaDosen(daftarDosen);
+        dataPengolah.jumlahDosenPerJenisKelamin(daftarDosen);
+        dataPengolah.rerataUsiaDosenPerJenisKelamin(daftarDosen);
+        dataPengolah.infoDosenPalingTua(daftarDosen);
+        dataPengolah.infoDosenPalingMuda(daftarDosen);
     }
 }
