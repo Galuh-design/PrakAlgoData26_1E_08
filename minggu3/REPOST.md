@@ -100,126 +100,111 @@ Output:
 Jawab: dikarenakan tidak adanya instansiasi objek sehingga attribute myArrayOfMahasiswa tidak ada acuan.
 
 ## Percobaan 3: Constructor Berparameter
-Code Program modifikasi Mahasiswa08 Percobaan 3;
+Code Program MataKuliah08;
 
-<img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
+<img width="679" height="432" alt="image" src="https://github.com/user-attachments/assets/a0676617-4871-4efc-b89e-f0864f725e57" />
 
-Code Program modifikasi MahasiswaMain08 Percobaan 3;
 
-<img width="917" height="496" alt="image" src="https://github.com/user-attachments/assets/20914af7-4bd7-411c-a029-aecdfa5fa72e" />
+Code Program  MataKuliahDemo08;
+
+<img width="786" height="707" alt="image" src="https://github.com/user-attachments/assets/90367386-1904-4c7d-871d-f8198427ea2c" />
+
 
 output :
 
-<img width="582" height="318" alt="image" src="https://github.com/user-attachments/assets/9768a4e3-2398-4d78-8f7b-b355ba6fe50c" />
+<img width="592" height="655" alt="image" src="https://github.com/user-attachments/assets/0cf19578-2ca1-4d8b-b2f7-e70586f37016" />
+
 
 ### Pertanyaan Percobaan 3
-#### 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
-jawab:
-berikut adalah baris program konstruktor berparameter;
-<img width="542" height="40" alt="image" src="https://github.com/user-attachments/assets/33899168-f583-496f-968d-f60e95c62da0" />
-#### 2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
-<img width="636" height="40" alt="image" src="https://github.com/user-attachments/assets/c435bf58-bf8f-47be-b1a2-a973f56d6d94" />
-jawab:
-baris code tersebut adalah untuk menginputkan nilai kedalam konstruktor dengan instansiasi objek baru dengan variabel mhs2.
+#### 1.Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
 
-#### 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
-jawab:
-berikut adalah output;
+jawab: ya, dengan membuat syntax seperti ini;
 
-<img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
+<img width="497" height="136" alt="image" src="https://github.com/user-attachments/assets/8973b98a-f79a-4a4e-9f27-5d2b1c7fdb5e" />
 
-hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor tanpa parameter. dengan hilangnya konstruktor public default maka class mahasiswamain08 instansiasi mahasiswa08 tanpa parameter tidak dapat mengakses konstruktor ataupun objek pada class mahasiswa08. 
+dan dapat dibuat berkali kali.
 
-#### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
-jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
 
-#### 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+#### 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakul iah
 
 jawab:
-berikut adalah code program modifikasi class mahasiswamain08;
+Code Program Matakuliah08;
 
-<img width="874" height="187" alt="image" src="https://github.com/user-attachments/assets/5a656c76-8d59-4156-bcda-ee27e23f4363" />
+<img width="774" height="635" alt="image" src="https://github.com/user-attachments/assets/b6e04a72-05ac-4c2d-bf53-08b1fc43a1ab" />
 
-berikut adalah output;
+Code Program MataKuliahDemo08;
 
-<img width="532" height="415" alt="image" src="https://github.com/user-attachments/assets/e21d6a9a-275d-439b-822c-0bd1d1d9e11d" />
-
-### Latihan Praktikum
-## Latihan 1
-
-<img width="455" height="217" alt="image" src="https://github.com/user-attachments/assets/be83b153-939a-4611-a592-630dd45138b9" />
-
-Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas,
-yang terdiri dari:
-#### - Class MataKuliah (MataKuliah<NoAbsen>.java)
-#### - Class MataKuliahMain (MataKuliahMain<NoAbsen>.java)
-Pada class MataKuliahMain buatlah minimal 2 objek. Gunakan konstruktor default dan
-konstruktor berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah
-dibuat pada class MataKuliah.
-Penjelasan dari atribut dan method pada class MataKuliah tersebut adalah sebagai berikut:
-### a. Atribut
-#### • kodeMK (String): kode unik untuk mata kuliah.
-#### • nama (String): nama lengkap dari mata kuliah
-#### • sks (int): SKS (Satuan Kredit Semester)
-#### • jumlahJam (int): jumlah total jam pertemuan per minggu untuk mata kuliah
-### b. Method
-#### • tampilInformasi(): method ini digunakan untuk menampilkan semua informasi yang berkaitan dengan mata kuliah.
-
-#### • ubahSKS(int sksBaru): method ini memungkinkan pengubahan nilai SKS untuk matakuliah. Setelah mengubah nilai, method ini memberi tahu pengguna bahwa SKS telah diubah.
-#### • tambahJam(int jam): method ini menambahkan jumlah jam tambahan ke jumlah jam yang sudah ada untuk mata kuliah.
-#### • kurangiJam(int jam): method ini berfungsi untuk mengurangi jumlah jam dari mata kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi (jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
-
-Code Program : 
-class matkulMain
-
-<img width="896" height="542" alt="image" src="https://github.com/user-attachments/assets/842b75db-ec16-46ac-b821-909949528d65" />
-
-
-class matkul
-
-<img width="767" height="723" alt="image" src="https://github.com/user-attachments/assets/d3b9d5ab-5ce5-41b6-9777-aea426bb82c1" />
-
-<img width="678" height="476" alt="image" src="https://github.com/user-attachments/assets/3c2c1e4f-eeb1-407c-a4af-61e55fec44a3" />
+<img width="836" height="708" alt="image" src="https://github.com/user-attachments/assets/017adfb6-fa86-418c-9275-a9a6446813b4" />
 
 Output :
 
-<img width="487" height="329" alt="image" src="https://github.com/user-attachments/assets/5e99b6b0-414f-4be9-89d3-65804cc9934e" />
+<img width="446" height="683" alt="image" src="https://github.com/user-attachments/assets/c17c689b-2fb1-45b6-94cb-16a7cbbfd024" />
 
-## Latihan 2
 
-<img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/131df15a-7d19-45d9-8438-0f2a82cb7a8c" />
+#### 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+jawab:
 
-Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang
-terdiri dari:
-#### - Class Dosen (Dosen<NoAbsen>.java)
-#### - Class DosenMain (DosenMain<NoAbsen>.java)
-Pada class DosenMain buatlah minimal 2 objek. Gunakan konstruktor default dan konstruktor
-berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah dibuat pada
-class Dosen
-Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai berikut:
-### a. Atribut
-#### • idDosen (String): id unik untuk setiap dosen.
-#### • nama (String): nama lengkap dari dosen.
-#### • statusAktif (boolean): menunjukkan apakah dosen tersebut aktif (true) atau tidak aktif (false) dalam menjalankan tugasnya.
-#### • tahunBergabung (int): tahun ketika dosen mulai bergabung dengan perguruan tinggi
+Code Program Matakuliah08;
 
-#### • bidangKeahlian (String): bidang keahlian dosen, yang menjelaskan spesialisasi atau fokus akademik dosen
-### b. Method
-#### • tampilInformasi(): method ini digunakan untuk menampilkan informasi lengkap tentang dosen
-#### • setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif. Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
-#### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
-#### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
+<img width="661" height="507" alt="image" src="https://github.com/user-attachments/assets/b61c02b6-d9db-4d8f-890d-426f5c47f7c7" />
 
-Code Program Dosen08 ;
 
-<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/e2902968-1539-44f1-a779-238b028b9cb3" />
+Code Program MataKuliahDemo08;
 
-<img width="999" height="564" alt="image" src="https://github.com/user-attachments/assets/eab0fed4-b557-4fdb-bea7-9f3ce81a6669" />
+<img width="819" height="607" alt="image" src="https://github.com/user-attachments/assets/c1a771ac-f131-4cb6-bb4e-5842f6c172f0" />
 
-Code Program DosenMain08 ;
+Output :
 
-<img width="989" height="573" alt="image" src="https://github.com/user-attachments/assets/bad7c72e-810e-4a0f-9b0f-8850a6242911" />
+<img width="564" height="640" alt="image" src="https://github.com/user-attachments/assets/885634c2-e667-487e-af60-9e453d1c6e2d" />
 
-Output ;
+#### 4.Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+Code Program MataKuliahDemo08:
 
-<img width="1094" height="476" alt="image" src="https://github.com/user-attachments/assets/8bcbac1d-0461-44df-ab47-1dcf90bfe30c" />
+<img width="610" height="595" alt="image" src="https://github.com/user-attachments/assets/0b8d0830-4e1c-445a-a113-cd8358c43ba6" />
+
+
+Code Program MataKuliah08:
+
+<img width="749" height="725" alt="image" src="https://github.com/user-attachments/assets/4d714b21-47a6-459a-a70e-9308ff918c0f" />
+
+Output:
+
+<img width="539" height="525" alt="image" src="https://github.com/user-attachments/assets/5f66bb08-1be1-416f-9d2e-1f634c710060" />
+
+
+
+
+
+### Latihan Praktikum
+## Latihan 1
+1. Buatlah program untuk menampilkan informasi tentang dosen. Program dapat menerima input 
+semua informasi terkait dosen dan menampilkanya kembali ke layar. Program ini terdiri dari class 
+Dosen<NoPresensi> dengan attribute/property sebagai berikut;  
+##### String kode 
+##### String nama 
+##### Boolean jenisKelamin 
+##### int usia  
+dengan method constructor sebagai berikut; 
+##### public dosen(String kode, String nama, Boolean jenisKelamin, int usia) { 
+##### …………….; 
+##### …………….; 
+##### } 
+Kemudian buatlah class DosenDemo<NoPresensi> untuk proses input dan menampilkan data 
+beberapa dosen. Gunakan looping dengan FOR untuk pembuatan array of object. Gunakan 
+looping dengan FOREACH untuk menampilkan data ke layar.  
+
+Code Program Dosen08:
+
+<img width="667" height="372" alt="image" src="https://github.com/user-attachments/assets/c75d9185-ec2d-401e-bc5d-d88ae2bc8888" />
+
+Code Program DosenDemo08:
+
+<img width="421" height="730" alt="image" src="https://github.com/user-attachments/assets/4154d9ec-c0ea-4af4-80e4-be7b07820e0d" />
+
+
+
+Output :
+
+<img width="562" height="634" alt="image" src="https://github.com/user-attachments/assets/35f089a1-71a3-4963-9caf-d3d92176250f" />
+
+
