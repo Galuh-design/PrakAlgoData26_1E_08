@@ -208,3 +208,36 @@ Output :
 <img width="562" height="634" alt="image" src="https://github.com/user-attachments/assets/35f089a1-71a3-4963-9caf-d3d92176250f" />
 
 
+## Latihan 2
+2. Tambahkan class baru DataDosen<NoPresensi> dengan beberapa method berikut; 
+##### a. dataSemuaDosen(Dosen[] arrayOfDosen)untuk menampilkan data semua dosen   
+##### b. jumlahDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan data jumlah dosen per jenis kelamin (Pria / Wanita)   
+##### c. rerataUsiaDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan rata-rata usia dosen per jenis kelamin (Pria / Wanita)   
+##### d. infoDosenPalingTua(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling tua   
+##### e. infoDosenPalingMuda(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling muda 
+Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
+
+Code Program Dosen08;
+
+<img width="720" height="429" alt="image" src="https://github.com/user-attachments/assets/58f1676b-ef38-4235-8bc9-d67f27285236" />
+
+Code Program DosenDemo08;
+
+<img width="618" height="704" alt="image" src="https://github.com/user-attachments/assets/432ec3fc-99e4-4e33-92fb-8de841f8ff3f" />
+
+Code Program DataDosen08;
+
+<img width="673" height="587" alt="image" src="https://github.com/user-attachments/assets/41009998-9923-4a9b-a266-f8b05c4ddc1f" />
+
+<img width="523" height="537" alt="image" src="https://github.com/user-attachments/assets/ec882fc0-f182-4e74-83db-7c54a91b0a97" />
+
+<img width="762" height="432" alt="image" src="https://github.com/user-attachments/assets/74a83d85-32f0-40db-8aa9-ea57a53782da" />
+
+Output;
+
+<img width="333" height="664" alt="image" src="https://github.com/user-attachments/assets/006746d8-c169-43a4-8911-f6b0a5e70faa" />
+
+
+
+
+
