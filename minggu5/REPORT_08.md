@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 3 ARRAY OF OBJECTS
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 5 BRUTE FORCE DAN DIVIDE CONQUER
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,21 +6,19 @@
 
 
 
-## Percobaan 1: Membuat Array dari Object, Mengisi dan Menampilkan
-Code program mahasiswa08 :
+## Percobaan 1: Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 
-<img width="358" height="311" alt="image" src="https://github.com/user-attachments/assets/be8035eb-90d5-4d7a-a9f7-8bd3d0041cf3" />
+Code program Faktorial08 :
 
-Code program MahasiswaDemo08 :
+<img width="480" height="498" alt="image" src="https://github.com/user-attachments/assets/d79c6c05-55a4-4383-bf8b-17ed23eb4c9e" />
 
-<img width="768" height="732" alt="image" src="https://github.com/user-attachments/assets/35048905-4d63-406a-803a-cf2fdd070f41" />
+Code program MainFaktorial :
 
-<img width="707" height="444" alt="image" src="https://github.com/user-attachments/assets/1b7ea45e-9200-434a-b5e7-00092f9a257a" />
-
+<img width="590" height="497" alt="image" src="https://github.com/user-attachments/assets/4710b0e6-aac5-4b2a-91d8-099a05810480" />
 
 Output :
 
-<img width="456" height="445" alt="image" src="https://github.com/user-attachments/assets/5258c83d-f8c7-407f-8e70-f1952abe4540" />
+<img width="426" height="237" alt="image" src="https://github.com/user-attachments/assets/09d7adcf-0afb-4fbd-925d-362a9b0bceff" />
 
 ### Pertanyaan Percobaan 1
 #### 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method? Jelaskan!
