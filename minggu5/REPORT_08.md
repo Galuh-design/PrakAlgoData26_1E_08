@@ -21,39 +21,35 @@ Output :
 <img width="426" height="237" alt="image" src="https://github.com/user-attachments/assets/09d7adcf-0afb-4fbd-925d-362a9b0bceff" />
 
 ### Pertanyaan Percobaan 1
-#### 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki atribut dan sekaligus method? Jelaskan!
+#### 1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan perbedaan bagian kode pada penggunaan if dan else!
 Jawab:
-untuk attribute diperlukan karena untuk memberi identitas pada objek array seperti memisahkan dua objek dan memberi identitas contohnya arrayofmahasiswa[0] dan arrayofmahasiswa[1] sehingga dapat dipisahkan datanya, sedangkan method bersifat optional karena sebagai pemisah operasi yang butuh dipanggil sehingga tidak diwajibkan menggunakan method.
+penggunaan kondisi if adalah sebagai break dari perulangan rekursif milik method FaktorialDC bila method sudah memenuhi ketentuan kondisi if setelah dipecah oleh else, sedangkan penggunaan kondisi else adalah sebagai divide Conquer yang memecah parameter method faktorialDC menjadi lebih kecil.
 
-#### 2. Apa yang dilakukan oleh kode program berikut?
-
-<img width="679" height="33" alt="image" src="https://github.com/user-attachments/assets/b6b12dd9-7a32-4142-9b01-042c7f9178a8" />
+#### 2. Apakah memungkinkan perulangan pada method faktorialBF() diubah selain menggunakan for? Buktikan!
 
 Jawab:
-untuk menginstansiasi objek kedalam array indeks ke 3.
+menggunakan perulangan selain for dapat diubah, seperti menggunakan while atau dowhile, berikut pembuktiannya;
 
-#### 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan konstruktur pada baris program berikut?
+##### Code program Faktorial08;
 
-<img width="478" height="35" alt="image" src="https://github.com/user-attachments/assets/b25c59ef-b238-4ae3-8958-d7187730a85e" />
+<img width="555" height="602" alt="image" src="https://github.com/user-attachments/assets/351e6454-7502-4137-9b41-eb2f9e7ac844" />
+
+##### Output;
+
+<img width="459" height="212" alt="image" src="https://github.com/user-attachments/assets/da7428e1-bdf4-4ec3-9c93-4ed0fdcfe9f0" />
+
+
+#### 3. Jelaskan perbedaan antara fakto *= i; dan int fakto = n * faktorialDC(n-1); !
 
 Jawab:
-ya, kode tersebut memiliki konstruktor default tanpa parameter karena dilakukan pemanggilan class mahasiswa.
+pada method faktorialBF fakto *=1 dengan perulangan sehingga berbentuk 1x2x3x4x5 menggunakan loop yang iteratif, sedangkan faktorialDC fakto = n * faktorialDC(n-1) menggunakan rekursif sehingga berbentuk 5x4x3x2x1, nilai dibagi menjadi bagian lebih kecil. 
 
 
-#### 4. Apa yang dilakukan oleh kode program berikut?
-
-<img width="472" height="111" alt="image" src="https://github.com/user-attachments/assets/fd004587-5cdd-40db-a175-b1d09d2b96df" />
+#### 4. Buat Kesimpulan tentang perbedaan cara kerja method faktorialBF() dan faktorialDC()!
 
 Jawab:
 
-memberikan input kepada objek yang ada pada array indeks ke 0.
-
-
-#### 5. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
-Jawab:
-
-Karena untuk dilakukannya konstruktor default yang memanggil class antar file.
-
+method faktorialBF() menggunakan Break force yang mana menggunakan loop iteratif dengan for while maupun do while, sedangkan faktorialDC() divide conquer yang mana menggunakan loop rekursif dengan kondisi if dan else.
 
 ## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
 Code Program Mahasiswa08:
