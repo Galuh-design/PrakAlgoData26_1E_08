@@ -71,11 +71,13 @@ Output:
 
 Jawab: method pangkatBF() dibuat menggunakan Brute Force yang dimana melakukan looping iteratif, sedangkan method pangkatDC() dibuat menggunakan Divide and Conquer yang dimana memecah masalah menjadi lebih kecil dan me return untuk mendapat nilai.
 
-#### 2.Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+#### 2. Apakah tahap combine sudah termasuk dalam kode tersebut? Tunjukkan! 
 
-<img width="536" height="155" alt="image" src="https://github.com/user-attachments/assets/b40088f0-20e7-420d-8f6f-55d6fdd77a1a" />
+Jawab: 
 
-Jawab: dikarenakan tidak adanya instansiasi objek sehingga attribute myArrayOfMahasiswa tidak ada acuan.
+<img width="661" height="282" alt="image" src="https://github.com/user-attachments/assets/27da2066-3b78-41c6-8c24-e6194825bc3f" />
+
+Sudah termasuk, pada kode program method PangkatDC tersebut pada kondisi else dipanggil lagi method PangkatDC dengan variabel pangkat yang lebih kecil sampai n == 1 dan di return. setiap return menjadi nilai yang nantinya akan kembali menjadi method yang dipanggil di kondisi else sehingga saat pangkatDC * pangkatDC nantinya hasil return kondisi if akan menjadi a * a sehingga combine terjadi.
 
 ## Percobaan 3: Constructor Berparameter
 Code Program MataKuliah08;
