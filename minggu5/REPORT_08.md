@@ -51,21 +51,19 @@ Jawab:
 
 method faktorialBF() menggunakan Break force yang mana menggunakan loop iteratif dengan for while maupun do while, sedangkan faktorialDC() divide conquer yang mana menggunakan loop rekursif dengan kondisi if dan else.
 
-## Percobaan 2: Menerima Input Isian Array Menggunakan Looping
-Code Program Mahasiswa08:
+## Percobaan 2: Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer 
+Code Program Pangkat08:
 
-<img width="319" height="301" alt="image" src="https://github.com/user-attachments/assets/afd4cbaf-b68e-4fe7-ba64-013027fe1747" />
+<img width="645" height="585" alt="image" src="https://github.com/user-attachments/assets/bbf7b1cd-2d36-4656-9758-ae64e25666bc" />
 
+Code Program MainPangkat08:
 
-Code Program MahasiswaDemo08:
-
-<img width="697" height="544" alt="image" src="https://github.com/user-attachments/assets/57166c17-505c-4b33-bfa6-d4b64f2ce54b" />
-
-<img width="743" height="420" alt="image" src="https://github.com/user-attachments/assets/e8df4ac0-b786-46c0-8543-046bbbcd9296" />
+<img width="785" height="648" alt="image" src="https://github.com/user-attachments/assets/b722d286-1e39-4b06-9894-f75575ccb2a9" />
 
 Output:
 
-<img width="621" height="719" alt="image" src="https://github.com/user-attachments/assets/08ab73f9-d9ef-45e3-8818-163d1b8c127d" />
+<img width="504" height="425" alt="image" src="https://github.com/user-attachments/assets/d4e2ff2d-15e6-4257-be69-e29c67c49c48" />
+
 
 ### Pertanyaan Percobaan 2
 
