@@ -4,9 +4,14 @@ public class Faktorial08 {
 
     int faktorialBF(int n) {
         int fakto = 1;
-        for (int i = 1; i <= n; i++) {
-            fakto = fakto * i;
-        }
+        // for (int i = 1; i <= n; i++) {
+        //     fakto = fakto * i;
+        // }
+        int ii =1;
+        do {
+        fakto = fakto *ii;
+        ii++;
+        } while (ii <=n);
         return fakto;
     }
 
