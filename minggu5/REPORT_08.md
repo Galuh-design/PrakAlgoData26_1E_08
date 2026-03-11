@@ -79,6 +79,10 @@ Jawab:
 
 Sudah termasuk, pada kode program method PangkatDC tersebut pada kondisi else dipanggil lagi method PangkatDC dengan variabel pangkat yang lebih kecil sampai n == 1 dan di return. setiap return menjadi nilai yang nantinya akan kembali menjadi method yang dipanggil di kondisi else sehingga saat pangkatDC * pangkatDC nantinya hasil return kondisi if akan menjadi a * a sehingga combine terjadi.
 
+#### 3. Pada method pangkatBF()terdapat parameter untuk melewatkan nilai yang akan dipangkatkan dan pangkat berapa, padahal di sisi lain di class Pangkat telah ada atribut nilai dan pangkat, apakah menurut Anda method tersebut tetap relevan untuk memiliki parameter? Apakah bisa jika method tersebut dibuat dengan tanpa parameter? Jika bisa, seperti apa method pangkatBF() yang tanpa parameter? 
+
+jawab: method tersebut tetap relevan karena atribut hasil dikalikan oleh nilai dengan iteratif looping dengan kondisi i kurang dari n. method tersebut dapat dibuat tanpa parameter, berikut adalah code program modifikasi pangkatBF() : 
+
 ## Percobaan 3: Constructor Berparameter
 Code Program MataKuliah08;
 
