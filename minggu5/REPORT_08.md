@@ -150,62 +150,8 @@ jawab: base case adalah kondisi if (l==r) return arr[l].
 jawab: totalDC() menerima parameter dari mainsum08. totalDC() melakukan pemanggilan ulang dirinya sendiri dan memecah atribut l alias index awal dan r alias index terakhir. melakukan operasi hingga mencapai base case l == r dan mereturn arr[l]. setelah mendapat semua isi dari arr, melakukan combine lsum +rsum untuk mendapat total.
 
 ## Latihan 1
-1. Buatlah program untuk menampilkan informasi tentang dosen. Program dapat menerima input 
-semua informasi terkait dosen dan menampilkanya kembali ke layar. Program ini terdiri dari class 
-Dosen<NoPresensi> dengan attribute/property sebagai berikut;  
-##### String kode 
-##### String nama 
-##### Boolean jenisKelamin 
-##### int usia  
-dengan method constructor sebagai berikut; 
-##### public dosen(String kode, String nama, Boolean jenisKelamin, int usia) { 
-##### …………….; 
-##### …………….; 
-##### } 
-Kemudian buatlah class DosenDemo<NoPresensi> untuk proses input dan menampilkan data 
-beberapa dosen. Gunakan looping dengan FOR untuk pembuatan array of object. Gunakan 
-looping dengan FOREACH untuk menampilkan data ke layar.  
+1. Sebuah kampus memiliki daftar nilai mahasiswa dengan data sesuai tabel di bawah ini
 
-Code Program Dosen08:
-
-<img width="667" height="372" alt="image" src="https://github.com/user-attachments/assets/c75d9185-ec2d-401e-bc5d-d88ae2bc8888" />
-
-Code Program DosenDemo08:
-
-<img width="421" height="730" alt="image" src="https://github.com/user-attachments/assets/4154d9ec-c0ea-4af4-80e4-be7b07820e0d" />
+<img width="624" height="378" alt="image" src="https://github.com/user-attachments/assets/25adea07-ac80-4935-bce8-e3732bfb74ed" />
 
 
-
-Output :
-
-<img width="562" height="634" alt="image" src="https://github.com/user-attachments/assets/35f089a1-71a3-4963-9caf-d3d92176250f" />
-
-
-## Latihan 2
-2. Tambahkan class baru DataDosen<NoPresensi> dengan beberapa method berikut; 
-##### a. dataSemuaDosen(Dosen[] arrayOfDosen)untuk menampilkan data semua dosen   
-##### b. jumlahDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan data jumlah dosen per jenis kelamin (Pria / Wanita)   
-##### c. rerataUsiaDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan rata-rata usia dosen per jenis kelamin (Pria / Wanita)   
-##### d. infoDosenPalingTua(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling tua   
-##### e. infoDosenPalingMuda(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling muda 
-Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
-
-Code Program Dosen08;
-
-<img width="720" height="429" alt="image" src="https://github.com/user-attachments/assets/58f1676b-ef38-4235-8bc9-d67f27285236" />
-
-Code Program DosenDemo08;
-
-<img width="618" height="704" alt="image" src="https://github.com/user-attachments/assets/432ec3fc-99e4-4e33-92fb-8de841f8ff3f" />
-
-Code Program DataDosen08;
-
-<img width="673" height="587" alt="image" src="https://github.com/user-attachments/assets/41009998-9923-4a9b-a266-f8b05c4ddc1f" />
-
-<img width="523" height="537" alt="image" src="https://github.com/user-attachments/assets/ec882fc0-f182-4e74-83db-7c54a91b0a97" />
-
-<img width="762" height="432" alt="image" src="https://github.com/user-attachments/assets/74a83d85-32f0-40db-8aa9-ea57a53782da" />
-
-Output;
-
-<img width="333" height="664" alt="image" src="https://github.com/user-attachments/assets/006746d8-c169-43a4-8911-f6b0a5e70faa" />
