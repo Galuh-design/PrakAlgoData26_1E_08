@@ -85,6 +85,29 @@ jawab: method tersebut tetap relevan karena atribut hasil dikalikan oleh nilai d
 
 <img width="502" height="219" alt="image" src="https://github.com/user-attachments/assets/05e8565b-d3d5-49a3-85d7-cf277fc1372f" />
 
+modifikasi code program mainPangkat08 :
+
+<img width="610" height="129" alt="image" src="https://github.com/user-attachments/assets/fecd01c0-8ada-49b5-9c08-8fca74e41285" />
+
+output :
+
+<img width="640" height="371" alt="image" src="https://github.com/user-attachments/assets/1204565d-d4c4-4015-9bc3-5dcbb5dedb3c" />
+
+#### 4. Tarik tentang cara kerja method pangkatBF() dan pangkatDC()!
+jawab :
+##### a. cara kerja pangkatBF()
+
+<img width="378" height="181" alt="image" src="https://github.com/user-attachments/assets/04933e9c-9890-4ee1-ad03-44c4854e5b8f" />
+
+dengan cara brute force menggunakan loop for. melakukan iteratif kondisi i kurang dari pangkat di dalam loop melakukan pengoperasian hasil yang dikali variabel nilai sebanyak indeks pangkat. Di akhir setelah loop selesai dilakukan return dengan variabel hasil. 
+
+##### b. cara kerja pangkatDC()
+
+<img width="604" height="290" alt="image" src="https://github.com/user-attachments/assets/48558fb1-aa63-4b71-a643-39513194bbba" />
+
+dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan else dengan memberikan code untuk memanggil method itu sendiri. dalam konisi else, kondisi if berfungsi bila ada nilai ganjil (modulo dibagi 2 tidak 0) sehingga return memanggil method pangkatDC dengan parameter variabel pangkat dibagi 2 sampai n ==1 dan return variabel a dan kembali lagi dengan pengoperasian di kondisi if dikali dengan memanggil method pangkatDC lagi dengan cara yang sama. setelah itu dikali lagi dengan variabel a sehingga menghasilkan operasi a*a*a dikarenakan ganjil, sedangkan kondisi else pada kondisi else hanya mereturnkan dua method tanpa * a dibelakang karena genap sehingga menghasilkan operasi a*a.
+
+
 
 ## Percobaan 3: Constructor Berparameter
 Code Program MataKuliah08;
