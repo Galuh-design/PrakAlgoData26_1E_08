@@ -122,15 +122,32 @@ Output:
 
 <img width="560" height="314" alt="image" src="https://github.com/user-attachments/assets/cf9b036d-73c7-464a-abc8-8d485f2a1390" />
 
+### Pertanyaan Percobaan 3
 
+#### 1. Kenapa dibutuhkan variable mid pada method TotalDC()?
+jawab: sebagai atribut pengoperasian rekursif untuk memecah nilai dari int r dan int l agar dapat memenuhi kondisi if (l==r) dan me return arr[l].
 
+#### 2. Untuk apakah statement di bawah ini dilakukan dalam TotalDC()?
 
+<img width="318" height="52" alt="image" src="https://github.com/user-attachments/assets/c5fd125b-f893-4980-a3e9-67727cb2783f" />
 
+jawab: statement tersebut untuk memecah nilai atribut l dan r , dan membuat rekursif method totalDC memanggil dirinya sendiri. 
+double lsum untuk mengakses index terakhir  dengan mengubah r dengan (mid).
+double rsum untuk mengakses indeks awal dengan mengubah l dengan (mid+1)
 
+#### 3. Kenapa diperlukan penjumlahan hasil lsum dan rsum seperti di bawah ini? 
 
+<img width="189" height="38" alt="image" src="https://github.com/user-attachments/assets/17614ba9-5030-4e49-919d-699f5c54519f" />
 
+jawab: sebagai combine dari statement double lsum dan rsum yang telah mendapat return arr[l]
 
+#### 4. Apakah base case dari totalDC()?
 
+jawab: base case adalah kondisi if (l==r) return arr[l].
+
+#### 5. Tarik Kesimpulan tentang cara kerja totalDC() 
+
+jawab: totalDC() menerima parameter dari mainsum08. totalDC() melakukan pemanggilan ulang dirinya sendiri dan memecah atribut l alias index awal dan r alias index terakhir. melakukan operasi hingga mencapai base case l == r dan mereturn arr[l]. setelah mendapat semua isi dari arr, melakukan combine lsum +rsum untuk mendapat total.
 
 ## Latihan 1
 1. Buatlah program untuk menampilkan informasi tentang dosen. Program dapat menerima input 
