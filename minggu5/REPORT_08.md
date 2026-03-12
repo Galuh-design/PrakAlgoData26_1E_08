@@ -67,29 +67,24 @@ Output:
 
 ### Pertanyaan Percobaan 2
 
-#### 1.Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
+#### 1.Jelaskan mengenai perbedaan 2 method yang dibuat yaitu pangkatBF() dan pangkatDC()! 
+
+Jawab: method pangkatBF() dibuat menggunakan Brute Force yang dimana melakukan looping iteratif, sedangkan method pangkatDC() dibuat menggunakan Divide and Conquer yang dimana memecah masalah menjadi lebih kecil dan me return untuk mendapat nilai.
+
+#### 2. Apakah tahap combine sudah termasuk dalam kode tersebut? Tunjukkan! 
 
 Jawab: 
-berikut code program  Mahasiswa08 modifikasi percobaan 2:
 
-<img width="835" height="533" alt="image" src="https://github.com/user-attachments/assets/3b7576a0-32d6-4b83-bc06-fabfb53f4d1a" />
+<img width="661" height="282" alt="image" src="https://github.com/user-attachments/assets/27da2066-3b78-41c6-8c24-e6194825bc3f" />
 
+Sudah termasuk, pada kode program method PangkatDC tersebut pada kondisi else dipanggil lagi method PangkatDC dengan variabel pangkat yang lebih kecil sampai n == 1 dan di return. setiap return menjadi nilai yang nantinya akan kembali menjadi method yang dipanggil di kondisi else sehingga saat pangkatDC * pangkatDC nantinya hasil return kondisi if akan menjadi a * a sehingga combine terjadi.
 
-berikut code program  MahasiswaDemo08 modifikasi percobaan 2:
+#### 3. Pada method pangkatBF()terdapat parameter untuk melewatkan nilai yang akan dipangkatkan dan pangkat berapa, padahal di sisi lain di class Pangkat telah ada atribut nilai dan pangkat, apakah menurut Anda method tersebut tetap relevan untuk memiliki parameter? Apakah bisa jika method tersebut dibuat dengan tanpa parameter? Jika bisa, seperti apa method pangkatBF() yang tanpa parameter? 
 
-<img width="861" height="724" alt="image" src="https://github.com/user-attachments/assets/4f454907-aafa-4aec-bf3c-d4da2e7833c7" />
+jawab: method tersebut tetap relevan karena atribut hasil dikalikan oleh nilai dengan iteratif looping dengan kondisi i kurang dari n. method tersebut dapat dibuat tanpa parameter, berikut adalah code program modifikasi pangkatBF() : 
 
+<img width="502" height="219" alt="image" src="https://github.com/user-attachments/assets/05e8565b-d3d5-49a3-85d7-cf277fc1372f" />
 
-Output:
-
-<img width="556" height="703" alt="image" src="https://github.com/user-attachments/assets/7eb54232-a1fa-4f19-b0cf-b24ae68ef1c2" />
-
- 
-#### 2.Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
-
-<img width="536" height="155" alt="image" src="https://github.com/user-attachments/assets/b40088f0-20e7-420d-8f6f-55d6fdd77a1a" />
-
-Jawab: dikarenakan tidak adanya instansiasi objek sehingga attribute myArrayOfMahasiswa tidak ada acuan.
 
 ## Percobaan 3: Constructor Berparameter
 Code Program MataKuliah08;
