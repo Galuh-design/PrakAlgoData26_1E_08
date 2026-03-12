@@ -109,83 +109,18 @@ dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan 
 
 
 
-## Percobaan 3: Constructor Berparameter
-Code Program MataKuliah08;
-
-<img width="679" height="432" alt="image" src="https://github.com/user-attachments/assets/a0676617-4871-4efc-b89e-f0864f725e57" />
-
-
-Code Program  MataKuliahDemo08;
-
-<img width="786" height="707" alt="image" src="https://github.com/user-attachments/assets/90367386-1904-4c7d-871d-f8198427ea2c" />
-
-
-output :
-
-<img width="592" height="655" alt="image" src="https://github.com/user-attachments/assets/0cf19578-2ca1-4d8b-b2f7-e70586f37016" />
-
-
-### Pertanyaan Percobaan 3
-#### 1.Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
-
-jawab: ya, dengan membuat syntax seperti ini;
-
-<img width="497" height="136" alt="image" src="https://github.com/user-attachments/assets/8973b98a-f79a-4a4e-9f27-5d2b1c7fdb5e" />
-
-dan dapat dibuat berkali kali.
-
-
-#### 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakul iah
-
-jawab:
-Code Program Matakuliah08;
-
-<img width="774" height="635" alt="image" src="https://github.com/user-attachments/assets/b6e04a72-05ac-4c2d-bf53-08b1fc43a1ab" />
-
-Code Program MataKuliahDemo08;
-
-<img width="836" height="708" alt="image" src="https://github.com/user-attachments/assets/017adfb6-fa86-418c-9275-a9a6446813b4" />
-
-Output :
-
-<img width="446" height="683" alt="image" src="https://github.com/user-attachments/assets/c17c689b-2fb1-45b6-94cb-16a7cbbfd024" />
-
-
-#### 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
-jawab:
-
-Code Program Matakuliah08;
-
-<img width="661" height="507" alt="image" src="https://github.com/user-attachments/assets/b61c02b6-d9db-4d8f-890d-426f5c47f7c7" />
-
-
-Code Program MataKuliahDemo08;
-
-<img width="819" height="607" alt="image" src="https://github.com/user-attachments/assets/c1a771ac-f131-4cb6-bb4e-5842f6c172f0" />
-
-Output :
-
-<img width="564" height="640" alt="image" src="https://github.com/user-attachments/assets/885634c2-e667-487e-af60-9e453d1c6e2d" />
-
-#### 4.Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
-Code Program MataKuliahDemo08:
-
-<img width="610" height="595" alt="image" src="https://github.com/user-attachments/assets/0b8d0830-4e1c-445a-a113-cd8358c43ba6" />
-
-
-Code Program MataKuliah08:
-
-<img width="749" height="725" alt="image" src="https://github.com/user-attachments/assets/4d714b21-47a6-459a-a70e-9308ff918c0f" />
-
-Output:
-
-<img width="539" height="525" alt="image" src="https://github.com/user-attachments/assets/5f66bb08-1be1-416f-9d2e-1f634c710060" />
+## Percobaan 3: Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer 
 
 
 
 
 
-### Latihan Praktikum
+
+
+
+
+
+
 ## Latihan 1
 1. Buatlah program untuk menampilkan informasi tentang dosen. Program dapat menerima input 
 semua informasi terkait dosen dan menampilkanya kembali ke layar. Program ini terdiri dari class 
