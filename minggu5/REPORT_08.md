@@ -109,140 +109,49 @@ dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan 
 
 
 
-## Percobaan 3: Constructor Berparameter
-Code Program MataKuliah08;
+## Percobaan 3: Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer 
+Code program Sum08:
 
-<img width="679" height="432" alt="image" src="https://github.com/user-attachments/assets/a0676617-4871-4efc-b89e-f0864f725e57" />
+<img width="874" height="675" alt="image" src="https://github.com/user-attachments/assets/68977117-a398-4825-ac57-1386fb7c92ff" />
 
+Code program MainSum08:
 
-Code Program  MataKuliahDemo08;
-
-<img width="786" height="707" alt="image" src="https://github.com/user-attachments/assets/90367386-1904-4c7d-871d-f8198427ea2c" />
-
-
-output :
-
-<img width="592" height="655" alt="image" src="https://github.com/user-attachments/assets/0cf19578-2ca1-4d8b-b2f7-e70586f37016" />
-
-
-### Pertanyaan Percobaan 3
-#### 1.Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
-
-jawab: ya, dengan membuat syntax seperti ini;
-
-<img width="497" height="136" alt="image" src="https://github.com/user-attachments/assets/8973b98a-f79a-4a4e-9f27-5d2b1c7fdb5e" />
-
-dan dapat dibuat berkali kali.
-
-
-#### 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakul iah
-
-jawab:
-Code Program Matakuliah08;
-
-<img width="774" height="635" alt="image" src="https://github.com/user-attachments/assets/b6e04a72-05ac-4c2d-bf53-08b1fc43a1ab" />
-
-Code Program MataKuliahDemo08;
-
-<img width="836" height="708" alt="image" src="https://github.com/user-attachments/assets/017adfb6-fa86-418c-9275-a9a6446813b4" />
-
-Output :
-
-<img width="446" height="683" alt="image" src="https://github.com/user-attachments/assets/c17c689b-2fb1-45b6-94cb-16a7cbbfd024" />
-
-
-#### 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
-jawab:
-
-Code Program Matakuliah08;
-
-<img width="661" height="507" alt="image" src="https://github.com/user-attachments/assets/b61c02b6-d9db-4d8f-890d-426f5c47f7c7" />
-
-
-Code Program MataKuliahDemo08;
-
-<img width="819" height="607" alt="image" src="https://github.com/user-attachments/assets/c1a771ac-f131-4cb6-bb4e-5842f6c172f0" />
-
-Output :
-
-<img width="564" height="640" alt="image" src="https://github.com/user-attachments/assets/885634c2-e667-487e-af60-9e453d1c6e2d" />
-
-#### 4.Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
-Code Program MataKuliahDemo08:
-
-<img width="610" height="595" alt="image" src="https://github.com/user-attachments/assets/0b8d0830-4e1c-445a-a113-cd8358c43ba6" />
-
-
-Code Program MataKuliah08:
-
-<img width="749" height="725" alt="image" src="https://github.com/user-attachments/assets/4d714b21-47a6-459a-a70e-9308ff918c0f" />
+<img width="1111" height="650" alt="image" src="https://github.com/user-attachments/assets/cb8be110-a151-43b4-89d6-ab806afab773" />
 
 Output:
 
-<img width="539" height="525" alt="image" src="https://github.com/user-attachments/assets/5f66bb08-1be1-416f-9d2e-1f634c710060" />
+<img width="560" height="314" alt="image" src="https://github.com/user-attachments/assets/cf9b036d-73c7-464a-abc8-8d485f2a1390" />
 
+### Pertanyaan Percobaan 3
 
+#### 1. Kenapa dibutuhkan variable mid pada method TotalDC()?
+jawab: sebagai atribut pengoperasian rekursif untuk memecah nilai dari int r dan int l agar dapat memenuhi kondisi if (l==r) dan me return arr[l].
 
+#### 2. Untuk apakah statement di bawah ini dilakukan dalam TotalDC()?
 
+<img width="318" height="52" alt="image" src="https://github.com/user-attachments/assets/c5fd125b-f893-4980-a3e9-67727cb2783f" />
 
-### Latihan Praktikum
+jawab: statement tersebut untuk memecah nilai atribut l dan r , dan membuat rekursif method totalDC memanggil dirinya sendiri. 
+double lsum untuk mengakses index terakhir  dengan mengubah r dengan (mid).
+double rsum untuk mengakses indeks awal dengan mengubah l dengan (mid+1)
+
+#### 3. Kenapa diperlukan penjumlahan hasil lsum dan rsum seperti di bawah ini? 
+
+<img width="189" height="38" alt="image" src="https://github.com/user-attachments/assets/17614ba9-5030-4e49-919d-699f5c54519f" />
+
+jawab: sebagai combine dari statement double lsum dan rsum yang telah mendapat return arr[l]
+
+#### 4. Apakah base case dari totalDC()?
+
+jawab: base case adalah kondisi if (l==r) return arr[l].
+
+#### 5. Tarik Kesimpulan tentang cara kerja totalDC() 
+
+jawab: totalDC() menerima parameter dari mainsum08. totalDC() melakukan pemanggilan ulang dirinya sendiri dan memecah atribut l alias index awal dan r alias index terakhir. melakukan operasi hingga mencapai base case l == r dan mereturn arr[l]. setelah mendapat semua isi dari arr, melakukan combine lsum +rsum untuk mendapat total.
+
 ## Latihan 1
-1. Buatlah program untuk menampilkan informasi tentang dosen. Program dapat menerima input 
-semua informasi terkait dosen dan menampilkanya kembali ke layar. Program ini terdiri dari class 
-Dosen<NoPresensi> dengan attribute/property sebagai berikut;  
-##### String kode 
-##### String nama 
-##### Boolean jenisKelamin 
-##### int usia  
-dengan method constructor sebagai berikut; 
-##### public dosen(String kode, String nama, Boolean jenisKelamin, int usia) { 
-##### …………….; 
-##### …………….; 
-##### } 
-Kemudian buatlah class DosenDemo<NoPresensi> untuk proses input dan menampilkan data 
-beberapa dosen. Gunakan looping dengan FOR untuk pembuatan array of object. Gunakan 
-looping dengan FOREACH untuk menampilkan data ke layar.  
+1. Sebuah kampus memiliki daftar nilai mahasiswa dengan data sesuai tabel di bawah ini
 
-Code Program Dosen08:
-
-<img width="667" height="372" alt="image" src="https://github.com/user-attachments/assets/c75d9185-ec2d-401e-bc5d-d88ae2bc8888" />
-
-Code Program DosenDemo08:
-
-<img width="421" height="730" alt="image" src="https://github.com/user-attachments/assets/4154d9ec-c0ea-4af4-80e4-be7b07820e0d" />
+<img width="624" height="378" alt="image" src="https://github.com/user-attachments/assets/25adea07-ac80-4935-bce8-e3732bfb74ed" />
 
 
-
-Output :
-
-<img width="562" height="634" alt="image" src="https://github.com/user-attachments/assets/35f089a1-71a3-4963-9caf-d3d92176250f" />
-
-
-## Latihan 2
-2. Tambahkan class baru DataDosen<NoPresensi> dengan beberapa method berikut; 
-##### a. dataSemuaDosen(Dosen[] arrayOfDosen)untuk menampilkan data semua dosen   
-##### b. jumlahDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan data jumlah dosen per jenis kelamin (Pria / Wanita)   
-##### c. rerataUsiaDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan rata-rata usia dosen per jenis kelamin (Pria / Wanita)   
-##### d. infoDosenPalingTua(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling tua   
-##### e. infoDosenPalingMuda(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling muda 
-Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
-
-Code Program Dosen08;
-
-<img width="720" height="429" alt="image" src="https://github.com/user-attachments/assets/58f1676b-ef38-4235-8bc9-d67f27285236" />
-
-Code Program DosenDemo08;
-
-<img width="618" height="704" alt="image" src="https://github.com/user-attachments/assets/432ec3fc-99e4-4e33-92fb-8de841f8ff3f" />
-
-Code Program DataDosen08;
-
-<img width="673" height="587" alt="image" src="https://github.com/user-attachments/assets/41009998-9923-4a9b-a266-f8b05c4ddc1f" />
-
-<img width="523" height="537" alt="image" src="https://github.com/user-attachments/assets/ec882fc0-f182-4e74-83db-7c54a91b0a97" />
-
-<img width="762" height="432" alt="image" src="https://github.com/user-attachments/assets/74a83d85-32f0-40db-8aa9-ea57a53782da" />
-
-Output;
-
-<img width="333" height="664" alt="image" src="https://github.com/user-attachments/assets/006746d8-c169-43a4-8911-f6b0a5e70faa" />
