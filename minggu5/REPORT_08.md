@@ -105,7 +105,7 @@ dengan cara brute force menggunakan loop for. melakukan iteratif kondisi i kuran
 
 <img width="604" height="290" alt="image" src="https://github.com/user-attachments/assets/48558fb1-aa63-4b71-a643-39513194bbba" />
 
-dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan else dengan memberikan code untuk memanggil method itu sendiri. dalam konisi else, kondisi if berfungsi bila ada nilai ganjil (modulo dibagi 2 tidak 0) sehingga return memanggil method pangkatDC dengan parameter variabel pangkat dibagi 2 sampai n ==1 dan return variabel a dan kembali lagi dengan pengoperasian di kondisi if dikali dengan memanggil method pangkatDC lagi dengan cara yang sama. setelah itu dikali lagi dengan variabel a sehingga menghasilkan operasi a*a*a dikarenakan ganjil, sedangkan kondisi else pada kondisi else hanya mereturnkan dua method tanpa * a dibelakang karena genap sehingga menghasilkan operasi a*a.
+dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan else dengan memberikan code untuk memanggil method itu sendiri. dalam konisi else, kondisi if berfungsi bila ada nilai ganjil (modulo dibagi 2 tidak 0) sehingga return memanggil method pangkatDC dengan parameter variabel pangkat dibagi 2 sampai n ==1 dan return variabel a dan kembali lagi dengan pengoperasian di kondisi if dikali dengan memanggil method pangkatDC lagi dengan cara yang sama. setelah itu dikali lagi dengan variabel a sehingga menghasilkan operasi a * a * a dikarenakan ganjil, sedangkan kondisi else pada kondisi else hanya mereturnkan dua method tanpa * a dibelakang karena genap sehingga menghasilkan operasi a * a.
 
 
 
