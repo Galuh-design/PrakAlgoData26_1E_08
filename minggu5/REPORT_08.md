@@ -83,6 +83,9 @@ Sudah termasuk, pada kode program method PangkatDC tersebut pada kondisi else di
 
 jawab: method tersebut tetap relevan karena atribut hasil dikalikan oleh nilai dengan iteratif looping dengan kondisi i kurang dari n. method tersebut dapat dibuat tanpa parameter, berikut adalah code program modifikasi pangkatBF() : 
 
+<img width="502" height="219" alt="image" src="https://github.com/user-attachments/assets/05e8565b-d3d5-49a3-85d7-cf277fc1372f" />
+
+
 ## Percobaan 3: Constructor Berparameter
 Code Program MataKuliah08;
 
