@@ -110,6 +110,17 @@ dengan cara divide and conquer menggunakan rekursif. menggunakan kondisi if dan 
 
 
 ## Percobaan 3: Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer 
+Code program Sum08:
+
+<img width="874" height="675" alt="image" src="https://github.com/user-attachments/assets/68977117-a398-4825-ac57-1386fb7c92ff" />
+
+Code program MainSum08:
+
+<img width="1111" height="650" alt="image" src="https://github.com/user-attachments/assets/cb8be110-a151-43b4-89d6-ab806afab773" />
+
+Output:
+
+<img width="560" height="314" alt="image" src="https://github.com/user-attachments/assets/cf9b036d-73c7-464a-abc8-8d485f2a1390" />
 
 
 
