@@ -154,4 +154,25 @@ jawab: totalDC() menerima parameter dari mainsum08. totalDC() melakukan pemanggi
 
 <img width="624" height="378" alt="image" src="https://github.com/user-attachments/assets/25adea07-ac80-4935-bce8-e3732bfb74ed" />
 
+Code Program NilaiMhs08 :
+
+<img width="575" height="732" alt="image" src="https://github.com/user-attachments/assets/4ab41699-31ac-41b8-90e3-0c15d89249e9" />
+
+<img width="668" height="448" alt="image" src="https://github.com/user-attachments/assets/dd7aae18-78bb-4ff1-9da8-820040bc55dd" />
+
+Code Program MainNilaiMhs08:
+
+<img width="449" height="486" alt="image" src="https://github.com/user-attachments/assets/bbd924bf-3434-4eae-958e-ee1e290618f1" />
+
+<img width="833" height="441" alt="image" src="https://github.com/user-attachments/assets/84d81e22-477f-44cb-93f8-6fa8aa79e794" />
+
+Output:
+
+<img width="541" height="701" alt="image" src="https://github.com/user-attachments/assets/ca880d52-522d-42f3-9a2b-5e84346b355c" />
+####
+
+<img width="435" height="466" alt="image" src="https://github.com/user-attachments/assets/5185b515-2210-4196-ae10-058492096225" />
+
+
+<img width="740" height="369" alt="image" src="https://github.com/user-attachments/assets/193eba1a-dcdd-4ecf-acdc-83b70127b4b1" />
 
