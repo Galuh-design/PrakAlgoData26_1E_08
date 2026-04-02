@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 OBJECT
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 5 SORTING (BUBBLE, SELECTION, DAN INSERTION SORT)
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,14 +6,23 @@
 
 
 
-## Percobaan 1: Deklarasi Class, Atribut dan Method
-Code program :
+## Praktikum 1 - Mengimplementasikan Sorting menggunakan object
 
-<img width="493" height="690" alt="image" src="https://github.com/user-attachments/assets/b80d7599-d69e-4ac3-9bd3-790ce7a30c4b" />
+Code program Sorting08 :
+
+<img width="361" height="681" alt="image" src="https://github.com/user-attachments/assets/737b32ab-c2cf-49d1-af97-da4c5120851c" />
+
+<img width="327" height="260" alt="image" src="https://github.com/user-attachments/assets/3b03c2d6-2d19-43f4-b4c0-cf383d86da47" />
+
+Code program SortingMain08 :
+
+<img width="507" height="515" alt="image" src="https://github.com/user-attachments/assets/a300426a-4c86-4669-afc3-c2a30c8b1368" />
+
 
 Output :
 
-<img width="476" height="105" alt="image" src="https://github.com/user-attachments/assets/2940230c-5837-4227-8e2c-e9ad2ffcc488" />
+<img width="546" height="377" alt="image" src="https://github.com/user-attachments/assets/8b50721e-5875-4c45-a82d-0c026ededb41" />
+
 
 
 ### Pertanyaan Percobaan 1
