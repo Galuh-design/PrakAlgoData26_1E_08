@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 1 Konsep Dasar Pemrograman
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 2 OBJECT
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,164 +6,194 @@
 
 
 
-## 2.2.1 Praktikum Pemilihan
+## Percobaan 1: Deklarasi Class, Atribut dan Method
+Code program :
+
+<img width="493" height="690" alt="image" src="https://github.com/user-attachments/assets/b80d7599-d69e-4ac3-9bd3-790ce7a30c4b" />
+
+Output :
+
+<img width="476" height="105" alt="image" src="https://github.com/user-attachments/assets/2940230c-5837-4227-8e2c-e9ad2ffcc488" />
 
 
-### Pertanyaan Praktikum 1
-1. Buatlah program untuk menghitung nilai akhir dari mahasiswa dengan ketentuan 20% nilai
-tugas, 20% dari nilai kuis, 30% nilai UTS, dan 40% nilai UAS. Setiap nilai yang dimasukkan
-mempunyai batas nilai 0 ‐ 100. Ketika pengguna memasukkan di luar rentang tersebut maka
-akan keluar output “nilai tidak valid”. Ketika nilai akhir sudah didapatkan selanjutnya lakukan
-konversi nilai dengan ketentuan sebagai berikut:
+### Pertanyaan Percobaan 1
+#### 1. Sebutkan dua karakteristik class atau object!
+Jawab:
+didalam code tersebut terdapat dua karakteristik object, yaitu
+mempunyai sesuatu dan melakukan sesuatu. dalam class Mahasiswa
+tersebut terdapat String nama dan lain lain sebagai variabel dan void ubahkelas(string) sebagai method.
+#### 2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
+Jawab:
+terdapat 4 attribut yaitu String nama,
+    String nim,
+    String kelas, dan
+    double ipk.
 
-<img width="460" height="236" alt="image" src="https://github.com/user-attachments/assets/3f8a376c-4513-4f33-aea7-8e155ba0c570" />
+#### 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
+terdapat 4 method yaitu:
+##### - void tampilkanInformasi() {}
+##### - void ubahKelas(String kelasBaru){}
+##### - void updateIpk(double ipkBaru){}
+##### - String nilaiKinerja(){}
 
-Jika Nilai Huruf yang didapatkan adalah A, B+, B, C+, C maka LULUS, jika nilai huruf D dan E
-maka TIDAK LULUS.
+#### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
+Jawab:
+berikut modifikasi percobaan 1 pertanyaan 4; 
 
-##### • Input dari program berupa komponen nilai tugas, kuis, UTS, UAS
-##### • Output dari program “nilai tidak valid” jika nilai yang dimasukkan diluar ketentuan
-##### • Output dari program berupa hasil nilai akhir, nilai huruf, dan keterangan LULUS / TIDAK LULUS
-
-#### Code Program
-<img width="891" height="674" alt="image" src="https://github.com/user-attachments/assets/a68b9eb7-6347-4778-b722-8887e2b58098" />
-
-<img width="1049" height="717" alt="image" src="https://github.com/user-attachments/assets/da2078e5-f2ff-4503-9b30-584a74ba8e5f" />
-
-<img width="687" height="417" alt="image" src="https://github.com/user-attachments/assets/cbc2ffbc-b2bf-4b68-8093-f2294b98248d" />
-
-#### Output
-<img width="500" height="373" alt="image" src="https://github.com/user-attachments/assets/6ce1eba1-9572-4eaa-9674-269f9f7282ba" />
-
-<img width="579" height="368" alt="image" src="https://github.com/user-attachments/assets/ac2ef7f9-32df-4e8e-a993-b2fe38e9ceaa" />
-
-## 2.3.1 Praktikum Perulangan
+<img width="781" height="273" alt="image" src="https://github.com/user-attachments/assets/fc51be61-65fa-4f53-8846-17dbf4019385" />
 
 
-### Pertanyaan Praktikum 2
-1. Buatlah program yang dapat menampilkan deretan bilangan dari angka 1 sampai n, dengan
-n = 2-digit terakhir NIM Anda. Berikut Adalah ketentuan untuk mencetak deretnya;
-##### a. Bilangan kelipatan 3 dicetak dengan simbol #
-##### b. Bilangan genap selain kelipatan 3 dicetak sesuai angkanya
-##### c. Bilangan ganjil dicetak dengan simbol *
-##### d. Bilangan 10 dan 15 tidak dicetak
-*bila n<10 maka tambahkan 10 (n+=10)
-##### Contoh 1: Input NIM: 2541720102 maka n=12
-Output: * 2 # 4 * # * 8 # * #
-##### Contoh 2: Input NIM: 2541720120 maka n=20
-Output: * 2 # 4 * # * 8 # * # * 14 16 * # * 20
-
-#### Code Program
-<img width="768" height="724" alt="image" src="https://github.com/user-attachments/assets/b9e25f6b-49cf-4800-9bdb-2f44196496c0" />
-
-<img width="777" height="430" alt="image" src="https://github.com/user-attachments/assets/f1e5320e-658a-49f5-b3ed-f034cadcd7c4" />
-
-#### Output
-<img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/b7d01937-c6c6-4dc7-96ee-e5025ee680d5" />
-
-## 2.4.1 Praktikum Array
+#### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
+Jawab:
+nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada method updateipk. dalam kondisi nilaikinerja terdapat berbagai kondisi if - else if - else yang meliputi syarat kondisi nilai true berupa jumlah ipk >=. bila salah satu kondisi if maupun else if bernilai true maka akan di return string sesuai dengan isi dari kondisi yang bernilai true tersebut. bila tidak ada kondisi yang true maka di returnkan isi dari else.
 
 
+## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+Code Program:
 
-### Pertanyaan Praktikum 3
-1. Buatlah program untuk menghitung IP Semester dari mata kuliah yang Anda tempuh
-semester lalu. Formula untuk menghitung IP semester sebagai berikut:
+<img width="485" height="486" alt="image" src="https://github.com/user-attachments/assets/26714005-bed5-44fe-8d36-7996d119822f" />
 
-<img width="481" height="312" alt="image" src="https://github.com/user-attachments/assets/9fcdde12-8ada-4868-b1f9-037a2c45b08e" />
+Output:
 
-Input dari program berupa nama mata kuliah, bobot SKS, serta nilai huruf dari mata kuliah
-tersebut.
-Contoh hasil running program:
+<img width="454" height="314" alt="image" src="https://github.com/user-attachments/assets/c9553be4-9238-44ed-8e48-8ce716e0a857" />
 
-<img width="559" height="319" alt="image" src="https://github.com/user-attachments/assets/2478411a-0f64-4a83-8ca1-783ec36454b1" />
+### Pertanyaan Percobaan 2
 
+#### 1.Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+Jawab: 
+pada baris ini;
+<img width="301" height="31" alt="image" src="https://github.com/user-attachments/assets/79bbe0a0-835d-4beb-b39e-5db6ec8419e2" />
+nama object yang dihasilkan adalah mhs1
+#### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+Jawab:
+dengan cara memanggil menggunakan objek mhs1 seperti yang dicontohkan pada kode program mahasiswa main, contohnya sebagai berikut; 
+<img width="300" height="46" alt="image" src="https://github.com/user-attachments/assets/c6c410c5-d13d-4f6e-947e-8fb00c2af6b0" />
 
-
-
-
-#### Code Program
-<img width="918" height="732" alt="image" src="https://github.com/user-attachments/assets/95cb2143-a5e5-4ae3-a7b4-80322fea5a9f" />
-
-<img width="699" height="739" alt="image" src="https://github.com/user-attachments/assets/8fc3210a-9219-4e7c-9ddf-8ba70a0b159e" />
-
-<img width="718" height="359" alt="image" src="https://github.com/user-attachments/assets/efb137e1-4f63-48a3-b2c2-1413b1aff5be" />
-
-<img width="815" height="711" alt="image" src="https://github.com/user-attachments/assets/79cfc155-4fdd-4adf-b195-693686a94fb7" />
-
-#### Output
-<img width="748" height="645" alt="image" src="https://github.com/user-attachments/assets/ec18293d-d3e1-4a67-b149-481d9ce9329e" />
-
-## 2.5.1 Praktikum Fungsi
-
-### Pertanyaan Praktikum 4
-RoyalGarden adalah toko bunga yang memiliki banyak cabang. Setiap hari Stock Bunga dan bungabunga yang dijual selalu dicatat dengan rincian seperti berikut ini:
-
-<img width="634" height="189" alt="image" src="https://github.com/user-attachments/assets/bd089375-4704-4704-bf36-cfb3cadfa247" />
-
-#### 1. Buatlah fungsi untuk menampilkan pendapatan setiap cabang jika semua bunga habis terjual.
-#### 2. Tampilkan status dari setiap cabang dengan ketentuan sebagai berikut ini :
-##### a. Jika pendapatan cabang > Rp1.500.000, maka cabang tersebut mendapat status “Sangat Baik”
-##### b. Jika pendapatan ≤ Rp1.500.000, status “Perlu Evaluasi”.
+#### 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum ada komputasi dari method, sedangkan output tampilkaninformasi kedua setelah method ubahkelas dan updateipk dipanggil sehingga nilai attribut berubah karena telah di proses pada method.
 
 
+## Percobaan 3: Membuat Konstruktor
+Code Program modifikasi Mahasiswa08 Percobaan 3;
 
-#### Code Program
-<img width="859" height="713" alt="image" src="https://github.com/user-attachments/assets/65a1cafa-3d5a-447f-ac3d-2d6feb88caf4" />
+<img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
 
-#### Output
-<img width="547" height="377" alt="image" src="https://github.com/user-attachments/assets/5c33c58d-1172-4001-a8a1-82a163995611" />
+Code Program modifikasi MahasiswaMain08 Percobaan 3;
 
-## Tugas
-### Tugas 1
-1. Susun program untuk membuat dua buah array berikut isinya sebagai berikut. Array pertama
-adalah array satu dimensi char KODE[10], berisi kode plat mobil. Array kedua, array dua
-dimensi char KOTA[10][12] berisi nama kota yang berpasangan dengan kode plat mobil.
-Ilustrasi tampilan array tersebut adalah sebagai berikut:
+<img width="917" height="496" alt="image" src="https://github.com/user-attachments/assets/20914af7-4bd7-411c-a029-aecdfa5fa72e" />
 
-<img width="577" height="293" alt="image" src="https://github.com/user-attachments/assets/6b00e7b0-0362-4aa1-9db6-c892b61afd19" />
+output :
 
-Ketika pengguna memberikan input kode plat nomor maka program akan mengeluarkan
-nama kota dari kode plat nomor tersebut.
+<img width="582" height="318" alt="image" src="https://github.com/user-attachments/assets/9768a4e3-2398-4d78-8f7b-b355ba6fe50c" />
+
+### Pertanyaan Percobaan 3
+#### 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+jawab:
+berikut adalah baris program konstruktor berparameter;
+<img width="542" height="40" alt="image" src="https://github.com/user-attachments/assets/33899168-f583-496f-968d-f60e95c62da0" />
+#### 2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+<img width="636" height="40" alt="image" src="https://github.com/user-attachments/assets/c435bf58-bf8f-47be-b1a2-a973f56d6d94" />
+jawab:
+baris code tersebut adalah untuk menginputkan nilai kedalam konstruktor dengan instansiasi objek baru dengan variabel mhs2.
+
+#### 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+jawab:
+berikut adalah output;
+
+<img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
+
+hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor tanpa parameter. dengan hilangnya konstruktor public default maka class mahasiswamain08 instansiasi mahasiswa08 tanpa parameter tidak dapat mengakses konstruktor ataupun objek pada class mahasiswa08. 
+
+#### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
+
+#### 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+
+jawab:
+berikut adalah code program modifikasi class mahasiswamain08;
+
+<img width="874" height="187" alt="image" src="https://github.com/user-attachments/assets/5a656c76-8d59-4156-bcda-ee27e23f4363" />
+
+berikut adalah output;
+
+<img width="532" height="415" alt="image" src="https://github.com/user-attachments/assets/e21d6a9a-275d-439b-822c-0bd1d1d9e11d" />
+
+### Latihan Praktikum
+## Latihan 1
+
+<img width="455" height="217" alt="image" src="https://github.com/user-attachments/assets/be83b153-939a-4611-a592-630dd45138b9" />
+
+Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas,
+yang terdiri dari:
+#### - Class MataKuliah (MataKuliah<NoAbsen>.java)
+#### - Class MataKuliahMain (MataKuliahMain<NoAbsen>.java)
+Pada class MataKuliahMain buatlah minimal 2 objek. Gunakan konstruktor default dan
+konstruktor berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah
+dibuat pada class MataKuliah.
+Penjelasan dari atribut dan method pada class MataKuliah tersebut adalah sebagai berikut:
+### a. Atribut
+#### • kodeMK (String): kode unik untuk mata kuliah.
+#### • nama (String): nama lengkap dari mata kuliah
+#### • sks (int): SKS (Satuan Kredit Semester)
+#### • jumlahJam (int): jumlah total jam pertemuan per minggu untuk mata kuliah
+### b. Method
+#### • tampilInformasi(): method ini digunakan untuk menampilkan semua informasi yang berkaitan dengan mata kuliah.
+
+#### • ubahSKS(int sksBaru): method ini memungkinkan pengubahan nilai SKS untuk matakuliah. Setelah mengubah nilai, method ini memberi tahu pengguna bahwa SKS telah diubah.
+#### • tambahJam(int jam): method ini menambahkan jumlah jam tambahan ke jumlah jam yang sudah ada untuk mata kuliah.
+#### • kurangiJam(int jam): method ini berfungsi untuk mengurangi jumlah jam dari mata kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi (jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
+
+Code Program : 
+class matkulMain
+
+<img width="896" height="542" alt="image" src="https://github.com/user-attachments/assets/842b75db-ec16-46ac-b821-909949528d65" />
 
 
-#### Code Program
-<img width="854" height="732" alt="image" src="https://github.com/user-attachments/assets/ab6f8f9e-a62d-494c-a7dd-334ae15428b2" />
+class matkul
 
-<img width="746" height="314" alt="image" src="https://github.com/user-attachments/assets/6767c15d-3927-488a-8d55-ba2289d60ac4" />
+<img width="767" height="723" alt="image" src="https://github.com/user-attachments/assets/d3b9d5ab-5ce5-41b6-9777-aea426bb82c1" />
 
-#### Output
-<img width="510" height="252" alt="image" src="https://github.com/user-attachments/assets/80bfc476-456f-4e19-900a-d4b7495e7d82" />
+<img width="678" height="476" alt="image" src="https://github.com/user-attachments/assets/3c2c1e4f-eeb1-407c-a4af-61e55fec44a3" />
 
-### Tugas 2
+Output :
 
-2. Sebuah program digunakan untuk menyimpan dan mengelola jadwal kuliah mahasiswa.
-Data jadwal disimpan dalam array 2 dimensi bertipe string, dengan ketentuan
-#### • Baris menyatakan jadwal ke-i
-#### • Kolom menyatakan informasi jadwal: Nama Mata Kuliah, Ruang, Hari Kuliah, , Jam
-Kuliah. Contoh :
-##### jadwal[0][0] = "Pemrograman Dasar"
-##### jadwal[0][1] = "Lab Komputasi 1"
-##### jadwal[0][2] = "Senin"
-##### jadwal[0][3] = "08.00–10.00"
-#### • Jumlah jadwal kuliah sebanyak n, diinputkan oleh pengguna.
-Buatkan fungsi untuk
-##### a. Menginput data jadwal kuliah ke dalam array 2 dimensi
-##### b. Menampilkan seluruh jadwal kuliah dalam bentuk tabel
-##### c. Menampilkan jadwal kuliah berdasarkan hari tertentu
-##### d. Menampilkan jadwal kuliah berdasarkan nama mata kuliah tertentu
+<img width="487" height="329" alt="image" src="https://github.com/user-attachments/assets/5e99b6b0-414f-4be9-89d3-65804cc9934e" />
 
-#### Code Program
-<img width="810" height="735" alt="image" src="https://github.com/user-attachments/assets/e606a6fe-351e-437e-88b7-9fd4a86e5881" />
+## Latihan 2
 
-<img width="953" height="736" alt="image" src="https://github.com/user-attachments/assets/68124a71-111a-4c94-b915-4f0d70fc2a50" />
+<img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/131df15a-7d19-45d9-8438-0f2a82cb7a8c" />
 
-<img width="976" height="738" alt="image" src="https://github.com/user-attachments/assets/bf94d394-610a-45c2-b318-1318aab19b6e" />
+Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang
+terdiri dari:
+#### - Class Dosen (Dosen<NoAbsen>.java)
+#### - Class DosenMain (DosenMain<NoAbsen>.java)
+Pada class DosenMain buatlah minimal 2 objek. Gunakan konstruktor default dan konstruktor
+berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah dibuat pada
+class Dosen
+Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai berikut:
+### a. Atribut
+#### • idDosen (String): id unik untuk setiap dosen.
+#### • nama (String): nama lengkap dari dosen.
+#### • statusAktif (boolean): menunjukkan apakah dosen tersebut aktif (true) atau tidak aktif (false) dalam menjalankan tugasnya.
+#### • tahunBergabung (int): tahun ketika dosen mulai bergabung dengan perguruan tinggi
 
-<img width="668" height="382" alt="image" src="https://github.com/user-attachments/assets/833aa73a-b817-4d74-a61a-bc547bec787c" />
+#### • bidangKeahlian (String): bidang keahlian dosen, yang menjelaskan spesialisasi atau fokus akademik dosen
+### b. Method
+#### • tampilInformasi(): method ini digunakan untuk menampilkan informasi lengkap tentang dosen
+#### • setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif. Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
+#### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
+#### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
 
-#### Output
-<img width="535" height="537" alt="image" src="https://github.com/user-attachments/assets/b0dcdc20-1931-42dd-8308-d82bcde91053" />
+Code Program Dosen08 ;
 
-<img width="735" height="686" alt="image" src="https://github.com/user-attachments/assets/5acefdfb-0512-48ae-899c-f364ed2f9025" />
+<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/e2902968-1539-44f1-a779-238b028b9cb3" />
 
-<img width="738" height="633" alt="image" src="https://github.com/user-attachments/assets/2fa0ae0a-b702-4b24-a88a-04544f20ccf9" />
+<img width="999" height="564" alt="image" src="https://github.com/user-attachments/assets/eab0fed4-b557-4fdb-bea7-9f3ce81a6669" />
+
+Code Program DosenMain08 ;
+
+<img width="989" height="573" alt="image" src="https://github.com/user-attachments/assets/bad7c72e-810e-4a0f-9b0f-8850a6242911" />
+
+Output ;
+
+<img width="1094" height="476" alt="image" src="https://github.com/user-attachments/assets/8bcbac1d-0461-44df-ab47-1dcf90bfe30c" />
