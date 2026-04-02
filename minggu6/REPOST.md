@@ -47,17 +47,10 @@ jawab:
 
 sebagai kondisi untuk swap dalam metode INSERTION SORT. dalam syntax, fungsi j adalah sebagai index ke 0 yang dibandingkan oleh temp (data index setelah j) bila lebih besar index j maka dilakukan sorting ke kiri hingga menemukan nilai yang j yang tidak lebih kecil dari temp dan berhenti dari perulangan bila index di kiri dari index j lebih kecil dari temp atau tidak ada index lagi / index 0 (berhenti baik kondisi false > temp atau iterasi j-- dalam kondisi j>=0 && data[j]>temp) 
 
-#### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
+#### 4. Pada Insertion sort, apakah tujuan dari perintah
 Jawab:
-berikut modifikasi percobaan 1 pertanyaan 4; 
 
-<img width="781" height="273" alt="image" src="https://github.com/user-attachments/assets/fc51be61-65fa-4f53-8846-17dbf4019385" />
-
-
-#### 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
-Jawab:
-nilaiKinerja bekerja dengan cara kondisi nilai ipk yang telah di input pada method updateipk. dalam kondisi nilaikinerja terdapat berbagai kondisi if - else if - else yang meliputi syarat kondisi nilai true berupa jumlah ipk >=. bila salah satu kondisi if maupun else if bernilai true maka akan di return string sesuai dengan isi dari kondisi yang bernilai true tersebut. bila tidak ada kondisi yang true maka di returnkan isi dari else.
-
+<img width="146" height="41" alt="image" src="https://github.com/user-attachments/assets/4e026b5f-a0c4-40ea-87cc-27c2f3569f46" />
 
 ## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
 Code Program:
