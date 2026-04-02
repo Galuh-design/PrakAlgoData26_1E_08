@@ -25,25 +25,27 @@ Output :
 
 
 
-### Pertanyaan Percobaan 1
-#### 1. Sebutkan dua karakteristik class atau object!
-Jawab:
-didalam code tersebut terdapat dua karakteristik object, yaitu
-mempunyai sesuatu dan melakukan sesuatu. dalam class Mahasiswa
-tersebut terdapat String nama dan lain lain sebagai variabel dan void ubahkelas(string) sebagai method.
-#### 2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
-Jawab:
-terdapat 4 attribut yaitu String nama,
-    String nim,
-    String kelas, dan
-    double ipk.
+### Pertanyaan praktikum 1
+#### 1. Jelaskan fungsi kode program berikut
 
-#### 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
-terdapat 4 method yaitu:
-##### - void tampilkanInformasi() {}
-##### - void ubahKelas(String kelasBaru){}
-##### - void updateIpk(double ipkBaru){}
-##### - String nilaiKinerja(){}
+<img width="266" height="141" alt="image" src="https://github.com/user-attachments/assets/4cd0ec62-cdaf-4fd0-a655-04ba776fbb7c" />
+
+jawab:
+syntax tersebut berfungsi untuk kondisi Selection sort pada array data dengan cara memproses index dengan index sebelumnya, bila index sebelumnya lebih besar dari index itu, 
+akan dilakukan swapping dari index sebelumnya dan index tersebut.
+
+#### 2. Tunjukkan kode program yang merupakan algoritma pencarian nilai minimum pada selection sort!
+Jawab:
+
+<img width="349" height="98" alt="image" src="https://github.com/user-attachments/assets/a50da6e1-2317-4cd4-b814-afe1d0c37337" />
+
+#### 3. Pada Insertion sort , jelaskan maksud dari kondisi pada perulangan 
+
+<img width="262" height="52" alt="image" src="https://github.com/user-attachments/assets/8e7d3a15-2dfc-49ba-9bdb-4d91cc82a047" />
+
+jawab:
+
+sebagai kondisi untuk swap dalam metode INSERTION SORT. dalam syntax, fungsi j adalah sebagai index ke 0 yang dibandingkan oleh temp (data index setelah j) bila lebih besar index j maka dilakukan sorting ke kiri hingga menemukan nilai yang j yang tidak lebih kecil dari temp (berhenti baik kondisi false > temp atau iterasi j-- dalam kondisi j>=0 && data[j]>temp) 
 
 #### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
 Jawab:
