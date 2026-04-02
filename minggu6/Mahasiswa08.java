@@ -1,7 +1,5 @@
 package minggu6;
 
-import minggu3.mahasiswa08;
-
 public class Mahasiswa08 {
     String nim;
     String nama;
@@ -22,10 +20,10 @@ public class Mahasiswa08 {
     }
 
     void tampilInformasi() {
-        System.out.println("Nama    : "+nama);
-        System.out.println("NIM     :"+nim);
-        System.out.println("IPK     :"+ipk);
-        System.out.println("Kelas   :"+kelas);
-        
+        System.out.println("Nama    : " + nama);
+        System.out.println("NIM     :" + nim);
+        System.out.println("IPK     :" + ipk);
+        System.out.println("Kelas   :" + kelas);
+
     }
 }
