@@ -94,6 +94,26 @@ perulangan i berlangsung dan tahap yang ditempuh adalah 49 kali
 #### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
 Jawab:
 
+Code Program Mahasiswa08:
+
+<img width="716" height="488" alt="image" src="https://github.com/user-attachments/assets/7e455d07-1d50-431c-9cb4-f5f1d123ba77" />
+
+
+Code Program MahasiswaBerprestasi08:
+
+<img width="778" height="497" alt="image" src="https://github.com/user-attachments/assets/f2132a69-46be-47b9-bd68-5b7c5b8a070c" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="846" height="645" alt="image" src="https://github.com/user-attachments/assets/f361ec2e-302a-4f15-a37a-b3233e5023ac" />
+
+
+Output:
+
+<img width="391" height="574" alt="image" src="https://github.com/user-attachments/assets/1c90c08d-f2a4-41ff-90ad-8b059668a773" />
+
+<img width="400" height="510" alt="image" src="https://github.com/user-attachments/assets/ee040079-4d3d-4fb1-a6e2-885d03cdd644" />
 
 
 ## Percobaan 3: Membuat Konstruktor
