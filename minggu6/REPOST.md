@@ -45,7 +45,7 @@ Jawab:
 
 jawab:
 
-sebagai kondisi untuk swap dalam metode INSERTION SORT. dalam syntax, fungsi j adalah sebagai index ke 0 yang dibandingkan oleh temp (data index setelah j) bila lebih besar index j maka dilakukan sorting ke kiri hingga menemukan nilai yang j yang tidak lebih kecil dari temp (berhenti baik kondisi false > temp atau iterasi j-- dalam kondisi j>=0 && data[j]>temp) 
+sebagai kondisi untuk swap dalam metode INSERTION SORT. dalam syntax, fungsi j adalah sebagai index ke 0 yang dibandingkan oleh temp (data index setelah j) bila lebih besar index j maka dilakukan sorting ke kiri hingga menemukan nilai yang j yang tidak lebih kecil dari temp dan berhenti dari perulangan bila index di kiri dari index j lebih kecil dari temp atau tidak ada index lagi / index 0 (berhenti baik kondisi false > temp atau iterasi j-- dalam kondisi j>=0 && data[j]>temp) 
 
 #### 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
 Jawab:
