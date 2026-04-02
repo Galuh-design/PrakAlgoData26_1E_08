@@ -91,7 +91,7 @@ agar perulangan j tidak perlu mengecek dan membandingkan lagi data yang sudah di
 perulangan i berlangsung dan tahap yang ditempuh adalah 49 kali
 
 
-#### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+#### 2.Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri dari nim, nama, kelas, dan ipk!
 Jawab:
 
 Code Program Mahasiswa08:
