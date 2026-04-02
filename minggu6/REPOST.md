@@ -113,7 +113,9 @@ Output:
 
 <img width="391" height="574" alt="image" src="https://github.com/user-attachments/assets/1c90c08d-f2a4-41ff-90ad-8b059668a773" />
 
-<img width="400" height="510" alt="image" src="https://github.com/user-attachments/assets/ee040079-4d3d-4fb1-a6e2-885d03cdd644" />
+<img width="345" height="572" alt="image" src="https://github.com/user-attachments/assets/071ac6fd-5034-46cb-a511-79a544b76ba2" />
+
+
 
 
 ## Percobaan 3: Membuat Konstruktor
