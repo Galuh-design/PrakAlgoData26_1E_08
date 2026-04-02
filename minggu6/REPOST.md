@@ -52,29 +52,48 @@ Jawab:
 
 <img width="146" height="41" alt="image" src="https://github.com/user-attachments/assets/4e026b5f-a0c4-40ea-87cc-27c2f3569f46" />
 
-## Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
-Code Program:
+## Praktikum 2: Sorting Menggunakan Array of Object
+Code Program Mahasiswa08:
 
-<img width="485" height="486" alt="image" src="https://github.com/user-attachments/assets/26714005-bed5-44fe-8d36-7996d119822f" />
+<img width="744" height="671" alt="image" src="https://github.com/user-attachments/assets/8fc851b6-ba82-466f-b39b-421b0612411d" />
+
+
+Code Program Mahasiswaberprestasi08:
+
+<img width="674" height="666" alt="image" src="https://github.com/user-attachments/assets/7c638030-769f-4fee-9444-ca78e7de242b" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="814" height="627" alt="image" src="https://github.com/user-attachments/assets/7be20bec-ad54-4ef4-845b-016f014f9c10" />
+
 
 Output:
 
-<img width="454" height="314" alt="image" src="https://github.com/user-attachments/assets/c9553be4-9238-44ed-8e48-8ce716e0a857" />
+<img width="379" height="695" alt="image" src="https://github.com/user-attachments/assets/fb4ee643-41f9-4757-abc4-7dca2b0c4611" />
 
-### Pertanyaan Percobaan 2
 
-#### 1.Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+### Pertanyaan Praktikum 2
+
+#### 1. Perhatikan perulangan di dalam bubbleSort() di bawah ini:
+
+<img width="646" height="201" alt="image" src="https://github.com/user-attachments/assets/ef8d797b-63b6-426c-b1f7-0c4133875a93" />
+
 Jawab: 
-pada baris ini;
-<img width="301" height="31" alt="image" src="https://github.com/user-attachments/assets/79bbe0a0-835d-4beb-b39e-5db6ec8419e2" />
-nama object yang dihasilkan adalah mhs1
+
+##### A
+karena elemen terakhir otomatis tersortir sehingga tidak efisien menggunakan seluruh index dan dalam kasus array bisa terjadi outofBound.
+
+##### B
+agar perulangan j tidak perlu mengecek dan membandingkan lagi data yang sudah di sorting / sudah diurutkan menjadi terbesar atau terkecil, sehingga mengurutkan sisa data tidak membuang waktu untuk membandingkan keseluruhan data.
+
+##### C
+perulangan i berlangsung dan tahap yang ditempuh adalah 49 kali
+
+
 #### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
 Jawab:
-dengan cara memanggil menggunakan objek mhs1 seperti yang dicontohkan pada kode program mahasiswa main, contohnya sebagai berikut; 
-<img width="300" height="46" alt="image" src="https://github.com/user-attachments/assets/c6c410c5-d13d-4f6e-947e-8fb00c2af6b0" />
 
-#### 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
-jawab: karena output pertama belum dilakukan pemanggilan method sehingga belum ada komputasi dari method, sedangkan output tampilkaninformasi kedua setelah method ubahkelas dan updateipk dipanggil sehingga nilai attribut berubah karena telah di proses pada method.
 
 
 ## Percobaan 3: Membuat Konstruktor
