@@ -118,18 +118,26 @@ Output:
 
 
 
-## Percobaan 3: Membuat Konstruktor
-Code Program modifikasi Mahasiswa08 Percobaan 3;
+## Praktikum 3: Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort)
 
-<img width="833" height="592" alt="image" src="https://github.com/user-attachments/assets/eab239e0-86ec-42db-b691-3fbbbcf6b95e" />
+Code Program Mahasiswa08:
 
-Code Program modifikasi MahasiswaMain08 Percobaan 3;
+<img width="830" height="667" alt="image" src="https://github.com/user-attachments/assets/bb3cd26d-2156-4501-890f-e97fd4010edb" />
 
-<img width="917" height="496" alt="image" src="https://github.com/user-attachments/assets/20914af7-4bd7-411c-a029-aecdfa5fa72e" />
 
-output :
+Code Program Mahasiswaberprestasi08:
 
-<img width="582" height="318" alt="image" src="https://github.com/user-attachments/assets/9768a4e3-2398-4d78-8f7b-b355ba6fe50c" />
+<img width="632" height="694" alt="image" src="https://github.com/user-attachments/assets/7d6dd671-f90f-4bc0-b930-d44516b359ad" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="658" height="665" alt="image" src="https://github.com/user-attachments/assets/032038bc-d5c3-437c-aef9-8a30a6e009c0" />
+
+
+Output :
+
+
 
 ### Pertanyaan Percobaan 3
 #### 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
