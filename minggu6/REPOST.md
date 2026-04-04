@@ -137,39 +137,24 @@ Code Program MahasiswaDemo08:
 
 Output :
 
+<img width="352" height="689" alt="image" src="https://github.com/user-attachments/assets/ccc32de5-1f1c-4711-be18-763799b0ddd5" />
 
+### Pertanyaan Praktikum 3
+#### 1. Di dalam method selection sort, terdapat baris program seperti di bawah ini:
 
-### Pertanyaan Percobaan 3
-#### 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
-jawab:
-berikut adalah baris program konstruktor berparameter;
-<img width="542" height="40" alt="image" src="https://github.com/user-attachments/assets/33899168-f583-496f-968d-f60e95c62da0" />
-#### 2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
-<img width="636" height="40" alt="image" src="https://github.com/user-attachments/assets/c435bf58-bf8f-47be-b1a2-a973f56d6d94" />
-jawab:
-baris code tersebut adalah untuk menginputkan nilai kedalam konstruktor dengan instansiasi objek baru dengan variabel mhs2.
+<img width="382" height="116" alt="image" src="https://github.com/user-attachments/assets/ccd9984d-337e-4efc-ad16-8825de4800bb" />
 
-#### 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
-jawab:
-berikut adalah output;
-
-<img width="558" height="196" alt="image" src="https://github.com/user-attachments/assets/e5b1d640-7d05-4a64-b7df-8981b95060e7" />
-
-hal tersebut terjadi karena konstruktor default memiliki fungsi untuk membuat konstruktor tanpa parameter. dengan hilangnya konstruktor public default maka class mahasiswamain08 instansiasi mahasiswa08 tanpa parameter tidak dapat mengakses konstruktor ataupun objek pada class mahasiswa08. 
-
-#### 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
-jawab: tidak, karena method akan dijalankan berurut dengan cara dipanggil sehingga pada class mahasiswa dapat dipanggil acak method yang ingin dipanggil tetapi pada class mahasiswamain akan dijalan berurutan sesuai syntax.
-
-#### 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+#### Untuk apakah proses tersebut, jelaskan!
 
 jawab:
-berikut adalah code program modifikasi class mahasiswamain08;
 
-<img width="874" height="187" alt="image" src="https://github.com/user-attachments/assets/5a656c76-8d59-4156-bcda-ee27e23f4363" />
+proses tersebut untuk dilakukan check kondisi untuk sorting SELECTION SORT.
+idxMin sebagai placeholder untuk menyimpan posisi awal index[i] pada perulangan i dan untuk menyimpan nilai terkecil yang akan ditemukan dalam perulangan j.
 
-berikut adalah output;
+Dalam perulangan j, j+1 sebagai index selanjutnya yang nantinya di compare dengan idxMin.
+bila kondisi Listmhs[j] lebih kecil dari listMhs[idxMin], akan dilakukan pergantian data index idxMin = j;
 
-<img width="532" height="415" alt="image" src="https://github.com/user-attachments/assets/e21d6a9a-275d-439b-822c-0bd1d1d9e11d" />
+dan akan diulang sampai perulangan j habis, sehingga data idxMin menyimpan data dengan nilai terkecil yang nantinya akan dilakukan swap.
 
 ### Latihan Praktikum
 ## Latihan 1
