@@ -175,6 +175,9 @@ Code Program MahasiswaDemo08:
 
 Output:
 
+<img width="341" height="702" alt="image" src="https://github.com/user-attachments/assets/39f66e48-5e98-42ba-8e73-0080ae01c0e6" />
+
+
 
 ### Latihan Praktikum
 ## Latihan 1
