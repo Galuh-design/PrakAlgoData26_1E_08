@@ -175,6 +175,26 @@ Code Program MahasiswaDemo08:
 
 Output:
 
+<img width="341" height="702" alt="image" src="https://github.com/user-attachments/assets/39f66e48-5e98-42ba-8e73-0080ae01c0e6" />
+
+### Pertanyaan Praktikum 4
+
+#### 1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
+
+Code Program modifikasi MahasiswaBerprestasi08 praktikum 4 pertanyaan 1:
+
+<img width="487" height="694" alt="image" src="https://github.com/user-attachments/assets/29bae99a-1dfb-4bdf-bf99-580de16188f0" />
+
+
+Code Program modifikasi MahasiswaDemo08 praktikum 4 pertanyaan 1:
+
+<img width="642" height="604" alt="image" src="https://github.com/user-attachments/assets/78068f59-6de9-47ce-9269-9d33b49aaff9" />
+
+
+Output:
+
+<img width="539" height="612" alt="image" src="https://github.com/user-attachments/assets/d8e32407-3f53-407d-ab85-8b27b0873c16" />
+
 
 ### Latihan Praktikum
 ## Latihan 1
