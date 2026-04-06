@@ -156,6 +156,26 @@ bila kondisi Listmhs[j] lebih kecil dari listMhs[idxMin], akan dilakukan pergant
 
 dan akan diulang sampai perulangan j habis, sehingga data idxMin menyimpan data dengan nilai terkecil yang nantinya akan dilakukan swap.
 
+## Praktikum 4: Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort 
+
+Code program Mahasiswa08:
+
+<img width="772" height="638" alt="image" src="https://github.com/user-attachments/assets/2a75edba-aab3-472e-bd6b-b0b37188536e" />
+
+
+Code program MahasiswaBerprestasi08:
+
+<img width="505" height="710" alt="image" src="https://github.com/user-attachments/assets/212a2c62-12b2-4e2b-a49d-856c0a43592d" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="694" height="734" alt="image" src="https://github.com/user-attachments/assets/d3d19409-3b88-4a35-8129-8ccab3b2513f" />
+
+
+Output:
+
+
 ### Latihan Praktikum
 ## Latihan 1
 
