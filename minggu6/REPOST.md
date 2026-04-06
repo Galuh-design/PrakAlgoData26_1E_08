@@ -183,7 +183,13 @@ Output:
 
 Code Program modifikasi MahasiswaBerprestasi08 praktikum 4 pertanyaan 1:
 
+<img width="487" height="694" alt="image" src="https://github.com/user-attachments/assets/29bae99a-1dfb-4bdf-bf99-580de16188f0" />
+
+
 Code Program modifikasi MahasiswaDemo08 praktikum 4 pertanyaan 1:
+
+<img width="642" height="604" alt="image" src="https://github.com/user-attachments/assets/78068f59-6de9-47ce-9269-9d33b49aaff9" />
+
 
 Output:
 
