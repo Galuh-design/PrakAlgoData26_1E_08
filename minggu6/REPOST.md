@@ -187,6 +187,9 @@ Code Program modifikasi MahasiswaDemo08 praktikum 4 pertanyaan 1:
 
 Output:
 
+<img width="539" height="612" alt="image" src="https://github.com/user-attachments/assets/d8e32407-3f53-407d-ab85-8b27b0873c16" />
+
+
 ### Latihan Praktikum
 ## Latihan 1
 
