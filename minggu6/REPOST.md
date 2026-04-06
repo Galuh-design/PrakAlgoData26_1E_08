@@ -199,79 +199,25 @@ Output:
 ### Latihan Praktikum
 ## Latihan 1
 
-<img width="455" height="217" alt="image" src="https://github.com/user-attachments/assets/be83b153-939a-4611-a592-630dd45138b9" />
+<img width="516" height="593" alt="image" src="https://github.com/user-attachments/assets/da35b578-7f2f-4567-9532-9935c61fabae" />
 
-Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas,
-yang terdiri dari:
-#### - Class MataKuliah (MataKuliah<NoAbsen>.java)
-#### - Class MataKuliahMain (MataKuliahMain<NoAbsen>.java)
-Pada class MataKuliahMain buatlah minimal 2 objek. Gunakan konstruktor default dan
-konstruktor berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah
-dibuat pada class MataKuliah.
-Penjelasan dari atribut dan method pada class MataKuliah tersebut adalah sebagai berikut:
-### a. Atribut
-#### • kodeMK (String): kode unik untuk mata kuliah.
-#### • nama (String): nama lengkap dari mata kuliah
-#### • sks (int): SKS (Satuan Kredit Semester)
-#### • jumlahJam (int): jumlah total jam pertemuan per minggu untuk mata kuliah
-### b. Method
-#### • tampilInformasi(): method ini digunakan untuk menampilkan semua informasi yang berkaitan dengan mata kuliah.
+Code Program Dosen08:
 
-#### • ubahSKS(int sksBaru): method ini memungkinkan pengubahan nilai SKS untuk matakuliah. Setelah mengubah nilai, method ini memberi tahu pengguna bahwa SKS telah diubah.
-#### • tambahJam(int jam): method ini menambahkan jumlah jam tambahan ke jumlah jam yang sudah ada untuk mata kuliah.
-#### • kurangiJam(int jam): method ini berfungsi untuk mengurangi jumlah jam dari mata kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi (jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
-
-Code Program : 
-class matkulMain
-
-<img width="896" height="542" alt="image" src="https://github.com/user-attachments/assets/842b75db-ec16-46ac-b821-909949528d65" />
+<img width="726" height="666" alt="image" src="https://github.com/user-attachments/assets/1770a4f0-e380-4d65-aa91-4de6e5f9887f" />
 
 
-class matkul
+Code Program DataDosen08:
 
-<img width="767" height="723" alt="image" src="https://github.com/user-attachments/assets/d3b9d5ab-5ce5-41b6-9777-aea426bb82c1" />
+<img width="601" height="672" alt="image" src="https://github.com/user-attachments/assets/983b64a0-4dc4-4a67-af86-02ee2c1594ff" />
 
-<img width="678" height="476" alt="image" src="https://github.com/user-attachments/assets/3c2c1e4f-eeb1-407c-a4af-61e55fec44a3" />
 
-Output :
+Code Program DosenMain08:
 
-<img width="487" height="329" alt="image" src="https://github.com/user-attachments/assets/5e99b6b0-414f-4be9-89d3-65804cc9934e" />
+<img width="647" height="706" alt="image" src="https://github.com/user-attachments/assets/27f9551b-d897-45d5-a774-bfe692876335" />
 
-## Latihan 2
 
-<img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/131df15a-7d19-45d9-8438-0f2a82cb7a8c" />
+Output:
 
-Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang
-terdiri dari:
-#### - Class Dosen (Dosen<NoAbsen>.java)
-#### - Class DosenMain (DosenMain<NoAbsen>.java)
-Pada class DosenMain buatlah minimal 2 objek. Gunakan konstruktor default dan konstruktor
-berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah dibuat pada
-class Dosen
-Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai berikut:
-### a. Atribut
-#### • idDosen (String): id unik untuk setiap dosen.
-#### • nama (String): nama lengkap dari dosen.
-#### • statusAktif (boolean): menunjukkan apakah dosen tersebut aktif (true) atau tidak aktif (false) dalam menjalankan tugasnya.
-#### • tahunBergabung (int): tahun ketika dosen mulai bergabung dengan perguruan tinggi
+<img width="703" height="656" alt="image" src="https://github.com/user-attachments/assets/d63c42d6-f976-412d-a390-f077cd7414b1" />
 
-#### • bidangKeahlian (String): bidang keahlian dosen, yang menjelaskan spesialisasi atau fokus akademik dosen
-### b. Method
-#### • tampilInformasi(): method ini digunakan untuk menampilkan informasi lengkap tentang dosen
-#### • setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif. Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
-#### • hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan informasi tentang lamanya dosen bekerja di perguruan tinggi.
-#### • ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian dosen.
 
-Code Program Dosen08 ;
-
-<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/e2902968-1539-44f1-a779-238b028b9cb3" />
-
-<img width="999" height="564" alt="image" src="https://github.com/user-attachments/assets/eab0fed4-b557-4fdb-bea7-9f3ce81a6669" />
-
-Code Program DosenMain08 ;
-
-<img width="989" height="573" alt="image" src="https://github.com/user-attachments/assets/bad7c72e-810e-4a0f-9b0f-8850a6242911" />
-
-Output ;
-
-<img width="1094" height="476" alt="image" src="https://github.com/user-attachments/assets/8bcbac1d-0461-44df-ab47-1dcf90bfe30c" />
