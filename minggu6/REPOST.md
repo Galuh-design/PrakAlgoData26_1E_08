@@ -201,4 +201,23 @@ Output:
 
 <img width="516" height="593" alt="image" src="https://github.com/user-attachments/assets/da35b578-7f2f-4567-9532-9935c61fabae" />
 
+Code Program Dosen08:
+
+<img width="726" height="666" alt="image" src="https://github.com/user-attachments/assets/1770a4f0-e380-4d65-aa91-4de6e5f9887f" />
+
+
+Code Program DataDosen08:
+
+<img width="601" height="672" alt="image" src="https://github.com/user-attachments/assets/983b64a0-4dc4-4a67-af86-02ee2c1594ff" />
+
+
+Code Program DosenMain08:
+
+<img width="647" height="706" alt="image" src="https://github.com/user-attachments/assets/27f9551b-d897-45d5-a774-bfe692876335" />
+
+
+Output:
+
+<img width="703" height="656" alt="image" src="https://github.com/user-attachments/assets/d63c42d6-f976-412d-a390-f077cd7414b1" />
+
 
