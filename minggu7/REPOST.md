@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 5 SEARCHING
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 6 SEARCHING
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
