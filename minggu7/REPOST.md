@@ -29,31 +29,27 @@ Output :
 
 
 ### Pertanyaan praktikum 1
-#### 1. Jelaskan fungsi kode program berikut
-
-<img width="266" height="141" alt="image" src="https://github.com/user-attachments/assets/4cd0ec62-cdaf-4fd0-a655-04ba776fbb7c" />
-
-jawab:
-syntax tersebut berfungsi untuk kondisi Selection sort pada array data dengan cara memproses index dengan index sebelumnya, bila index sebelumnya lebih besar dari index itu, 
-akan dilakukan swapping dari index sebelumnya dan index tersebut.
-
-#### 2. Tunjukkan kode program yang merupakan algoritma pencarian nilai minimum pada selection sort!
+#### 1. Jelaskan perbedaan metod tampilDataSearch dan tampilPosisi pada class MahasiswaBerprestasi!
 Jawab:
+Tampilposisi digunakan untuk memberikan informasi indeks di mana data ditemukan saat search, sedangkan tampildataSearch menampilkan seluruh objek yang memiliki nilai IPK yang telah diinput
 
-<img width="349" height="98" alt="image" src="https://github.com/user-attachments/assets/a50da6e1-2317-4cd4-b814-afe1d0c37337" />
+#### 2. Jelaskan fungsi break pada kode program di bawah ini! 
 
-#### 3. Pada Insertion sort , jelaskan maksud dari kondisi pada perulangan 
+<img width="292" height="105" alt="image" src="https://github.com/user-attachments/assets/ffb1777c-ec72-4e1b-b3b2-5e99836d181f" />
 
-<img width="262" height="52" alt="image" src="https://github.com/user-attachments/assets/8e7d3a15-2dfc-49ba-9bdb-4d91cc82a047" />
-
-jawab:
-
-sebagai kondisi untuk swap dalam metode INSERTION SORT. dalam syntax, fungsi j adalah sebagai index ke 0 yang dibandingkan oleh temp (data index setelah j) bila lebih besar index j maka dilakukan sorting ke kiri hingga menemukan nilai yang j yang tidak lebih kecil dari temp dan berhenti dari perulangan bila index di kiri dari index j lebih kecil dari temp atau tidak ada index lagi / index 0 (berhenti baik kondisi false > temp atau iterasi j-- dalam kondisi j>=0 && data[j]>temp) 
-
-#### 4. Pada Insertion sort, apakah tujuan dari perintah
 Jawab:
+Fungsi break adalah untuk menghentikan perulangan for segera setelah data yang dicari ditemukan agar perulangan tidak perlu memeriksa keseluruhan data.
 
-<img width="146" height="41" alt="image" src="https://github.com/user-attachments/assets/4e026b5f-a0c4-40ea-87cc-27c2f3569f46" />
+#### 3. Apa fungsi variabel pos atau indeks hasil pencarian dalam program sequential search?
+jawab:
+Fungsi variabel pos adalah sebagai penanda data ditemukan atau tidak. Bila pos tetap -1 maka data yang dicari tidak ditemukan , dan jika berubah maka nilai tersebut sebagai acuan untuk mengambil data berdasarkan indeks dari array.
+
+#### 4. Jika terdapat lebih dari satu data dengan nilai yang sama, hasil pencarian sequential search yang dibuat di atas akan menampilkan data ke berapa? Jelaskan.
+Jawab:
+Program akan menampilkan data yang pertama kali ditemukan pada indeks terkecil sehingga tidak ditampilkan data ganda karena terdapat syntax break untuk stop perulangan pencarian data.
+
+#### 5.  Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
+Jawab:
 
 ## Praktikum 2: Sorting Menggunakan Array of Object
 Code Program Mahasiswa08:
