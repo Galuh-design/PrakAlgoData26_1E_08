@@ -53,25 +53,27 @@ Jawab:
 jika break dihapus, pencarian akan terus berlanjut sampai akhir array, sehingga bila terdapat data ganda ,m maka variabel pos akan terus memperbarui, sehingga data variabel pos adalah data terakhir yang ditemukan.
 
 
-## Praktikum 2: Sorting Menggunakan Array of Object
+## Praktikum 2: Searching/ Pencarian Menggunakan Algoritma Binary Search
+
 Code Program Mahasiswa08:
 
-<img width="744" height="671" alt="image" src="https://github.com/user-attachments/assets/8fc851b6-ba82-466f-b39b-421b0612411d" />
+<img width="757" height="615" alt="image" src="https://github.com/user-attachments/assets/9ee50620-2ddd-426d-9d5b-af72b4ee8cc4" />
 
 
 Code Program Mahasiswaberprestasi08:
 
-<img width="674" height="666" alt="image" src="https://github.com/user-attachments/assets/7c638030-769f-4fee-9444-ca78e7de242b" />
+<img width="507" height="709" alt="image" src="https://github.com/user-attachments/assets/ed271210-2567-4c14-a292-0285ced4e09b" />
+
 
 
 Code Program MahasiswaDemo08:
 
-<img width="814" height="627" alt="image" src="https://github.com/user-attachments/assets/7be20bec-ad54-4ef4-845b-016f014f9c10" />
+<img width="639" height="723" alt="image" src="https://github.com/user-attachments/assets/26b62d63-3645-497d-844f-919d3cf8f076" />
 
 
 Output:
 
-<img width="379" height="695" alt="image" src="https://github.com/user-attachments/assets/fb4ee643-41f9-4757-abc4-7dca2b0c4611" />
+
 
 
 ### Pertanyaan Praktikum 2
@@ -118,105 +120,3 @@ Output:
 
 
 
-
-## Praktikum 3: Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort)
-
-Code Program Mahasiswa08:
-
-<img width="830" height="667" alt="image" src="https://github.com/user-attachments/assets/bb3cd26d-2156-4501-890f-e97fd4010edb" />
-
-
-Code Program Mahasiswaberprestasi08:
-
-<img width="632" height="694" alt="image" src="https://github.com/user-attachments/assets/7d6dd671-f90f-4bc0-b930-d44516b359ad" />
-
-
-Code Program MahasiswaDemo08:
-
-<img width="658" height="665" alt="image" src="https://github.com/user-attachments/assets/032038bc-d5c3-437c-aef9-8a30a6e009c0" />
-
-
-Output :
-
-<img width="352" height="689" alt="image" src="https://github.com/user-attachments/assets/ccc32de5-1f1c-4711-be18-763799b0ddd5" />
-
-### Pertanyaan Praktikum 3
-#### 1. Di dalam method selection sort, terdapat baris program seperti di bawah ini:
-
-<img width="382" height="116" alt="image" src="https://github.com/user-attachments/assets/ccd9984d-337e-4efc-ad16-8825de4800bb" />
-
-#### Untuk apakah proses tersebut, jelaskan!
-
-jawab:
-
-proses tersebut untuk dilakukan check kondisi untuk sorting SELECTION SORT.
-idxMin sebagai placeholder untuk menyimpan posisi awal index[i] pada perulangan i dan untuk menyimpan nilai terkecil yang akan ditemukan dalam perulangan j.
-
-Dalam perulangan j, j+1 sebagai index selanjutnya yang nantinya di compare dengan idxMin.
-bila kondisi Listmhs[j] lebih kecil dari listMhs[idxMin], akan dilakukan pergantian data index idxMin = j;
-
-dan akan diulang sampai perulangan j habis, sehingga data idxMin menyimpan data dengan nilai terkecil yang nantinya akan dilakukan swap.
-
-## Praktikum 4: Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort 
-
-Code program Mahasiswa08:
-
-<img width="772" height="638" alt="image" src="https://github.com/user-attachments/assets/2a75edba-aab3-472e-bd6b-b0b37188536e" />
-
-
-Code program MahasiswaBerprestasi08:
-
-<img width="505" height="710" alt="image" src="https://github.com/user-attachments/assets/212a2c62-12b2-4e2b-a49d-856c0a43592d" />
-
-
-Code Program MahasiswaDemo08:
-
-<img width="694" height="734" alt="image" src="https://github.com/user-attachments/assets/d3d19409-3b88-4a35-8129-8ccab3b2513f" />
-
-
-Output:
-
-<img width="341" height="702" alt="image" src="https://github.com/user-attachments/assets/39f66e48-5e98-42ba-8e73-0080ae01c0e6" />
-
-### Pertanyaan Praktikum 4
-
-#### 1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
-
-Code Program modifikasi MahasiswaBerprestasi08 praktikum 4 pertanyaan 1:
-
-<img width="487" height="694" alt="image" src="https://github.com/user-attachments/assets/29bae99a-1dfb-4bdf-bf99-580de16188f0" />
-
-
-Code Program modifikasi MahasiswaDemo08 praktikum 4 pertanyaan 1:
-
-<img width="642" height="604" alt="image" src="https://github.com/user-attachments/assets/78068f59-6de9-47ce-9269-9d33b49aaff9" />
-
-
-Output:
-
-<img width="539" height="612" alt="image" src="https://github.com/user-attachments/assets/d8e32407-3f53-407d-ab85-8b27b0873c16" />
-
-
-### Latihan Praktikum
-## Latihan 1
-
-<img width="516" height="593" alt="image" src="https://github.com/user-attachments/assets/da35b578-7f2f-4567-9532-9935c61fabae" />
-
-Code Program Dosen08:
-
-<img width="726" height="666" alt="image" src="https://github.com/user-attachments/assets/1770a4f0-e380-4d65-aa91-4de6e5f9887f" />
-
-
-Code Program DataDosen08:
-
-<img width="601" height="672" alt="image" src="https://github.com/user-attachments/assets/983b64a0-4dc4-4a67-af86-02ee2c1594ff" />
-
-
-Code Program DosenMain08:
-
-<img width="647" height="706" alt="image" src="https://github.com/user-attachments/assets/27f9551b-d897-45d5-a774-bfe692876335" />
-
-
-Output:
-
-<img width="703" height="656" alt="image" src="https://github.com/user-attachments/assets/d63c42d6-f976-412d-a390-f077cd7414b1" />
