@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 5 SORTING (BUBBLE, SELECTION, DAN INSERTION SORT)
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 5 SEARCHING
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,22 +6,26 @@
 
 
 
-## Praktikum 1 - Mengimplementasikan Sorting menggunakan object
+## Praktikum 1 Searching/ Pencarian Menggunakan Algoritma Sequential Search
 
-Code program Sorting08 :
+Code program Mahasiswa08 :
 
-<img width="361" height="681" alt="image" src="https://github.com/user-attachments/assets/737b32ab-c2cf-49d1-af97-da4c5120851c" />
+<img width="815" height="636" alt="image" src="https://github.com/user-attachments/assets/493f4988-4680-415f-988c-039f16cc6b6c" />
 
-<img width="327" height="260" alt="image" src="https://github.com/user-attachments/assets/3b03c2d6-2d19-43f4-b4c0-cf383d86da47" />
 
-Code program SortingMain08 :
+Code program MahasiswaBerprestasi08 :
 
-<img width="507" height="515" alt="image" src="https://github.com/user-attachments/assets/a300426a-4c86-4669-afc3-c2a30c8b1368" />
+<img width="456" height="674" alt="image" src="https://github.com/user-attachments/assets/f77eceae-220d-48ca-83ba-c7c2120f5c63" />
+
+
+Code Program MahasiswaDemo08:
+
+<img width="632" height="683" alt="image" src="https://github.com/user-attachments/assets/603b8d4c-fc2c-4b56-8b35-6a39ade1a7c0" />
 
 
 Output :
 
-<img width="546" height="377" alt="image" src="https://github.com/user-attachments/assets/8b50721e-5875-4c45-a82d-0c026ededb41" />
+
 
 
 
