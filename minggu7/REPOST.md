@@ -100,7 +100,7 @@ right digunakan sebagai tanda untuk index akhir.
 Jawab:
 Program akan tetap berjalan, namun hasil dari program tidak akurat dikarenakan proses binary search memerlukan sorting untuk bisa mengeliminasi setengah bagian array.
 
-#### 4.jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai
+#### 5.jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai
 Jawab:
 Modifikasi MahasiswaBerprestasi08:
 
@@ -109,4 +109,26 @@ Modifikasi MahasiswaBerprestasi08:
 Output:
 
 <img width="674" height="682" alt="image" src="https://github.com/user-attachments/assets/7126d4e1-6a94-4466-892b-30b9d233e692" />
+
+#### 6.Jelaskan bagaimana binary search menentukan bahwa data yang dicari tidak ditemukan di dalam array
+Jawab:
+binary search menentukan data ketika kondisi if (right>= left) nilai left melampaui right, sehingga fungsi keluar dari rekursi dan return nilai -1
+
+#### 7.Modifikasi program di atas yang mana jumlah mahasiswa yang diinputkan sesuai dengan masukan dari keyboard.
+Jawab:
+kode program modifikasi MahasiswaDemo08:
+
+<img width="525" height="715" alt="image" src="https://github.com/user-attachments/assets/65de346a-3182-462a-954c-18a9ebae2052" />
+
+
+kode program modifikasi MahasiswaBerprestasi08
+
+<img width="414" height="545" alt="image" src="https://github.com/user-attachments/assets/222ea3cb-b1bf-4864-a77f-5188108f6b8a" />
+
+
+Output:
+
+<img width="1020" height="652" alt="image" src="https://github.com/user-attachments/assets/d129f7db-760a-43ed-a10f-4d563e38d7b3" />
+
+
 
