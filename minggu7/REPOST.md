@@ -25,8 +25,7 @@ Code Program MahasiswaDemo08:
 
 Output :
 
-
-
+<img width="365" height="667" alt="image" src="https://github.com/user-attachments/assets/3541d782-5dc7-4cd2-be2a-bbb6e4774fb8" />
 
 
 ### Pertanyaan praktikum 1
