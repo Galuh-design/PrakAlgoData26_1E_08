@@ -73,7 +73,7 @@ Code Program MahasiswaDemo08:
 
 Output:
 
-
+<img width="377" height="711" alt="image" src="https://github.com/user-attachments/assets/11a55127-f509-4cdd-b1bb-d88a05a42273" />
 
 
 ### Pertanyaan Praktikum 2
