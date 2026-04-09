@@ -78,45 +78,35 @@ Output:
 
 ### Pertanyaan Praktikum 2
 
-#### 1. Perhatikan perulangan di dalam bubbleSort() di bawah ini:
-
-<img width="646" height="201" alt="image" src="https://github.com/user-attachments/assets/ef8d797b-63b6-426c-b1f7-0c4133875a93" />
-
+#### 1.Tunjukkan pada kode program yang mana proses divide dijalankan!
 Jawab: 
 
-##### A
-karena elemen terakhir otomatis tersortir sehingga tidak efisien menggunakan seluruh index dan dalam kasus array bisa terjadi outofBound.
+<img width="214" height="57" alt="image" src="https://github.com/user-attachments/assets/b1f45af5-ed77-4a0e-865b-2442e3649e78" />
+syntax divide dari rekursif.
 
-##### B
-agar perulangan j tidak perlu mengecek dan membandingkan lagi data yang sudah di sorting / sudah diurutkan menjadi terbesar atau terkecil, sehingga mengurutkan sisa data tidak membuang waktu untuk membandingkan keseluruhan data.
-
-##### C
-perulangan i berlangsung dan tahap yang ditempuh adalah 49 kali
-
-
-#### 2.Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri dari nim, nama, kelas, dan ipk!
+#### 2.Tunjukkan pada kode program yang mana proses conquer dijalankan!
 Jawab:
 
-Code Program Mahasiswa08:
+<img width="364" height="153" alt="image" src="https://github.com/user-attachments/assets/86087be3-64bb-44a5-a63b-abe951fc5375" />
+syntax conquer dari rekursif.
 
-<img width="716" height="488" alt="image" src="https://github.com/user-attachments/assets/7e455d07-1d50-431c-9cb4-f5f1d123ba77" />
+#### 3.Apa fungsi left, right, dan mid?
+jawab:
+left digunakan sebagai tanda untuk index awal.
+mid digunakan untuk menentukan titik tengah index untuk membandingkan nilai dengan data yang dicari.
+right digunakan sebagai tanda untuk index akhir.
 
+#### 4.Jika data IPK yang dimasukkan tidak urut. Apakah program masih dapat berjalan?Mengapa demikian?
+Jawab:
+Program akan tetap berjalan, namun hasil dari program tidak akurat dikarenakan proses binary search memerlukan sorting untuk bisa mengeliminasi setengah bagian array.
 
-Code Program MahasiswaBerprestasi08:
+#### 4.jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai
+Jawab:
+Modifikasi MahasiswaBerprestasi08:
 
-<img width="778" height="497" alt="image" src="https://github.com/user-attachments/assets/f2132a69-46be-47b9-bd68-5b7c5b8a070c" />
-
-
-Code Program MahasiswaDemo08:
-
-<img width="846" height="645" alt="image" src="https://github.com/user-attachments/assets/f361ec2e-302a-4f15-a37a-b3233e5023ac" />
-
+<img width="538" height="402" alt="image" src="https://github.com/user-attachments/assets/2d76562c-d9d0-4cc0-95d0-dfe2003e6b08" />
 
 Output:
 
-<img width="391" height="574" alt="image" src="https://github.com/user-attachments/assets/1c90c08d-f2a4-41ff-90ad-8b059668a773" />
-
-<img width="345" height="572" alt="image" src="https://github.com/user-attachments/assets/071ac6fd-5034-46cb-a511-79a544b76ba2" />
-
-
+<img width="674" height="682" alt="image" src="https://github.com/user-attachments/assets/7126d4e1-6a94-4466-892b-30b9d233e692" />
 
