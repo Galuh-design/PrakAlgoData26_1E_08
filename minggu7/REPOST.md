@@ -50,6 +50,8 @@ Program akan menampilkan data yang pertama kali ditemukan pada indeks terkecil s
 
 #### 5.  Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
 Jawab:
+jika break dihapus, pencarian akan terus berlanjut sampai akhir array, sehingga bila terdapat data ganda ,m maka variabel pos akan terus memperbarui, sehingga data variabel pos adalah data terakhir yang ditemukan.
+
 
 ## Praktikum 2: Sorting Menggunakan Array of Object
 Code Program Mahasiswa08:
