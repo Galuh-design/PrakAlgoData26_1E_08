@@ -42,9 +42,25 @@ Output :
 
 
 ### Pertanyaan praktikum 1
-#### 1. Jelaskan perbedaan metod tampilDataSearch dan tampilPosisi pada class MahasiswaBerprestasi!
+#### 1. Lakukan perbaikan pada kode program, sehingga keluaran yang dihasilkan sama dengan verifikasi hasil percobaan! Bagian mana yang perlu diperbaiki?
+
 Jawab:
-Tampilposisi digunakan untuk memberikan informasi indeks di mana data ditemukan saat search, sedangkan tampildataSearch menampilkan seluruh objek yang memiliki nilai IPK yang telah diinput
+yang perlu diperbaiki adalah Output dari sorting  Melihat Daftar tugas berbeda dari verifikasi hasil percobaan.
+
+<img width="137" height="89" alt="image" src="https://github.com/user-attachments/assets/5a22f6c6-d3de-4872-a2d4-9c06a76e5efe" />
+
+<img width="240" height="141" alt="image" src="https://github.com/user-attachments/assets/40aec5c9-3ff4-4bdd-a459-4773e4bc1abd" />
+
+Code Program modifikasi StackTugasMahasiswa08 :
+
+<img width="600" height="167" alt="image" src="https://github.com/user-attachments/assets/cf76cbb1-634f-41af-a42a-c2e072d893e5" />
+
+
+Output:
+
+<img width="266" height="625" alt="image" src="https://github.com/user-attachments/assets/ee4881c4-360d-4261-a525-b8fe8381ce23" />
+
+<img width="156" height="418" alt="image" src="https://github.com/user-attachments/assets/3cfe4bad-b283-4df1-806c-9d63c2a7500b" />
 
 #### 2. Jelaskan fungsi break pada kode program di bawah ini! 
 
