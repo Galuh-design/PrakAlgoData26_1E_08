@@ -41,9 +41,13 @@ public class MahasiswaDemo08 {
                     }
                     break;
                 case 3:
-                    Mahasiswa08 lihat = stack.peek();
-                    if (lihat != null) {
-                        System.out.println("Tugas terakhir dikumpulkan oleh " + lihat.nama);
+                    Mahasiswa08 lihatatas = stack.peekatas();
+                    Mahasiswa08 lihatbawah = stack.peekbawah();
+                    if (lihatatas != null) {
+                        System.out.println("Tugas terakhir dikumpulkan oleh " + lihatatas.nama);
+                    }
+                       if (lihatbawah != null) {
+                        System.out.println("Tugas terawal dikumpulkan oleh " + lihatbawah.nama);
                     }
                     break;
                 case 4:
