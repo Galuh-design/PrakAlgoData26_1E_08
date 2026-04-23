@@ -94,7 +94,17 @@ Output:
 <img width="556" height="654" alt="image" src="https://github.com/user-attachments/assets/2d495b6c-8b73-481c-bf80-d49eaeae3169" />
 
 
-#### 5.  Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
+#### 5.  Tambahkan method untuk dapat menghitung berapa banyak tugas yang sudah dikumpulkan saat ini, serta tambahkan operasi menunya!
+
 Jawab:
-jika break dihapus, pencarian akan terus berlanjut sampai akhir array, sehingga bila terdapat data ganda ,m maka variabel pos akan terus memperbarui, sehingga data variabel pos adalah data terakhir yang ditemukan.
+
+Modifikasi MahasiswaDemo08:
+
+<img width="673" height="110" alt="image" src="https://github.com/user-attachments/assets/20801397-c247-4414-a4a2-d194a003315f" />
+
+
+Output :
+
+<img width="218" height="635" alt="image" src="https://github.com/user-attachments/assets/04f6b04a-db2c-48fe-b032-e14aa3c52c4d" />
+
 
