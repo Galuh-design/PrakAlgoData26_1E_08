@@ -71,13 +71,28 @@ data tugas mahasiswa yang dapat ditampung didalam stack adalah 5, berikut adalah
 <img width="437" height="49" alt="image" src="https://github.com/user-attachments/assets/77e6a998-e33b-40a1-84a0-ae41bfded411" />
 
 
-#### 3. Apa fungsi variabel pos atau indeks hasil pencarian dalam program sequential search?
+#### 3. Mengapa perlu pengecekan kondisi !isFull() pada method push? Kalau kondisi if-else tersebut dihapus, apa dampaknya?
 jawab:
-Fungsi variabel pos adalah sebagai penanda data ditemukan atau tidak. Bila pos tetap -1 maka data yang dicari tidak ditemukan , dan jika berubah maka nilai tersebut sebagai acuan untuk mengambil data berdasarkan indeks dari array.
+kondisi !isfull() diperlukan untuk membatasi agar top tidak melebihi index dari array of object mahasiswa08 stack. Bila if - else dihapus dalam method isfull() maka berpotensi error outofbound
 
-#### 4. Jika terdapat lebih dari satu data dengan nilai yang sama, hasil pencarian sequential search yang dibuat di atas akan menampilkan data ke berapa? Jelaskan.
+#### 4. Modifikasi kode program pada class MahasiswaDemo dan StackTugasMahasiswa sehingga pengguna juga dapat melihat mahasiswa yang pertama kali mengumpulkan tugas melalui operasi lihat tugas terbawah!
+
 Jawab:
-Program akan menampilkan data yang pertama kali ditemukan pada indeks terkecil sehingga tidak ditampilkan data ganda karena terdapat syntax break untuk stop perulangan pencarian data.
+
+Modifikasi MahasiswaDemo08:
+
+<img width="829" height="313" alt="image" src="https://github.com/user-attachments/assets/30d7b492-0c01-4569-80d8-a8b112948d97" />
+
+
+Modifikasi StackTugasMahasiswa08:
+
+<img width="825" height="387" alt="image" src="https://github.com/user-attachments/assets/76450b14-3180-46d3-816b-3b26ad4be0bf" />
+
+
+Output:
+
+<img width="556" height="654" alt="image" src="https://github.com/user-attachments/assets/2d495b6c-8b73-481c-bf80-d49eaeae3169" />
+
 
 #### 5.  Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
 Jawab:
