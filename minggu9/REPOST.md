@@ -28,9 +28,10 @@ Code Program MahasiswaDemo08:
 
 Output :
 
+<img width="266" height="696" alt="image" src="https://github.com/user-attachments/assets/a49b496f-5c97-4e94-bfae-625e8623fd1a" />
 
 
-
+<img width="247" height="614" alt="image" src="https://github.com/user-attachments/assets/8dbfecb2-f6cb-48f2-a1d7-e6c9d685c407" />
 
 
 
