@@ -62,12 +62,14 @@ Output:
 
 <img width="156" height="418" alt="image" src="https://github.com/user-attachments/assets/3cfe4bad-b283-4df1-806c-9d63c2a7500b" />
 
-#### 2. Jelaskan fungsi break pada kode program di bawah ini! 
-
-<img width="292" height="105" alt="image" src="https://github.com/user-attachments/assets/ffb1777c-ec72-4e1b-b3b2-5e99836d181f" />
+#### 2. Berapa banyak data tugas mahasiswa yang dapat ditampung di dalam Stack? Tunjukkan potongan kode programnya!
 
 Jawab:
-Fungsi break adalah untuk menghentikan perulangan for segera setelah data yang dicari ditemukan agar perulangan tidak perlu memeriksa keseluruhan data.
+
+data tugas mahasiswa yang dapat ditampung didalam stack adalah 5, berikut adalah kode programnya;
+
+<img width="437" height="49" alt="image" src="https://github.com/user-attachments/assets/77e6a998-e33b-40a1-84a0-ae41bfded411" />
+
 
 #### 3. Apa fungsi variabel pos atau indeks hasil pencarian dalam program sequential search?
 jawab:
