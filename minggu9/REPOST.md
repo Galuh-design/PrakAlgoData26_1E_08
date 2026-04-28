@@ -170,7 +170,7 @@ kode program stackSurat08:
 <img width="504" height="375" alt="image" src="https://github.com/user-attachments/assets/25989f18-81cd-4237-8b21-69b1bf12ee95" />
 
 
-kode program suratDemo08:
+kode program stackDemo08:
 
 <img width="620" height="544" alt="image" src="https://github.com/user-attachments/assets/86336638-63f3-4157-b26d-37de7dc8f08a" />
 
