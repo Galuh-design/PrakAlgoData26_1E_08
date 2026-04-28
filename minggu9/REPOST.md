@@ -130,5 +130,15 @@ Code Program stackKonversi08:
 
 Output:
 
+<img width="359" height="277" alt="image" src="https://github.com/user-attachments/assets/3c3c00f2-cb1f-4c5c-8c0c-b3b7913ab845" />
 
+### Pertanyaan praktikum 1
+
+#### 1. Jelaskan alur kerja dari method konversiDesimalKeBiner! 
+Jawab:
+
+<img width="418" height="278" alt="image" src="https://github.com/user-attachments/assets/61d4c0a2-90dd-4752-ad8b-48528f665c4f" />
+
+Dimulai dari dipanggilnya fungsi konversiDesimalKeBiner dengan membawa parameter data Int nilai. setelah fungsi dipanggil dibuatkan objek baru dari stackKonversi08 stack.
+memulai perulangan while bila nilai lebih dari 0. int sisa mengambil sisa pembagian (modulo) 2 dari nilai. bila genap maka sisa bagi = 0 bila ganjil sisa bagi = 1. memanggil fungsi push dengan objek guna untuk memasukkan sisa kedalam stack. melakukan pembagian nilai dengan 2 sesuai dengan cara menghitung biner. setelah keluar dari perulangan, membuat string biner. Masuk kedalam perulangan while bila kondisi stack tidak kosong, melakukan biner + stack.pop() (nilai biner yang disimpan dalam stack) yang dimana fungsinya mengurangi data top sehingga dapat menjadi syarat keluar perulangan while. Setelah keluar dari perulangan, dilakukan return String biner sebagai nilai return dari fungsi konversiDesimalKeBiner.
 
