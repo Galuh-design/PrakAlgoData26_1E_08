@@ -153,3 +153,38 @@ Output:
 <img width="372" height="192" alt="image" src="https://github.com/user-attachments/assets/6d47ae2d-854a-46e4-bb2e-0df89be7d573" />
 
 Hasilnya adalah tidak ada yang berubah, dikarenakan struktur nilai != 0 dan nilai > 0 hampir sama dikarenakan stack iterasi positif sehingga nilai != 0 berfungsi dengan baik.
+
+## Tugas 1
+
+<img width="390" height="365" alt="image" src="https://github.com/user-attachments/assets/e71a7e58-1652-455b-b206-5fcef01b0fa8" />
+
+kode program surat08:
+
+<img width="835" height="556" alt="image" src="https://github.com/user-attachments/assets/890f6302-3f27-450e-b0f5-5903358a76a3" />
+
+
+kode program stackSurat08:
+
+<img width="498" height="712" alt="image" src="https://github.com/user-attachments/assets/0d854aa2-04cc-4069-9120-98de8b6436d1" />
+
+<img width="504" height="375" alt="image" src="https://github.com/user-attachments/assets/25989f18-81cd-4237-8b21-69b1bf12ee95" />
+
+
+kode program suratDemo08:
+
+<img width="620" height="544" alt="image" src="https://github.com/user-attachments/assets/86336638-63f3-4157-b26d-37de7dc8f08a" />
+
+<img width="531" height="554" alt="image" src="https://github.com/user-attachments/assets/75abfefc-9ab2-47d4-b62e-5dd717ee6587" />
+
+<img width="485" height="213" alt="image" src="https://github.com/user-attachments/assets/f345d6ba-33be-43b7-9f70-90ad2c61d758" />
+
+
+Output:
+
+<img width="266" height="609" alt="image" src="https://github.com/user-attachments/assets/5e268077-43ea-4c7b-aa51-f73be4cdcf71" />
+
+<img width="222" height="600" alt="image" src="https://github.com/user-attachments/assets/7c7cc318-448f-4499-963f-d171d906d404" />
+
+<img width="247" height="543" alt="image" src="https://github.com/user-attachments/assets/ce7bb3da-ed02-4347-9025-0a644cfd50b4" />
+
+
