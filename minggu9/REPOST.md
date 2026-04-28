@@ -142,3 +142,14 @@ Jawab:
 Dimulai dari dipanggilnya fungsi konversiDesimalKeBiner dengan membawa parameter data Int nilai. setelah fungsi dipanggil dibuatkan objek baru dari stackKonversi08 stack.
 memulai perulangan while bila nilai lebih dari 0. int sisa mengambil sisa pembagian (modulo) 2 dari nilai. bila genap maka sisa bagi = 0 bila ganjil sisa bagi = 1. memanggil fungsi push dengan objek guna untuk memasukkan sisa kedalam stack. melakukan pembagian nilai dengan 2 sesuai dengan cara menghitung biner. setelah keluar dari perulangan, membuat string biner. Masuk kedalam perulangan while bila kondisi stack tidak kosong, melakukan biner + stack.pop() (nilai biner yang disimpan dalam stack) yang dimana fungsinya mengurangi data top sehingga dapat menjadi syarat keluar perulangan while. Setelah keluar dari perulangan, dilakukan return String biner sebagai nilai return dari fungsi konversiDesimalKeBiner.
 
+#### 2. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0), bagaimana hasilnya? Jelaskan alasannya! 
+
+modifikasi kode program StackTugasMahasiswa08:
+
+<img width="581" height="312" alt="image" src="https://github.com/user-attachments/assets/0d31733e-7268-40f3-bb79-cbd59c845bfe" />
+
+Output: 
+
+<img width="372" height="192" alt="image" src="https://github.com/user-attachments/assets/6d47ae2d-854a-46e4-bb2e-0df89be7d573" />
+
+Hasilnya adalah tidak ada yang berubah, dikarenakan struktur nilai != 0 dan nilai > 0 hampir sama dikarenakan stack iterasi positif sehingga nilai != 0 berfungsi dengan baik.
