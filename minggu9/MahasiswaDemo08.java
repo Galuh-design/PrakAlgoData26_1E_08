@@ -3,12 +3,12 @@ package minggu9;
 import java.util.Scanner;
 
 public class MahasiswaDemo08 {
- public static void main(String[] args) {
+    public static void main(String[] args) {
         StackTugasMahasiswa08 stack = new StackTugasMahasiswa08(5);
         Scanner galuh = new Scanner(System.in);
         int pilih;
 
-         do {
+        do {
             System.out.println("\nMenu:");
             System.out.println("1. Mengumpulkan Tugas");
             System.out.println("2. Menilai Tugas");
@@ -17,7 +17,7 @@ public class MahasiswaDemo08 {
             System.out.println("5. Melihat Jumlah Data Tugas Mahasiswa yang Terkumpul");
             System.out.print("Pilih: ");
             pilih = galuh.nextInt();
-            galuh.nextLine(); 
+            galuh.nextLine();
 
             switch (pilih) {
                 case 1:
@@ -39,6 +39,8 @@ public class MahasiswaDemo08 {
                         int nilai = galuh.nextInt();
                         dinilai.tugasDinilai(nilai);
                         System.out.printf("Nilai Tugas %s adalah %d\n", dinilai.nama, nilai);
+                        String biner = stack.konversiDesimalKeBiner(nilai);
+                        System.out.println("Nilai Biner Tugas: " + biner);
                     }
                     break;
                 case 3:
@@ -47,7 +49,7 @@ public class MahasiswaDemo08 {
                     if (lihatatas != null) {
                         System.out.println("Tugas terakhir dikumpulkan oleh " + lihatatas.nama);
                     }
-                       if (lihatbawah != null) {
+                    if (lihatbawah != null) {
                         System.out.println("Tugas terawal dikumpulkan oleh " + lihatbawah.nama);
                     }
                     break;
@@ -57,13 +59,13 @@ public class MahasiswaDemo08 {
                     stack.print();
                     break;
                 case 5:
-                  int total = stack.top + 1;
-                    System.out.println("Jumlah seluruh data tugas mahasiswa yang terkumpul: "+total);
+                    int total = stack.top + 1;
+                    System.out.println("Jumlah seluruh data tugas mahasiswa yang terkumpul: " + total);
                     break;
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
         } while (pilih >= 1 && pilih <= 5);
-    
- }
+
+    }
 }
