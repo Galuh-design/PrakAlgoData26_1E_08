@@ -47,6 +47,7 @@ size bernilai 0 dikarenakan belum ada elemen yang tersimpan pada Queue.
 #### jawab:
 untuk mengembalikan rear ke indeks 0 bila rear mencapai batas maks namun size belum mencapai nilai maks / belum penuh agar dapat menggunakan ruang tersebut.
 
+###
 3. Pada method Dequeue, jelaskan maksud dan kegunaan dari potongan kode berikut!
 
 <img width="421" height="80" alt="image" src="https://github.com/user-attachments/assets/611141e6-54c4-4964-b3f9-31600f3aabcf" />
@@ -55,13 +56,50 @@ untuk mengembalikan rear ke indeks 0 bila rear mencapai batas maks namun size be
 #### jawab:
 untuk mengembalikan front ke indeks 0 setelah mengambil data di indeks terakhir agar dapat mengakses elemen berikutnya.
 
+###
 4. Pada method print, mengapa pada proses perulangan variabel i tidak dimulai dari 0 (int i=0),
 melainkan int i=front?
+
+#### jawab:
+Looping tidak selalu mulai dari indeks ke-0 karena front tidak selalu berada di indeks ke-0
+
+###
 5. Perhatikan kembali method print, jelaskan maksud dari potongan kode berikut!
+
+<img width="216" height="54" alt="image" src="https://github.com/user-attachments/assets/eb13e06f-7276-49bd-8262-917ae31b633b" />
+
+#### jawab:
+i+1 digunakan agar i bergeser ke elemen selanjutnya, sedangkan modulo %max agar i kembali ke 0 saat i sudah mencapai indeks terakhir sehingga queue dapat terus beroperasi selama jumlah elemen / size tidak melebihi max.
+
+###
 6. Tunjukkan potongan kode program yang merupakan queue overflow!
+
+#### jawab:
+
+<img width="374" height="111" alt="image" src="https://github.com/user-attachments/assets/67ac49eb-8441-4944-add9-53791a747de1" />
+
+###
 7. Pada saat terjadi queue overflow dan queue underflow, program tersebut tetap dapat berjalan
 dan hanya menampilkan teks informasi. Lakukan modifikasi program sehingga pada saat terjadi
 queue overflow dan queue underflow, program dihentikan!
+
+#### jawab:
+
+###
+Modifikasi Code program Queue08:
+<img width="496" height="305" alt="image" src="https://github.com/user-attachments/assets/9f357b67-b4eb-4625-83f3-ea322b921e50" />
+
+###
+<img width="379" height="646" alt="image" src="https://github.com/user-attachments/assets/77d797ae-bde0-4e50-8e4c-9ecb345ab299" />
+
+###
+Modifikasi Code program QueueMain08:
+<img width="597" height="519" alt="image" src="https://github.com/user-attachments/assets/b1d13bc8-1a5b-418b-8888-3fdac08c9ed7" />
+
+###
+Output:
+<img width="526" height="516" alt="image" src="https://github.com/user-attachments/assets/f50070cb-5df2-4d51-aa24-a6a580c2aab4" />
+
 
 
 
