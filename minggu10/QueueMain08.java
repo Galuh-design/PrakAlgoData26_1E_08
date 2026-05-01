@@ -1,6 +1,4 @@
 package minggu10;
-
-import java.util.Queue;
 import java.util.Scanner;
 
 public class QueueMain08 {
@@ -23,6 +21,9 @@ public class QueueMain08 {
         int pilih;
 
         do {
+            if (Q.police !=0) {
+                break;
+            }
             menu();
             pilih = galuh.nextInt();
             switch (pilih) {

@@ -6,6 +6,7 @@ public class Queue08 {
     int rear;
     int size;
     int max;
+    int police = 0;
 
     public Queue08(int n) {
         max = n;
@@ -64,7 +65,7 @@ public class Queue08 {
 
     public void Enqueue(int dt) {
         if (IsFull()) {
-            System.out.println("Queue sudah penuh");
+            police++;
         } else {
             if (IsEmpty()) {
                 front = rear = 0;
@@ -83,7 +84,7 @@ public class Queue08 {
     public int Dequeue() {
         int dt = 0;
         if (IsEmpty()) {
-            System.out.println("Queue masih kosong");
+           police++;
         } else {
             dt = data[front];
             size--;
