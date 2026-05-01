@@ -30,6 +30,7 @@ Code program QueueMain08:
 Output:
 
 ###
+<img width="441" height="714" alt="image" src="https://github.com/user-attachments/assets/2efd8698-d880-413a-945e-7fe7971b9028" />
 
 
 
