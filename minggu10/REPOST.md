@@ -171,3 +171,20 @@ Output:
 <img width="416" height="534" alt="image" src="https://github.com/user-attachments/assets/adf084f0-559c-4654-8e63-11c420ecde1e" />
 
 ###
+
+## Tugas Praktikum
+
+### Diagram Class
+
+Mahasiswa:
+
+<img width="350" height="239" alt="image" src="https://github.com/user-attachments/assets/e526d26d-2bc1-4afe-8bb1-491b9c13430e" />
+
+QueueKRS:
+
+<img width="348" height="358" alt="image" src="https://github.com/user-attachments/assets/abe45bca-47bf-42c3-8608-7b9aba2e7f6a" />
+
+###
+
+
+
