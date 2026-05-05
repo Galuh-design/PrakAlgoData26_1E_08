@@ -108,14 +108,18 @@ Code program Mahasiswa08:
 
 <img width="759" height="569" alt="image" src="https://github.com/user-attachments/assets/dc446517-04da-40cf-85e5-5cac24b0197a" />
 
+###
 
 Code program AntrianLayanan08:
 ###
 
 <img width="635" height="660" alt="image" src="https://github.com/user-attachments/assets/dc873f2b-84a1-4813-b6f3-971c26f48305" />
 
+###
+
 <img width="479" height="442" alt="image" src="https://github.com/user-attachments/assets/fe5f95e2-8b7f-4038-8e0d-efd21295a4a1" />
 
+###
 
 Code program LayananAkademikSIAKAD08:
 ###
@@ -124,6 +128,16 @@ Code program LayananAkademikSIAKAD08:
 
 <img width="574" height="417" alt="image" src="https://github.com/user-attachments/assets/71d6dab0-23e3-4ed2-89d1-a44a5acdc3f3" />
 
+###
 
+Output:
+
+<img width="420" height="641" alt="image" src="https://github.com/user-attachments/assets/6e3a02e7-1225-4f40-8b46-ff741310d681" />
+
+###
+
+<img width="354" height="544" alt="image" src="https://github.com/user-attachments/assets/7505c91f-d460-4432-b368-e369c9816b73" />
+
+###
 
 
