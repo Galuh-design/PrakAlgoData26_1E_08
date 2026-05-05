@@ -101,5 +101,29 @@ Output:
 <img width="526" height="516" alt="image" src="https://github.com/user-attachments/assets/f50070cb-5df2-4d51-aa24-a6a580c2aab4" />
 
 
+## Praktikum 2 Antrian Layanan Akademik
+
+Code program Mahasiswa08:
+###
+
+<img width="759" height="569" alt="image" src="https://github.com/user-attachments/assets/dc446517-04da-40cf-85e5-5cac24b0197a" />
+
+
+Code program AntrianLayanan08:
+###
+
+<img width="635" height="660" alt="image" src="https://github.com/user-attachments/assets/dc873f2b-84a1-4813-b6f3-971c26f48305" />
+
+<img width="479" height="442" alt="image" src="https://github.com/user-attachments/assets/fe5f95e2-8b7f-4038-8e0d-efd21295a4a1" />
+
+
+Code program LayananAkademikSIAKAD08:
+###
+
+<img width="425" height="739" alt="image" src="https://github.com/user-attachments/assets/ab39518c-295e-4a08-adf3-7df107c5d5c0" />
+
+<img width="574" height="417" alt="image" src="https://github.com/user-attachments/assets/71d6dab0-23e3-4ed2-89d1-a44a5acdc3f3" />
+
+
 
 
