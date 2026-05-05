@@ -140,4 +140,34 @@ Output:
 
 ###
 
+### Pertanyaan praktikum 2
+1. Lakukan modifikasi program dengan menambahkan method baru bernama LihatAkhir pada class 
+AntrianLayanan yang digunakan untuk mengecek antrian yang berada di posisi belakang. Tambahkan 
+pula daftar menu 6. Cek Antrian paling belakang pada class LayananAkademikSIAKAD sehingga 
+method LihatAkhir dapat dipanggil!
 
+#### jawab:
+
+Modifikasi Code program AntrianLayanan08:
+
+###
+
+<img width="370" height="177" alt="image" src="https://github.com/user-attachments/assets/d5ea3245-e7a0-4ca4-8688-e1eeb521a7ca" />
+
+
+###
+
+Modifikasi Code program LayananAkademikSIAKAD08:
+
+###
+
+<img width="238" height="83" alt="image" src="https://github.com/user-attachments/assets/ba82afd4-86cd-4842-abff-c4aba3bce93a" />
+
+###
+
+Output:
+
+###
+<img width="416" height="534" alt="image" src="https://github.com/user-attachments/assets/adf084f0-559c-4654-8e63-11c420ecde1e" />
+
+###
