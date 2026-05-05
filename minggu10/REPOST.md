@@ -186,5 +186,58 @@ QueueKRS:
 
 ###
 
+Code program mahasiswa_08:
+
+###
+
+<img width="830" height="440" alt="image" src="https://github.com/user-attachments/assets/ef2f2bb7-6c1a-4887-be8d-4e1ab3e46182" />
 
 
+###
+
+Code program queueKRS08:
+
+###
+
+<img width="678" height="483" alt="image" src="https://github.com/user-attachments/assets/277715b1-8115-47cf-a5d9-372e89297776" />
+
+###
+
+<img width="593" height="547" alt="image" src="https://github.com/user-attachments/assets/2608b9eb-1416-4a11-a4f7-57703fb375e3" />
+
+###
+
+<img width="655" height="231" alt="image" src="https://github.com/user-attachments/assets/eb8fe804-ab49-4d54-a964-e13efaa99b35" />
+
+###
+
+Code program KRSDemo08:
+
+###
+
+<img width="629" height="624" alt="image" src="https://github.com/user-attachments/assets/e53945d6-e742-43a2-b9c5-5b0bdafc67cf" />
+
+###
+
+<img width="483" height="346" alt="image" src="https://github.com/user-attachments/assets/bfd15363-f5c1-448e-b1bd-0e9260299b42" />
+
+
+###
+
+Output:
+
+###
+
+<img width="294" height="521" alt="image" src="https://github.com/user-attachments/assets/92528f97-0da8-45ce-8bb3-dd6a38814186" />
+
+###
+
+<img width="250" height="569" alt="image" src="https://github.com/user-attachments/assets/2cd4a2de-ebb3-4871-80a9-d60f377735e2" />
+
+
+###
+
+<img width="276" height="134" alt="image" src="https://github.com/user-attachments/assets/9ad1881d-2a9c-417b-986c-283a50344a32" />
+
+
+###
