@@ -15,10 +15,11 @@ public class Mahasiswa08 {
     }
 
     public void tampilInformasi() {
-        System.out.print(nama);
-        System.out.print(nim);
-        System.out.print(kelas);
-        System.out.print(ipk);
+        System.out.println();
+        System.out.printf("%-15s", nama);
+        System.out.printf("%10s", nim);
+        System.out.printf("%10s", kelas);
+        System.out.printf("%10s", ipk);
     }
 
 }
