@@ -118,6 +118,72 @@ Output :
 
 ### Pertanyaan Praktikum 2
 
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan! 
+
+#### jawab:
+
+break digunakan untuk menghentikan looping setelah kondisi data yang dicari sesuai dan berhasil dihapus.
+
+2. Jelaskan kegunaan kode dibawah pada method remove
+
+<img width="371" height="209" alt="image" src="https://github.com/user-attachments/assets/e1ddf8be-daea-40df-8f8f-c9bb11743cad" />
+
+#### jawab:
+
+temp.next = temp.next.next;
+untuk menghapus rantai node dengan cara menimpa pointer next / node yang akan dihapus dengan  node selanjutnya (next.next).
+
+if (temp.next == null) { tail = temp; }
+Digunakan untuk kondisi jika node next yang dihapus adalah node terakhir. Saat temp.next == null true,
+posisi tail diperbarui ke temp agar posisi tail berada pada node terakhir dan bukan null.
+
+## Tugas
+
+Code program MahasiswaTugas08.java :
+###
+
+<img width="891" height="400" alt="image" src="https://github.com/user-attachments/assets/ea50bb93-8a8e-42d3-a044-47f1d1efc98b" />
+
+###
+
+Code program QueueNode08.java :
+###
+
+<img width="821" height="303" alt="image" src="https://github.com/user-attachments/assets/0ef7ec6c-c24a-41e8-bb2c-0321d8ffedce" />
+
+###
+
+Code program QueueLinkedList08.java :
+###
+
+<img width="513" height="698" alt="image" src="https://github.com/user-attachments/assets/5a98c694-c165-47da-b7b8-7698c716ffad" />
+
+###
+
+<img width="386" height="316" alt="image" src="https://github.com/user-attachments/assets/1749cd3f-2578-470c-8ab9-90124d9f6450" />
+
+###
+
+Code program QueueDemo08.java :
+###
+
+<img width="554" height="587" alt="image" src="https://github.com/user-attachments/assets/cfd4045d-bfd9-44cd-816c-7058ff358b35" />
+
+###
+
+<img width="715" height="278" alt="image" src="https://github.com/user-attachments/assets/a8ace274-4f09-4322-8e53-3bf196302457" />
+
+###
+
+Output:
+###
+
+<img width="259" height="587" alt="image" src="https://github.com/user-attachments/assets/5a6e247f-2ddf-4efb-958f-5aadd3a512c4" />
+
+###
+
+<img width="371" height="530" alt="image" src="https://github.com/user-attachments/assets/8911e6d1-9edf-4893-9754-6fe6bf5deaab" />
 
 
+###
 
