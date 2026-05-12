@@ -118,6 +118,21 @@ Output :
 
 ### Pertanyaan Praktikum 2
 
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan! 
 
+#### jawab:
 
+break digunakan untuk menghentikan looping setelah kondisi data yang dicari sesuai dan berhasil dihapus.
 
+2. Jelaskan kegunaan kode dibawah pada method remove
+
+<img width="371" height="209" alt="image" src="https://github.com/user-attachments/assets/e1ddf8be-daea-40df-8f8f-c9bb11743cad" />
+
+#### jawab:
+
+temp.next = temp.next.next;
+untuk menghapus rantai node dengan cara menimpa pointer next / node yang akan dihapus dengan  node selanjutnya (next.next).
+
+if (temp.next == null) { tail = temp; }
+Digunakan untuk kondisi jika node next yang dihapus adalah node terakhir. Saat temp.next == null true,
+posisi tail diperbarui ke temp agar posisi tail berada pada node terakhir dan bukan null.
