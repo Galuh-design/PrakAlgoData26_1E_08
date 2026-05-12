@@ -83,8 +83,41 @@ Output:
 
 <img width="347" height="587" alt="image" src="https://github.com/user-attachments/assets/7c8c6d05-5f68-4386-bb29-d02ba87cb694" />
 
+
+
 ###
 
 <img width="319" height="373" alt="image" src="https://github.com/user-attachments/assets/4834ce9a-c38c-42b2-829b-20b1c055638b" />
 
 ###
+
+## Praktikum 2  Modifikasi Elemen pada Single Linked List
+
+Code program SingleLinkedList08.java :
+###
+
+<img width="475" height="666" alt="image" src="https://github.com/user-attachments/assets/e2f4e2a9-947d-4afd-971c-ed7e3f3d7a8c" />
+
+###
+
+<img width="594" height="537" alt="image" src="https://github.com/user-attachments/assets/9264b6b2-ce51-4955-9165-e6e9a1e42817" />
+
+###
+
+Code program SLLMain08.java :
+###
+
+<img width="698" height="510" alt="image" src="https://github.com/user-attachments/assets/78725cca-5111-4447-8ee4-4160b5c9464e" />
+
+###
+
+Output :
+###
+
+<img width="340" height="168" alt="image" src="https://github.com/user-attachments/assets/677e4e7a-f0ff-4d45-8975-8ca4cf3e4ce8" />
+
+### Pertanyaan Praktikum 2
+
+
+
+
