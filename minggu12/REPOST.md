@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
+<img width="315" height="386" alt="image" src="https://github.com/user-attachments/assets/0b7a2c52-b5a3-4a18-bf16-a21df2a48a53" /># Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -90,6 +90,32 @@ Output:
 6.Modifikasi kode program dengan menambahkan method printReverse() untuk
 menampilkan seluruh data pada Double Linked List secara terbalik, dimulai dari node tail
 menuju head!
-
-
 #### Jawab:
+
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="561" height="364" alt="image" src="https://github.com/user-attachments/assets/43af7522-020e-46b5-8be3-8bbaad8f6249" />
+
+###
+
+Modifikasi Code Program DoublelinkedlistMain08:
+###
+
+<img width="357" height="179" alt="image" src="https://github.com/user-attachments/assets/3b3e1e51-3b81-4769-9dd5-ffdf376f7923" />
+
+###
+
+###
+
+<img width="315" height="386" alt="image" src="https://github.com/user-attachments/assets/6e37894d-d583-4052-9d85-4e2d629db124" />
+
+###
+
+
+Output:
+###
+
+<img width="258" height="492" alt="image" src="https://github.com/user-attachments/assets/f6a40f08-1c45-4a56-993b-c3c3d6f14993" />
+
+###
