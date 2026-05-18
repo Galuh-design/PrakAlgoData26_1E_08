@@ -8,8 +8,37 @@
 
 ## Praktikum 1  Operasi Penambahan pada Double Linked List
 
-Code program Mahasiswa08.java :
+Code program Mahasiswa08 :
 ###
+
+<img width="704" height="467" alt="image" src="https://github.com/user-attachments/assets/6de4ec12-121b-4967-a687-fd7b757892e1" />
+
+###
+
+Code program Node08 :
+###
+
+<img width="662" height="315" alt="image" src="https://github.com/user-attachments/assets/91dbec14-c388-4e10-adbd-97260e9158c0" />
+
+###
+
+Code program DoubleLinkedList08 :
+###
+
+<img width="396" height="710" alt="image" src="https://github.com/user-attachments/assets/8d3d3e43-ce00-4447-be3a-84ecfa2d2cdf" />
+
+###
+
+Code program DoubleLinkedListMain08 :
+###
+
+<img width="484" height="711" alt="image" src="https://github.com/user-attachments/assets/6cc91756-457c-4a96-8339-454374763226" />
+
+###
+
+Output :
+###
+
 
 
 ###
