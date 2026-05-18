@@ -39,7 +39,7 @@ Code program DoubleLinkedListMain08 :
 Output :
 ###
 
-
+<img width="438" height="630" alt="image" src="https://github.com/user-attachments/assets/5abd6054-b271-4739-88b4-5da1f95eeaa6" />
 
 ###
 
