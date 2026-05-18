@@ -1,4 +1,4 @@
-# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 LINKED LIST
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -6,7 +6,8 @@
 
 
 
-## Praktikum 1  Pembuatan Single Linked List
+## Praktikum 1  Operasi Penambahan pada Double Linked List
+
 Code program Mahasiswa08.java :
 ###
 
