@@ -67,11 +67,27 @@ fungsi konstruktor pada class Doublelinkedlist08 adalah untuk menginisialisasi l
 
 ###
 Mengapa head dan tail harus menunjuk node yang sama ketika linked list masih kosong?
+#### Jawab:
 
-5. Modifikasi method print() agar menampilkan pesan "Linked List masih kosong" ketika
-tidak terdapat data pada linked list!
+penambahan data pertama kali menyebabkan node baru tersebut menjadi satu-satunya elemen di dalam list, sehingga node tersebut sekaligus bertindak sebagai head dan tail.
 
-6. Modifikasi kode program dengan menambahkan method printReverse() untuk
+5.Modifikasi method print() agar menampilkan pesan "Linked List masih kosong" ketika tidak terdapat data pada linked list!
+#### Jawab:
+Code Program DoubleLinkedlist08:
+###
+
+<img width="693" height="199" alt="image" src="https://github.com/user-attachments/assets/ca1f4355-0b99-4fae-bbdc-b7d6c81c8caf" />
+
+###
+
+Output:
+###
+
+<img width="305" height="349" alt="image" src="https://github.com/user-attachments/assets/c15376f4-c54d-4e9d-a69f-c47d0634a5b9" />
+
+###
+
+6.Modifikasi kode program dengan menambahkan method printReverse() untuk
 menampilkan seluruh data pada Double Linked List secara terbalik, dimulai dari node tail
 menuju head!
 
