@@ -46,6 +46,29 @@ Output :
 
 ### Pertanyaan Praktikum 1
 
-1. Mengapa hasil compile kode program di baris pertama menghasilkan “Linked List Kosong”? 
+1. Jelaskan perbedaan struktur dan mekanisme traversal antara Single Linked List dan Double Linked List!
+#### Jawab:
+Perbedaan Single dan Double Linked List terletak pada pointer. Single hanya memiliki next / traversal searah sehingga traversal terbatas satu arah maju, sedangkan Double memiliki next dan prev / traversal dua arah sehingga traversal dapat maju maupun mundur.
+
+2. Perhatikan class Node, di dalamnya terdapat atribut next dan prev. Jelaskan fungsi masing-masing atribut tersebut pada proses traversal dan manipulasi node!
+#### Jawab:
+
+3. Perhatikan konstruktor pada class DoubleLinkedList. Jelaskan fungsi konstruktor tersebut
+terhadap kondisi awal linked list!
+4. Perhatikan potongan kode berikut:
+###
+
+<img width="247" height="74" alt="image" src="https://github.com/user-attachments/assets/53841380-5fa1-4efd-a90e-d88ae031edd4" />
+
+###
+Mengapa head dan tail harus menunjuk node yang sama ketika linked list masih kosong?
+
+5. Modifikasi method print() agar menampilkan pesan "Linked List masih kosong" ketika
+tidak terdapat data pada linked list!
+
+6. Modifikasi kode program dengan menambahkan method printReverse() untuk
+menampilkan seluruh data pada Double Linked List secara terbalik, dimulai dari node tail
+menuju head!
+
 
 #### Jawab:
