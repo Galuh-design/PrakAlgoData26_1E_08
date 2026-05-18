@@ -46,11 +46,11 @@ Output :
 
 ### Pertanyaan Praktikum 1
 
-1. Jelaskan perbedaan struktur dan mekanisme traversal antara Single Linked List dan Double Linked List!
+1.Jelaskan perbedaan struktur dan mekanisme traversal antara Single Linked List dan Double Linked List!
 #### Jawab:
 Perbedaan Single dan Double Linked List terletak pada pointer. Single hanya memiliki next / traversal searah sehingga traversal terbatas satu arah maju, sedangkan Double memiliki next dan prev / traversal dua arah sehingga traversal dapat maju maupun mundur.
 
-2. Perhatikan class Node, di dalamnya terdapat atribut next dan prev. Jelaskan fungsi masing-masing atribut tersebut pada proses traversal dan manipulasi node!
+2.Perhatikan class Node, di dalamnya terdapat atribut next dan prev. Jelaskan fungsi masing-masing atribut tersebut pada proses traversal dan manipulasi node!
 #### Jawab:
 
 3. Perhatikan konstruktor pada class DoubleLinkedList. Jelaskan fungsi konstruktor tersebut
