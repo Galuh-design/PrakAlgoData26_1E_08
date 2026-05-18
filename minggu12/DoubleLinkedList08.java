@@ -60,6 +60,7 @@ public class DoubleLinkedList08 {
     }
 
     public void print() {
+        // method print sudah terdapat kondisi linkedlink kosong pada percobaan 1
         if (isEmpty()) {
             System.out.println("Linked List masih kosong.");
             return;
