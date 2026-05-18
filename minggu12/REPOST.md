@@ -53,9 +53,14 @@ Perbedaan Single dan Double Linked List terletak pada pointer. Single hanya memi
 2.Perhatikan class Node, di dalamnya terdapat atribut next dan prev. Jelaskan fungsi masing-masing atribut tersebut pada proses traversal dan manipulasi node!
 #### Jawab:
 
-3. Perhatikan konstruktor pada class DoubleLinkedList. Jelaskan fungsi konstruktor tersebut
-terhadap kondisi awal linked list!
-4. Perhatikan potongan kode berikut:
+Atribut next berfungsi menunjuk ke node berikutnya untuk traversal maju, sedangkan prev menunjuk ke node sebelumnya untuk traversal mundur. masing masing atribut digunakan sebagai pointer untuk memanipulasi node sebelumnya maupun berikutnya.
+
+3.Perhatikan konstruktor pada class DoubleLinkedList. Jelaskan fungsi konstruktor tersebut terhadap kondisi awal linked list!
+#### Jawab:
+
+fungsi konstruktor pada class Doublelinkedlist08 adalah untuk menginisialisasi linked list saat pertama kali dibuat dengan mengatur pointer head dan tail bernilai null untuk menandakan bahwa list masih kosong.
+
+4.Perhatikan potongan kode berikut:
 ###
 
 <img width="247" height="74" alt="image" src="https://github.com/user-attachments/assets/53841380-5fa1-4efd-a90e-d88ae031edd4" />
