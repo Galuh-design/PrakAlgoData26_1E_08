@@ -166,3 +166,40 @@ Output:
 ###
 
 ## Tugas Praktikum
+
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="541" height="489" alt="image" src="https://github.com/user-attachments/assets/281a61bf-9b03-4397-9000-9338aad01b04" />
+
+###
+
+###
+
+<img width="477" height="537" alt="image" src="https://github.com/user-attachments/assets/af27edf1-80fc-4514-b9fc-bffe3cb9f998" />
+
+###
+
+###
+
+<img width="492" height="448" alt="image" src="https://github.com/user-attachments/assets/67de3329-a92f-4cce-829a-da6f40a32244" />
+
+###
+
+###
+
+<img width="498" height="637" alt="image" src="https://github.com/user-attachments/assets/8ec38668-72fe-40ba-a630-5058e772c46b" />
+
+###
+
+###
+
+<img width="467" height="596" alt="image" src="https://github.com/user-attachments/assets/6c68baa0-732e-47b1-a19d-ed31555add5b" />
+
+###
+
+###
+
+<img width="389" height="268" alt="image" src="https://github.com/user-attachments/assets/e250143c-d4ca-4ddc-8596-ea4f8b0d3e66" />
+
+###
