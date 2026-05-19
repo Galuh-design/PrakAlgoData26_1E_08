@@ -1,4 +1,5 @@
 package minggu12;
+
 public class DoubleLinkedList08 {
     Node08 head;
     Node08 tail;
@@ -12,7 +13,7 @@ public class DoubleLinkedList08 {
         return head == null;
     }
 
-    public void addFirst (Mahasiswa08 data) {
+    public void addFirst(Mahasiswa08 data) {
         Node08 newNode = new Node08(data);
         if (isEmpty()) {
             head = tail = newNode;
@@ -34,7 +35,7 @@ public class DoubleLinkedList08 {
         }
     }
 
-    public void insertAfter (String keyNim, Mahasiswa08 data) {
+    public void insertAfter(String keyNim, Mahasiswa08 data) {
         Node08 current = head;
         while (current != null && !current.data.nim.equals(keyNim)) {
             current = current.next;
@@ -43,10 +44,10 @@ public class DoubleLinkedList08 {
             System.out.println("Data dengan NIM " + keyNim + " tidak ditemukan.");
             return;
         }
-        Node08 newNode = new Node08 (data);
+        Node08 newNode = new Node08(data);
 
-        //jika current adalah tail, node baru ditambahkan di akhir
-        if (current == tail){
+        // jika current adalah tail, node baru ditambahkan di akhir
+        if (current == tail) {
             newNode.prev = current;
             current.next = newNode;
             tail = newNode;
@@ -73,7 +74,7 @@ public class DoubleLinkedList08 {
     }
 
     public void printReverse() {
-        
+
         if (isEmpty()) {
             System.out.println("Linked List masih kosong.");
             return;
@@ -84,10 +85,30 @@ public class DoubleLinkedList08 {
             current = current.prev;
         }
     }
-    
+
     public void removeFirst() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            head = head.next;
+            head.prev = null;
+        }
     }
 
     public void removeLast() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
+        }
     }
 }
