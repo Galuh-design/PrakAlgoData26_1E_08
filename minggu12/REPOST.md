@@ -203,3 +203,27 @@ Modifikasi Code Program DoubleLinkedList08:
 <img width="389" height="268" alt="image" src="https://github.com/user-attachments/assets/e250143c-d4ca-4ddc-8596-ea4f8b0d3e66" />
 
 ###
+
+Modifikasi Code Program DoubleLinkedListMain08:
+###
+
+<img width="484" height="504" alt="image" src="https://github.com/user-attachments/assets/48629458-3a9a-423c-927c-855b33ea8afa" />
+
+###
+
+###
+
+<img width="612" height="598" alt="image" src="https://github.com/user-attachments/assets/fc4c2e6f-d95e-49d0-a316-c59220135eb4" />
+
+###
+
+###
+
+<img width="605" height="447" alt="image" src="https://github.com/user-attachments/assets/44491179-b9d5-41bd-b1c7-d87e9b4b4855" />
+
+###
+
+Output:
+###
+
+
