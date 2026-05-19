@@ -1,4 +1,4 @@
-<img width="315" height="386" alt="image" src="https://github.com/user-attachments/assets/0b7a2c52-b5a3-4a18-bf16-a21df2a48a53" /># Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
@@ -164,3 +164,66 @@ Output:
 <img width="555" height="646" alt="image" src="https://github.com/user-attachments/assets/2308ec97-d9d8-458a-948b-ae1346026500" />
 
 ###
+
+## Tugas Praktikum
+
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="541" height="489" alt="image" src="https://github.com/user-attachments/assets/281a61bf-9b03-4397-9000-9338aad01b04" />
+
+###
+
+###
+
+<img width="477" height="537" alt="image" src="https://github.com/user-attachments/assets/af27edf1-80fc-4514-b9fc-bffe3cb9f998" />
+
+###
+
+###
+
+<img width="492" height="448" alt="image" src="https://github.com/user-attachments/assets/67de3329-a92f-4cce-829a-da6f40a32244" />
+
+###
+
+###
+
+<img width="498" height="637" alt="image" src="https://github.com/user-attachments/assets/8ec38668-72fe-40ba-a630-5058e772c46b" />
+
+###
+
+###
+
+<img width="467" height="596" alt="image" src="https://github.com/user-attachments/assets/6c68baa0-732e-47b1-a19d-ed31555add5b" />
+
+###
+
+###
+
+<img width="389" height="268" alt="image" src="https://github.com/user-attachments/assets/e250143c-d4ca-4ddc-8596-ea4f8b0d3e66" />
+
+###
+
+Modifikasi Code Program DoubleLinkedListMain08:
+###
+
+<img width="484" height="504" alt="image" src="https://github.com/user-attachments/assets/48629458-3a9a-423c-927c-855b33ea8afa" />
+
+###
+
+###
+
+<img width="612" height="598" alt="image" src="https://github.com/user-attachments/assets/fc4c2e6f-d95e-49d0-a316-c59220135eb4" />
+
+###
+
+###
+
+<img width="605" height="447" alt="image" src="https://github.com/user-attachments/assets/44491179-b9d5-41bd-b1c7-d87e9b4b4855" />
+
+###
+
+Output:
+###
+
+
