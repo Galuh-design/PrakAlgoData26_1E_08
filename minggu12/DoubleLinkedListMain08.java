@@ -3,7 +3,7 @@ package minggu12;
 import java.util.Scanner;
 
 public class DoubleLinkedListMain08 {
-    
+
     public static Mahasiswa08 inputMahasiswa(Scanner scan) {
         System.out.print("Masukkan NIM   : ");
         String nim = scan.nextLine();
@@ -31,6 +31,13 @@ public class DoubleLinkedListMain08 {
             System.out.println("5. Hapus data di akhir");
             System.out.println("6. Tampilkan data");
             System.out.println("7. Tampilkan data terbalik");
+            System.out.println("8. Tambah data pada indeks tertentu");
+            System.out.println("9. Hapus data setelah NIM tertentu");
+            System.out.println("10. Hapus data pada indeks tertentu");
+            System.out.println("11. Tampilkan data pertama");
+            System.out.println("12. Tampilkan data terakhir");
+            System.out.println("13. Tampilkan data pada indeks tertentu");
+            System.out.println("14. Tampilkan jumlah total data (Size)");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = scan.nextInt();
@@ -63,6 +70,40 @@ public class DoubleLinkedListMain08 {
                     break;
                 case 7:
                     list.printReverse();
+                    break;
+                case 8:
+                    System.out.print("Masukkan indeks posisi penyisipan data: ");
+                    int idxAdd = scan.nextInt();
+                    scan.nextLine();
+                    System.out.println("Masukkan data mahasiswa baru: ");
+                    Mahasiswa08 mhsIndeks = inputMahasiswa(scan);
+                    list.add(idxAdd, mhsIndeks);
+                    break;
+                case 9:
+                    System.out.print("Masukkan NIM acuan: ");
+                    String nimKey = scan.nextLine();
+                    list.removeAfter(nimKey);
+                    break;
+                case 10:
+                    System.out.print("Masukkan indeks data yang ingin dihapus: ");
+                    int idxRemove = scan.nextInt();
+                    scan.nextLine();
+                    list.remove(idxRemove);
+                    break;
+                case 11:
+                    list.getFirst();
+                    break;
+                case 12:
+                    list.getLast();
+                    break;
+                case 13:
+                    System.out.print("Masukkan indeks data yang dicari: ");
+                    int idxGet = scan.nextInt();
+                    scan.nextLine();
+                    list.getIndex(idxGet);
+                    break;
+                case 14:
+                    System.out.println("Jumlah total data saat ini (Size): " + list.getSize());
                     break;
                 case 0:
                     System.out.println("Program selesai.");
