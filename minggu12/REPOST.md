@@ -119,3 +119,48 @@ Output:
 <img width="258" height="492" alt="image" src="https://github.com/user-attachments/assets/f6a40f08-1c45-4a56-993b-c3c3d6f14993" />
 
 ###
+
+## Praktikum 2  Operasi Penghapusan pada Double Linked List
+
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="483" height="465" alt="image" src="https://github.com/user-attachments/assets/48e21865-720a-48ff-91e1-c514330483a1" />
+
+###
+
+Output:
+###
+
+<img width="310" height="393" alt="image" src="https://github.com/user-attachments/assets/3af229f1-393b-48d5-b5b6-c9d2038d1743" />
+
+###
+
+### Pertanyaan Praktikum 2
+1.Perhatikan potongan kode berikut pada method removeFirst():
+
+<img width="169" height="42" alt="image" src="https://github.com/user-attachments/assets/081426f4-847e-4a35-9d85-d4ebdf5bbe51" />
+
+Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
+
+#### Jawab:
+head = head.next; Berfungsi untuk memindahkan pointer head ke node berikutnya, membuat posisi node didepan bergeser menggantikan node awal.
+###
+head.prev = null; Berfungsi untuk memutuskan hubungan pointer prev pada node baru ke node lama yang dihapus. karena head posisi terdepan, maka previous dari head harus null.
+
+2.Modifikasi method removeFirst() dan removeLast() agar program menampilkan data yang berhasil dihapus!
+
+#### Jawab:
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="387" height="575" alt="image" src="https://github.com/user-attachments/assets/907093cc-24df-446e-80d8-dd7106ecf7cf" />
+
+###
+
+Output:
+###
+
+<img width="555" height="646" alt="image" src="https://github.com/user-attachments/assets/2308ec97-d9d8-458a-948b-ae1346026500" />
+
+###
