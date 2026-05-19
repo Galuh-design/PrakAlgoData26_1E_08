@@ -1,4 +1,4 @@
-<img width="315" height="386" alt="image" src="https://github.com/user-attachments/assets/0b7a2c52-b5a3-4a18-bf16-a21df2a48a53" /># Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 Double Linked List
 
 <h4>Nama : Galuh Pramudya Ananta<h4>
 <h4>NIM : 254107020127<h4>
