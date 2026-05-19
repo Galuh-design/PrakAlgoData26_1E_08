@@ -138,7 +138,9 @@ Output:
 
 ### Pertanyaan Praktikum 2
 1.Perhatikan potongan kode berikut pada method removeFirst():
+
 <img width="169" height="42" alt="image" src="https://github.com/user-attachments/assets/081426f4-847e-4a35-9d85-d4ebdf5bbe51" />
+
 Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
 
 #### Jawab:
