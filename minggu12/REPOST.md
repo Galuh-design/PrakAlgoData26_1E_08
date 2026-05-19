@@ -119,3 +119,21 @@ Output:
 <img width="258" height="492" alt="image" src="https://github.com/user-attachments/assets/f6a40f08-1c45-4a56-993b-c3c3d6f14993" />
 
 ###
+
+## Praktikum 2  Operasi Penghapusan pada Double Linked List
+
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="483" height="465" alt="image" src="https://github.com/user-attachments/assets/48e21865-720a-48ff-91e1-c514330483a1" />
+
+###
+
+Output:
+###
+
+<img width="310" height="393" alt="image" src="https://github.com/user-attachments/assets/3af229f1-393b-48d5-b5b6-c9d2038d1743" />
+
+###
+
+### Pertanyaan Praktikum 2
