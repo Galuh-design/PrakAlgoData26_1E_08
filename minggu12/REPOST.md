@@ -137,3 +137,11 @@ Output:
 ###
 
 ### Pertanyaan Praktikum 2
+1.Perhatikan potongan kode berikut pada method removeFirst():
+<img width="169" height="42" alt="image" src="https://github.com/user-attachments/assets/081426f4-847e-4a35-9d85-d4ebdf5bbe51" />
+Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
+
+#### Jawab:
+head = head.next; Berfungsi untuk memindahkan pointer head ke node berikutnya, membuat posisi node didepan bergeser menggantikan node awal.
+###
+head.prev = null; Berfungsi untuk memutuskan hubungan pointer prev pada node baru ke node lama yang dihapus. karena head posisi terdepan, maka previous dari head harus null.
