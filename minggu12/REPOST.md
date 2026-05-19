@@ -147,3 +147,20 @@ Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
 head = head.next; Berfungsi untuk memindahkan pointer head ke node berikutnya, membuat posisi node didepan bergeser menggantikan node awal.
 ###
 head.prev = null; Berfungsi untuk memutuskan hubungan pointer prev pada node baru ke node lama yang dihapus. karena head posisi terdepan, maka previous dari head harus null.
+
+2.Modifikasi method removeFirst() dan removeLast() agar program menampilkan data yang berhasil dihapus!
+
+#### Jawab:
+Modifikasi Code Program DoubleLinkedList08:
+###
+
+<img width="387" height="575" alt="image" src="https://github.com/user-attachments/assets/907093cc-24df-446e-80d8-dd7106ecf7cf" />
+
+###
+
+Output:
+###
+
+<img width="555" height="646" alt="image" src="https://github.com/user-attachments/assets/2308ec97-d9d8-458a-948b-ae1346026500" />
+
+###
