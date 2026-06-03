@@ -60,4 +60,19 @@ Output :
 
 1.Mengapa dalam binary search tree proses pencarian data bisa lebih efektif dilakukan dibanding binary tree biasa?
 #### Jawab:
+
 Binary search tree dibuat untuk mengatasi kelemahan pada binary tree biasa, yaitu kesulitan dalam searching/pencarian node tertentu dalam binary tree. Menggunakan prinsip Divide and Conquer, setiap memeriksa node bila nilainya tidak cocok, mengeliminasi setengah bagian tree lainnya. 
+        
+2.Untuk apakah di class Node, kegunaan dari atribut left dan right?
+#### Jawab:
+
+left: Digunakan untuk menyimpan referensi ke node left child yang berisi data dengan nilai lebih kecil dari node tersebut.
+
+right: Digunakan untuk menyimpan referensi ke node right child yang berisi data dengan nilai lebih besar / sama dengan node tersebut.
+
+3.   a. Untuk apakah kegunaan dari atribut root di dalam class BinaryTree?
+     b. Ketika objek tree pertama kali dibuat, apakah nilai dari root?
+#### Jawab:
+
+
+
