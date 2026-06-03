@@ -70,8 +70,15 @@ left: Digunakan untuk menyimpan referensi ke node left child yang berisi data de
 
 right: Digunakan untuk menyimpan referensi ke node right child yang berisi data dengan nilai lebih besar / sama dengan node tersebut.
 
-3.   a. Untuk apakah kegunaan dari atribut root di dalam class BinaryTree?
-     b. Ketika objek tree pertama kali dibuat, apakah nilai dari root?
+###
+
+3, 
+###
+a. Untuk apakah kegunaan dari atribut root di dalam class BinaryTree?
+###
+
+b. Ketika objek tree pertama kali dibuat, apakah nilai dari root?
+
 #### Jawab:
 
 
