@@ -94,6 +94,20 @@ b, nilai root adalah null, karena saat instansiasi dalam keadaan kosong dan belu
 
 node baru tersebut langsung ditunjuk dan ditetapkan sebagai root pada method add.
 
+5, Perhatikan method add(), di dalamnya terdapat baris program seperti di bawah ini. Jelaskan secara detil untuk apa baris program tersebut?
 
+<img width="410" height="228" alt="image" src="https://github.com/user-attachments/assets/31a1aa7e-4874-4811-9e3a-ab2f9edd9991" />
+
+#### Jawab:
+
+parent = current; 
+###
+
+Menyimpan referensi node current ke dalam variabel parent agar tidak kehilangan jejak calon node parent ketika current bergeser turun ke bawah.
+
+if (mahasiswa.ipk < current.mahasiswa.ipk)
+###
+
+Melakukan pengecekan if nilai IPK dari mahasiswa baru lebih kecil daripada IPK di node current saat ini.
 
 
