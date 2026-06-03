@@ -178,4 +178,13 @@ untuk memasukkan data node array objek secara langsung ke dalam atribut array cl
 #### Jawab:
 untuk menelusuri dan menampilkan informasi data seluruh objek mahasiswa yang tersimpan di dalam binary tree. Urutan penelusuran secara In-Order dari kiri -> root -> kanan dan diproses secara rekursif.
 
+4, Jika suatu node binary tree disimpan dalam array indeks 2, maka di indeks berapakah posisi left child dan right child masing-masing?
+#### Jawab:
+
+<img width="389" height="146" alt="image" src="https://github.com/user-attachments/assets/b4f64991-41fe-48a0-a9d9-cc152c9828d4" />
+
+tersimpan pada index 2 (idxstart == 2)
+###
+left child 2 x 2 + 1 = idx 5 | right child 2 x 2 + 2 = idx 6
+
 
