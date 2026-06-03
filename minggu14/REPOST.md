@@ -122,4 +122,15 @@ else { current = current.right; if (current == null) { parent.right = newNode; r
 ###
 terjadi else jika IPK mahasiswa baru lebih besar atau sama dengan IPK di node current. Pencarian bergeser ke current.right. Jika menemukan posisi yang kosong / null, node baru dipasang sebagai anak kanan dari parent, lalu method return.
 
+6, Jelaskan langkah-langkah pada method delete() saat menghapus sebuah node yang memiliki dua anak. Bagaimana method getSuccessor() membantu dalam proses ini?
+#### Jawab:
+
+a) Mencari node pengganti menggunakan method getSuccessor()
+###
+b) Menghubungkan parent dari node yang dihapus agar mengarah ke node successor
+###
+c) Menghubungkan anak kiri dari node yang dihapus ke anak kiri milik node successor pada syntax successor.left = current.left;
+
+Method getSuccessor() berfungsi untuk mencari pengganti tepat di dalam tree agar sifat urutan Binary search tree tidak rusak setelah penghapusan.
+
 
