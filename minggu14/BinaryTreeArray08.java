@@ -22,4 +22,4 @@ public class BinaryTreeArray08 {
             }
         }
     }
-}//push
+}//pushs
