@@ -159,3 +159,14 @@ Output :
 
 ###
 
+
+### Pertanyaan Praktikum 2
+
+1, Apakah kegunaan dari atribut data dan idxLast yang ada di class BinaryTreeArray?
+#### Jawab:
+
+dataMahasiswa[] berfungsi sebagai media penyimpanan untuk menampung node binary tree.
+###
+
+idxLast berfungsi untuk mencatat indeks posisi node paling terakhir yang terisi di dalam array.
+
