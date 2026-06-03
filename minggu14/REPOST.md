@@ -170,3 +170,12 @@ dataMahasiswa[] berfungsi sebagai media penyimpanan untuk menampung node binary 
 
 idxLast berfungsi untuk mencatat indeks posisi node paling terakhir yang terisi di dalam array.
 
+2, Apakah kegunaan dari method populateData()?
+#### Jawab:
+untuk memasukkan data node array objek secara langsung ke dalam atribut array class BinaryTreeArray08, menentukan batas indeks terakhir (idxLast), mempermudah inisialisasi data binary tree tanpa harus memasukkan satu per satu secara manual lewat operasi insert.
+
+3, Apakah kegunaan dari method traverseInOrder()?
+#### Jawab:
+untuk menelusuri dan menampilkan informasi data seluruh objek mahasiswa yang tersimpan di dalam binary tree. Urutan penelusuran secara In-Order dari kiri -> root -> kanan dan diproses secara rekursif.
+
+
