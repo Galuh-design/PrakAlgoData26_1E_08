@@ -49,10 +49,12 @@ Code program BinaryTreeMain08 :
 Output :
 ###
 
+<img width="472" height="669" alt="image" src="https://github.com/user-attachments/assets/dbeee769-7d94-4c7d-b9bf-cce7cd7ca12b" />
 
+
+<img width="567" height="214" alt="image" src="https://github.com/user-attachments/assets/b091ef10-7667-4c7e-b630-ccdd6d62b35b" />
 
 ###
-
 
 ### Pertanyaan Praktikum 1
 
