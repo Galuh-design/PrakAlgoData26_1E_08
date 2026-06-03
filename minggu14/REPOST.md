@@ -58,5 +58,6 @@ Output :
 
 ### Pertanyaan Praktikum 1
 
-1.Jelaskan perbedaan struktur dan mekanisme traversal antara Single Linked List dan Double Linked List!
+1.Mengapa dalam binary search tree proses pencarian data bisa lebih efektif dilakukan dibanding binary tree biasa?
 #### Jawab:
+Binary search tree dibuat untuk mengatasi kelemahan pada binary tree biasa, yaitu kesulitan dalam searching/pencarian node tertentu dalam binary tree. Menggunakan prinsip Divide and Conquer, setiap memeriksa node bila nilainya tidak cocok, mengeliminasi setengah bagian tree lainnya. 
