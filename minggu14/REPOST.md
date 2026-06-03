@@ -81,5 +81,19 @@ b. Ketika objek tree pertama kali dibuat, apakah nilai dari root?
 
 #### Jawab:
 
+a, Atribut root sebagai titik awal dari seluruh struktur binary tree. Karena struktur tree diakses secara hierarki, diperlukan untuk mengetahui letak root tree terlebih dahulu sebelum bisa melakukan operasi.
+
+###
+
+b, nilai root adalah null, karena saat instansiasi dalam keadaan kosong dan belum memiliki node.
+
+###
+
+4, Ketika tree masih kosong, dan akan ditambahkan sebuah node baru, proses apa yang akan terjadi?
+#### Jawab:
+
+node baru tersebut langsung ditunjuk dan ditetapkan sebagai root pada method add.
+
+
 
 
