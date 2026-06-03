@@ -187,4 +187,13 @@ tersimpan pada index 2 (idxstart == 2)
 ###
 left child 2 x 2 + 1 = idx 5 | right child 2 x 2 + 2 = idx 6
 
+5, Apa kegunaan statement int idxLast = 6 pada praktikum 2 percobaan nomor 4?
+#### Jawab:
+untuk menandai bahwa data mahasiswa terakhir terletak pada indeks ke-6 di dalam array sebagai indikator batas akhir pembacaan tree, sehingga fungsi rekursif tahu kapan harus berhenti memproses data.
+
+6, Mengapa indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan rekursif, dan apa kaitannya dengan struktur pohon biner yang disusun dalam array?
+#### Jawab:
+Indeks 2*idxStart+1 dan 2*idxStart+2 untuk merepresentasikan hierarki binary tree ke dalam array tanpa perlu pointer. 2*idxstart+1 mengarah untuk left child dan 2*idxstart+1 mengara ke right child didalam array.
+
+
 
