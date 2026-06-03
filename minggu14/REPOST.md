@@ -134,3 +134,28 @@ c) Menghubungkan anak kiri dari node yang dihapus ke anak kiri milik node succes
 Method getSuccessor() berfungsi untuk mencari pengganti tepat di dalam tree agar sifat urutan Binary search tree tidak rusak setelah penghapusan.
 
 
+## Praktikum 2  Implementasi Binary Tree dengan Array 
+
+Code program BinaryTreeArray08 :
+###
+
+<img width="664" height="491" alt="image" src="https://github.com/user-attachments/assets/5198a00c-85c5-4d10-b696-9627ef96b3e2" />
+
+
+###
+
+Code program BinaryTreeArrayMain08 :
+###
+
+<img width="848" height="443" alt="image" src="https://github.com/user-attachments/assets/b72c1e0f-7c0b-4f27-a5a9-6641da475d49" />
+
+
+###
+
+Output :
+###
+
+<img width="466" height="258" alt="image" src="https://github.com/user-attachments/assets/e529f20d-edf0-4691-82d1-bc7a6e3783b4" />
+
+###
+
