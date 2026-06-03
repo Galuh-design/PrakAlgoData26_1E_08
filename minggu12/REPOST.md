@@ -239,3 +239,78 @@ Output:
 ###
 
 <img width="184" height="662" alt="image" src="https://github.com/user-attachments/assets/93d44581-6774-4759-a9ea-ec61990bf11a" />
+
+# Laporan Praktikum Algoritma dan Struktur Data : CM02
+Code Program CM02Pembeli08:
+###
+
+<img width="951" height="382" alt="image" src="https://github.com/user-attachments/assets/45160a9e-4e19-4f4d-9179-52f733b39ead" />
+
+###
+
+blueprint untuk objek pembeli
+
+###
+
+Code Program CM02Pesanan08:
+###
+
+<img width="1026" height="399" alt="image" src="https://github.com/user-attachments/assets/301d4dd7-f069-4c4c-b213-42d3cfb448b1" />
+
+###
+
+blueprint untuk objek pesanan
+###
+
+CodeProgram CM02Node08:
+###
+
+<img width="946" height="437" alt="image" src="https://github.com/user-attachments/assets/dbabc9de-2f14-4c52-995c-ebf9dafb966b" />
+
+###
+
+sebagai node, pointer
+
+###
+Code Program CM02DLL08:
+
+###
+
+<img width="717" height="653" alt="image" src="https://github.com/user-attachments/assets/e64b68e0-ceef-43be-9f2f-3dea0faa4e30" />
+
+<img width="643" height="664" alt="image" src="https://github.com/user-attachments/assets/f4afb426-cd3f-4757-8eca-a47b5a03cd32" />
+
+<img width="611" height="536" alt="image" src="https://github.com/user-attachments/assets/0d3cf53f-e999-482d-94cb-d648374d8374" />
+
+###
+
+Class pengoperasian doublelinkedlist
+###
+
+CodeProgram CM02Main08:
+###
+
+<img width="616" height="685" alt="image" src="https://github.com/user-attachments/assets/4c9a368b-8ff0-4936-973a-72d27a97a43a" />
+
+###
+
+class main
+
+###
+
+Output:
+###
+
+<img width="459" height="660" alt="image" src="https://github.com/user-attachments/assets/e08f9e7c-2057-4454-a314-12ab9e44ffa3" />
+
+###
+
+<img width="398" height="606" alt="image" src="https://github.com/user-attachments/assets/984f8aaf-ff29-4e51-afbe-191c61f41f23" />
+
+###
+
+<img width="410" height="658" alt="image" src="https://github.com/user-attachments/assets/4afab54c-43cb-4709-98e7-704a107bcd4c" />
+
+###
+
+<img width="423" height="315" alt="image" src="https://github.com/user-attachments/assets/8bc5f68b-6348-4f7b-936b-eecdfa0d3d05" />
