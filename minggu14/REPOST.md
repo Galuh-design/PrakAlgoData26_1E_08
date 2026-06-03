@@ -110,4 +110,16 @@ if (mahasiswa.ipk < current.mahasiswa.ipk)
 
 Melakukan pengecekan if nilai IPK dari mahasiswa baru lebih kecil daripada IPK di node current saat ini.
 
+current = current.left; 
+###
+Jika lebih kecil, maka pencarian bergeser ke current sebelah kiri.
+
+if (current == null) { parent.left = newNode; return; } 
+###
+Jika setelah bergeser ke kiri menjadi null, tempat peletakan yang tepat ditemukan. newNode dipasang sebagai anak kiri dari parent, lalu method return / dihentikan
+
+else { current = current.right; if (current == null) { parent.right = newNode; return; } } 
+###
+terjadi else jika IPK mahasiswa baru lebih besar atau sama dengan IPK di node current. Pencarian bergeser ke current.right. Jika menemukan posisi yang kosong / null, node baru dipasang sebagai anak kanan dari parent, lalu method return.
+
 
