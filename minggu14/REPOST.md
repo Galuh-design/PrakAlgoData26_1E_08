@@ -240,3 +240,25 @@ Output:
 <img width="563" height="72" alt="image" src="https://github.com/user-attachments/assets/c70d0f02-117c-4fe9-9869-73e9fc09b7e0" />
 
 ###
+
+3, Buat method dalam class BinaryTree00 untuk menampilkan data mahasiswa dengan IPK di atas suatu batas tertentu, misal di atas 3.50 (tampilMahasiswaIPKdiAtas(double ipkBatas)) yang ada di dalam binary search tree.
+#### Jawab:
+
+Modifikasi BinaryTree08:
+###
+
+<img width="634" height="282" alt="image" src="https://github.com/user-attachments/assets/0fa4033a-4a1e-4631-b38b-66030bd0620f" />
+
+###
+Modifikasi BinaryTreeMain08:
+###
+
+<img width="635" height="137" alt="image" src="https://github.com/user-attachments/assets/846f0f05-729b-410c-ad6f-f6237f115bb5" />
+
+###
+Output:
+###
+
+<img width="357" height="194" alt="image" src="https://github.com/user-attachments/assets/68ad1010-0637-49d7-b533-abee6194428d" />
+
+###
