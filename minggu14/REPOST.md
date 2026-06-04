@@ -240,3 +240,55 @@ Output:
 <img width="563" height="72" alt="image" src="https://github.com/user-attachments/assets/c70d0f02-117c-4fe9-9869-73e9fc09b7e0" />
 
 ###
+
+3, Buat method dalam class BinaryTree00 untuk menampilkan data mahasiswa dengan IPK di atas suatu batas tertentu, misal di atas 3.50 (tampilMahasiswaIPKdiAtas(double ipkBatas)) yang ada di dalam binary search tree.
+#### Jawab:
+
+Modifikasi BinaryTree08:
+###
+
+<img width="634" height="282" alt="image" src="https://github.com/user-attachments/assets/0fa4033a-4a1e-4631-b38b-66030bd0620f" />
+
+###
+Modifikasi BinaryTreeMain08:
+###
+
+<img width="635" height="137" alt="image" src="https://github.com/user-attachments/assets/846f0f05-729b-410c-ad6f-f6237f115bb5" />
+
+###
+Output:
+###
+
+<img width="357" height="194" alt="image" src="https://github.com/user-attachments/assets/68ad1010-0637-49d7-b533-abee6194428d" />
+
+###
+
+4. Modifikasi class BinaryTreeArray00 di atas, dan tambahkan :
+• method add(Mahasiswa data) untuk memasukkan data ke dalam binary tree
+• method traversePreOrder()
+
+#### Jawab:
+Modifikasi BinaryTreeArray08:
+###
+
+<img width="523" height="126" alt="image" src="https://github.com/user-attachments/assets/e0c388a9-1f3e-4d17-aba4-418dc7f25b8c" />
+
+###
+
+<img width="517" height="581" alt="image" src="https://github.com/user-attachments/assets/27a4e212-eeab-4d93-bde9-c3861a755c0b" />
+
+###
+
+Modifikasi BinaryTreeArrayMain08:
+###
+
+<img width="951" height="657" alt="image" src="https://github.com/user-attachments/assets/fd445f45-2c7e-4ae8-9c73-d34045bfadbc" />
+
+###
+
+Output:
+###
+
+<img width="431" height="419" alt="image" src="https://github.com/user-attachments/assets/f8ace8e3-58fb-440a-a40f-6b0da3184e73" />
+
+###
