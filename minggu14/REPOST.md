@@ -195,5 +195,26 @@ untuk menandai bahwa data mahasiswa terakhir terletak pada indeks ke-6 di dalam 
 #### Jawab:
 Indeks 2*idxStart+1 dan 2*idxStart+2 untuk merepresentasikan hierarki binary tree ke dalam array tanpa perlu pointer. 2*idxstart+1 mengarah untuk left child dan 2*idxstart+1 mengara ke right child didalam array.
 
+### Tugas Praktikum
 
+1. Buat method di dalam class BinaryTree00 yang akan menambahkan node dengan cara rekursif (addRekursif()).
+#### Jawab:
 
+Modifikasi BinaryTree08:
+###
+
+<img width="856" height="204" alt="image" src="https://github.com/user-attachments/assets/dd2b7ed0-cd89-441d-bd1e-22ee23b7c341" />
+
+###
+Modifikasi BinaryTreeMain08:
+###
+
+<img width="781" height="185" alt="image" src="https://github.com/user-attachments/assets/225e877e-c70b-49ad-9a37-2c77995f9611" />
+
+###
+Output:
+###
+
+<img width="517" height="296" alt="image" src="https://github.com/user-attachments/assets/b963677d-0255-45c4-aa8e-cffe50141599" />
+
+###
