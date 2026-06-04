@@ -40,5 +40,12 @@ public class BinaryTreeMain08 {
 
         System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa (in order traversal): ");
         bst.traverseInOrder(bst.root);
+        //1.tugas untuk menambahkan node dengan cara rekursif
+        bst.addRekursif(new Mahasiswa08("244160001", "JoniRekursif", "A", 3.90));
+        bst.addRekursif(new Mahasiswa08("244160702", "NasgorRekursif", "B", 3.10));
+        bst.addRekursif(new Mahasiswa08("244166703", "EvanRekursif", "C", 4.0));
+
+        System.out.println("Daftar mahasiswa setelah ditambahkan secara rekursif (InOrder):");
+        bst.traverseInOrder(bst.root);
     }
 }

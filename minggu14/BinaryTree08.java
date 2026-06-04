@@ -1,4 +1,5 @@
 package minggu14;
+
 public class BinaryTree08 {
     Node08 root;
 
@@ -160,5 +161,21 @@ public class BinaryTree08 {
                 successor.left = current.left;
             }
         }
+    }
+
+    public void addRekursif(Mahasiswa08 mahasiswa) {
+        root = addRekursif(root, mahasiswa);
+    }
+
+    Node08 addRekursif(Node08 current, Mahasiswa08 mahasiswa) { //1. method addrekursif menambahkan node dengan cara rekursif
+        if (current == null) {
+            return new Node08(mahasiswa);
+        }
+        if (mahasiswa.ipk < current.mahasiswa.ipk) {
+            current.left = addRekursif(current.left, mahasiswa);
+        } else if (mahasiswa.ipk > current.mahasiswa.ipk) {
+            current.right = addRekursif(current.right, mahasiswa);
+        }
+        return current;
     }
 }
