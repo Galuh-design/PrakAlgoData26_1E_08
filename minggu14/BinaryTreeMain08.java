@@ -47,5 +47,10 @@ public class BinaryTreeMain08 {
 
         System.out.println("Daftar mahasiswa setelah ditambahkan secara rekursif (InOrder):");
         bst.traverseInOrder(bst.root);
+
+        //tugas 2, cari ipk terkecil / besar
+        System.out.println("\n--- Mencari IPK terkecil | terbesar ---");
+        bst.cariMinIPK();
+        bst.cariMaxIPK();
     }
 }

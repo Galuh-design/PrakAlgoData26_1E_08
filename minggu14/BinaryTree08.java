@@ -167,7 +167,8 @@ public class BinaryTree08 {
         root = addRekursif(root, mahasiswa);
     }
 
-    Node08 addRekursif(Node08 current, Mahasiswa08 mahasiswa) { //1. method addrekursif menambahkan node dengan cara rekursif
+    Node08 addRekursif(Node08 current, Mahasiswa08 mahasiswa) { // 1. method addrekursif menambahkan node dengan cara
+                                                                // rekursif
         if (current == null) {
             return new Node08(mahasiswa);
         }
@@ -177,5 +178,31 @@ public class BinaryTree08 {
             current.right = addRekursif(current.right, mahasiswa);
         }
         return current;
+    }
+    //tugas 2, membuat method cariipk
+    public void cariMinIPK() {//cariminIPK
+        if (isEmpty()) {
+            System.out.println("Tree kosong.");
+            return;
+        }
+        Node08 current = root;
+        while (current.left != null) {
+            current = current.left;
+        }
+        System.out.print("Mahasiswa dengan IPK Terkecil = ");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void cariMaxIPK() {
+        if (isEmpty()) {//carimaxIPK
+            System.out.println("Tree kosong.");
+            return;
+        }
+        Node08 current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        System.out.print("Mahasiswa dengan IPK Terbesar = ");
+        current.mahasiswa.tampilInformasi();
     }
 }
