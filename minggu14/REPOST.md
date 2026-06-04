@@ -197,7 +197,7 @@ Indeks 2*idxStart+1 dan 2*idxStart+2 untuk merepresentasikan hierarki binary tre
 
 ### Tugas Praktikum
 
-1. Buat method di dalam class BinaryTree00 yang akan menambahkan node dengan cara rekursif (addRekursif()).
+1, Buat method di dalam class BinaryTree00 yang akan menambahkan node dengan cara rekursif (addRekursif()).
 #### Jawab:
 
 Modifikasi BinaryTree08:
@@ -216,5 +216,27 @@ Output:
 ###
 
 <img width="517" height="296" alt="image" src="https://github.com/user-attachments/assets/b963677d-0255-45c4-aa8e-cffe50141599" />
+
+###
+
+2, Buat method di dalam class BinaryTree00 untuk menampilkan data mahasiswa dengan IPK paling kecil dan IPK yang paling besar (cariMinIPK() dan cariMaxIPK()) yang ada di dalam binary search tree.
+#### Jawab:
+
+Modifikasi BinaryTree08:
+###
+
+<img width="483" height="480" alt="image" src="https://github.com/user-attachments/assets/e930df40-9c99-43eb-8b4d-62719d020e68" />
+
+###
+Modifikasi BinaryTreeMain08:
+###
+
+<img width="767" height="259" alt="image" src="https://github.com/user-attachments/assets/e4f68973-1c84-4600-b3fe-9c9581f1c5a3" />
+
+###
+Output:
+###
+
+<img width="563" height="72" alt="image" src="https://github.com/user-attachments/assets/c70d0f02-117c-4fe9-9869-73e9fc09b7e0" />
 
 ###
