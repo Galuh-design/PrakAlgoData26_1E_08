@@ -205,4 +205,19 @@ public class BinaryTree08 {
         System.out.print("Mahasiswa dengan IPK Terbesar = ");
         current.mahasiswa.tampilInformasi();
     }
+    //tugas 3 mencari ipk berdasarkan kata kunci
+    public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        System.out.println("Daftar Mahasiswa dengan IPK di atas " + ipkBatas + ":");
+        tampilIPKdiAtas(root, ipkBatas);
+    }
+
+    public void tampilIPKdiAtas(Node08 node, double ipkBatas) {
+        if (node != null) {
+            tampilIPKdiAtas(node.left, ipkBatas);
+            if (node.mahasiswa.ipk > ipkBatas) {
+                node.mahasiswa.tampilInformasi();
+            }
+            tampilIPKdiAtas(node.right, ipkBatas);
+        }
+    }
 }

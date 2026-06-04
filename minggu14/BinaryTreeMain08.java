@@ -52,5 +52,9 @@ public class BinaryTreeMain08 {
         System.out.println("\n--- Mencari IPK terkecil | terbesar ---");
         bst.cariMinIPK();
         bst.cariMaxIPK();
+        //tugas3 cari berdasarkan kata kunci diatas 
+        System.out.println("\n--- tampil Mahasiswa dengan IPK diatas (key..) ---");
+        bst.tampilMahasiswaIPKdiAtas(3.50);
+        bst.tampilMahasiswaIPKdiAtas(3.80);
     }
 }
