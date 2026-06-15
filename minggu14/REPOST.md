@@ -263,8 +263,11 @@ Output:
 
 ###
 
-4. Modifikasi class BinaryTreeArray00 di atas, dan tambahkan :
+4, Modifikasi class BinaryTreeArray00 di atas, dan tambahkan :
+###
 • method add(Mahasiswa data) untuk memasukkan data ke dalam binary tree
+
+###
 • method traversePreOrder()
 
 #### Jawab:
