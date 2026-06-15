@@ -11,14 +11,14 @@
 Code program Mahasiswa08 :
 ###
 
-<img width="873" height="452" alt="image" src="https://github.com/user-attachments/assets/d5100c5a-f51a-4de6-be51-2480b6c51576" />
+<img width="764" height="678" alt="image" src="https://github.com/user-attachments/assets/3711eb28-675f-4cb1-befe-d15754af6a77" />
 
 ###
 
 Output :
 ###
 
-
+<img width="460" height="222" alt="image" src="https://github.com/user-attachments/assets/817fd28b-99a8-4d1c-b4e0-2affbe4b755a" />
 
 ###
 
