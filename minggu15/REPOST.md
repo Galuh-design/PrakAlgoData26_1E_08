@@ -100,3 +100,63 @@ Output :
 <img width="416" height="159" alt="image" src="https://github.com/user-attachments/assets/438981e1-e237-4213-8860-e526857d0a7b" />
 
 ###
+
+### Pertanyaan Praktikum 2
+
+1, Apakah perbedaan fungsi push() dan add() pada objek fruits?
+#### Jawab:
+push() method Stack yang digunakan untuk memasukkan elemen ke posisi top. Method return nilai elemen yang dimasukkan.  
+add() menyisipkan elemen ke top Stack , return boolean 
+
+2, Silakan hilangkan baris 43 dan 44, apakah yang akan terjadi? Mengapa bisa demikian?
+#### Jawab:
+###
+
+<img width="682" height="652" alt="image" src="https://github.com/user-attachments/assets/b26b4f27-a3d8-4a3e-9c59-010344c73000" />
+<img width="301" height="88" alt="image" src="https://github.com/user-attachments/assets/7c356f15-fb55-44f1-8662-5fbe8d61ef50" />
+
+###
+
+(fruits.push("Melon"); dan fruits.push("Durian");) dihilangkan. 
+perulangan Iterator, Stream, dan For-loop tidak akan kosong dikarenakan kode sebelumnya terdapat proses while (!fruits.empty()) { fruits.pop(); } yang mengeluarkan dan menghapus seluruh elemen di dalam objek fruits hingga kosong total.
+
+
+3, Jelaskan fungsi dari baris 46-49?
+#### Jawab:
+
+(for (Iterator<String> it = fruits.iterator(); it.hasNext();)) 
+###
+
+berfungsi untuk melakukan traversal perulangan untuk menampilkan seluruh elemen di dalam fruits menggunakan objek Iterator. Method hasNext() cek apakah masih ada elemen selanjutnya , dan it.next() mengambil nilai elemen tersebut untuk dicetak
+
+4, Silakan ganti baris kode 25, Stack String menjadi List String dan apakah yang terjadi? Mengapa bisa demikian?
+#### Jawab:
+
+<img width="571" height="687" alt="image" src="https://github.com/user-attachments/assets/ac109c3d-1161-458c-8097-2c0b1986a631" />
+
+###
+
+error kompilasi pada program. Arraylist List tidak memiliki method push(), empty(), dan pop().
+
+5, Ganti elemen terakhir dari dari objek fruits menjadi “Strawberry”!
+#### Jawab:
+
+<img width="422" height="308" alt="image" src="https://github.com/user-attachments/assets/2530d556-3a08-468b-b73a-b3efa87d404f" />
+<img width="361" height="227" alt="image" src="https://github.com/user-attachments/assets/b2868ee8-a488-4b2a-982d-d0f2fc4041a9" />
+
+###
+
+6, Tambahkan 3 buah seperti “Mango”,”guava”, dan “avocado” kemudian dilakukan sorting!
+#### jawab:
+
+<img width="433" height="467" alt="image" src="https://github.com/user-attachments/assets/9b994a88-03b1-43a7-bad5-5b4046c8079a" />
+<img width="346" height="125" alt="image" src="https://github.com/user-attachments/assets/58a08e5b-3b75-4e74-bf17-4abb32a44456" />
+
+###
+
+###
+Output tanpa sort
+
+<img width="245" height="94" alt="image" src="https://github.com/user-attachments/assets/cd5b398d-5615-4460-905c-953a16d2c16a" />
+
+###
