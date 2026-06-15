@@ -8,7 +8,7 @@
 
 ## Praktikum 1  
 
-Code program Mahasiswa08 :
+Code program ContohList08 :
 ###
 
 <img width="764" height="678" alt="image" src="https://github.com/user-attachments/assets/3711eb28-675f-4cb1-befe-d15754af6a77" />
@@ -24,6 +24,18 @@ Output :
 
 ### Pertanyaan Praktikum 1
 
-1.Mengapa dalam binary search tree proses pencarian data bisa lebih efektif dilakukan dibanding binary tree biasa?
+1, Perhatikan baris kode 25-36, mengapa semua jenis data bisa ditampung ke dalam sebuah Arraylist?
 #### Jawab:
 
+karena instansiasi objek l pada kode List l = new ArrayList(); tidak mendefinisikan tipe data
+
+
+2, Modifikasi baris kode 25-36 seingga data yang ditampung hanya satu jenis atau spesifik tipe tertentu!
+#### Jawab:
+
+#### modifikasi ContohList08
+<img width="739" height="388" alt="image" src="https://github.com/user-attachments/assets/2dbdd472-745c-4f60-93b9-9cff4c4f0ea3" />
+
+
+3, Modifikasi baris kode 25-36 seingga data yang ditampung hanya satu jenis atau spesifik tipe tertentu!
+#### Jawab:
