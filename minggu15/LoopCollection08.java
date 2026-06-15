@@ -1,5 +1,6 @@
 package minggu15;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Stack;
 
@@ -24,6 +25,14 @@ public class LoopCollection08 {
 
         fruits.push("Melon");
         fruits.push("Durian");
+
+        fruits.set(fruits.size() - 1, "Strawberry");
+
+        fruits.add("Mango");
+        fruits.add("guava");
+        fruits.add("avocado");
+
+        Collections.sort(fruits);
 
         System.out.println("");
         for (Iterator<String> it = fruits.iterator(); it.hasNext();) {
