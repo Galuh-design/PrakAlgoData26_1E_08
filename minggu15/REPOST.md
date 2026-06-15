@@ -129,7 +129,7 @@ perulangan Iterator, Stream, dan For-loop tidak akan kosong dikarenakan kode seb
 
 berfungsi untuk melakukan traversal perulangan untuk menampilkan seluruh elemen di dalam fruits menggunakan objek Iterator. Method hasNext() cek apakah masih ada elemen selanjutnya , dan it.next() mengambil nilai elemen tersebut untuk dicetak
 
-4, Silakan ganti baris kode 25, Stack<String> menjadi List<String> dan apakah yang terjadi? Mengapa bisa demikian?
+4, Silakan ganti baris kode 25, Stack <String> menjadi List <String> dan apakah yang terjadi? Mengapa bisa demikian?
 #### Jawab:
 
 <img width="571" height="687" alt="image" src="https://github.com/user-attachments/assets/ac109c3d-1161-458c-8097-2c0b1986a631" />
