@@ -120,3 +120,20 @@ add() menyisipkan elemen ke top Stack , return boolean
 (fruits.push("Melon"); dan fruits.push("Durian");) dihilangkan. 
 perulangan Iterator, Stream, dan For-loop tidak akan kosong dikarenakan kode sebelumnya terdapat proses while (!fruits.empty()) { fruits.pop(); } yang mengeluarkan dan menghapus seluruh elemen di dalam objek fruits hingga kosong total.
 
+
+3, Jelaskan fungsi dari baris 46-49?
+#### Jawab:
+
+(for (Iterator<String> it = fruits.iterator(); it.hasNext();)) 
+###
+
+berfungsi untuk melakukan traversal perulangan untuk menampilkan seluruh elemen di dalam fruits menggunakan objek Iterator. Method hasNext() cek apakah masih ada elemen selanjutnya , dan it.next() mengambil nilai elemen tersebut untuk dicetak
+
+4, Silakan ganti baris kode 25, Stack<String> menjadi List<String> dan apakah yang terjadi? Mengapa bisa demikian?
+#### Jawab:
+
+<img width="571" height="687" alt="image" src="https://github.com/user-attachments/assets/ac109c3d-1161-458c-8097-2c0b1986a631" />
+
+###
+
+error kompilasi pada program. Arraylist List tidak memiliki method push(), empty(), dan pop().
