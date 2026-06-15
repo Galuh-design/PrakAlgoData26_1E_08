@@ -100,3 +100,23 @@ Output :
 <img width="416" height="159" alt="image" src="https://github.com/user-attachments/assets/438981e1-e237-4213-8860-e526857d0a7b" />
 
 ###
+
+### Pertanyaan Praktikum 2
+
+1, Apakah perbedaan fungsi push() dan add() pada objek fruits?
+#### Jawab:
+push() method Stack yang digunakan untuk memasukkan elemen ke posisi top. Method return nilai elemen yang dimasukkan.  
+add() menyisipkan elemen ke top Stack , return boolean 
+
+2, Silakan hilangkan baris 43 dan 44, apakah yang akan terjadi? Mengapa bisa demikian?
+#### Jawab:
+###
+
+<img width="682" height="652" alt="image" src="https://github.com/user-attachments/assets/b26b4f27-a3d8-4a3e-9c59-010344c73000" />
+<img width="301" height="88" alt="image" src="https://github.com/user-attachments/assets/7c356f15-fb55-44f1-8662-5fbe8d61ef50" />
+
+###
+
+(fruits.push("Melon"); dan fruits.push("Durian");) dihilangkan. 
+perulangan Iterator, Stream, dan For-loop tidak akan kosong dikarenakan kode sebelumnya terdapat proses while (!fruits.empty()) { fruits.pop(); } yang mengeluarkan dan menghapus seluruh elemen di dalam objek fruits hingga kosong total.
+
