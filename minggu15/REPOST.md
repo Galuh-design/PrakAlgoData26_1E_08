@@ -84,3 +84,19 @@ Output:
 
 Fungsi push() adalah operasi Stack. 
 Ketika names.push("Mei-mei") dipanggil, elemen "Mei-mei" akan dimasukkan ke indeks ke-0 dan menjadi head. saat names.getFirst() dipanggil, elemen yang keluar adalah "Mei-mei".
+
+## Praktikum 2
+
+Code program LoopCollection08 :
+###
+
+<img width="522" height="681" alt="image" src="https://github.com/user-attachments/assets/e4f10b4c-6011-4a48-b532-c993ba800216" />
+
+###
+
+Output :
+###
+
+<img width="416" height="159" alt="image" src="https://github.com/user-attachments/assets/438981e1-e237-4213-8860-e526857d0a7b" />
+
+###
