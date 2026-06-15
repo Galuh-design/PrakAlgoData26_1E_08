@@ -79,4 +79,8 @@ Output:
 
 ###
 
+5, Dari penambahan kode tersebut, silakan dijalankan dan apakah yang dapat Anda jelaskan!
+#### Jawab:
 
+Fungsi push() adalah operasi Stack. 
+Ketika names.push("Mei-mei") dipanggil, elemen "Mei-mei" akan dimasukkan ke indeks ke-0 dan menjadi head. saat names.getFirst() dipanggil, elemen yang keluar adalah "Mei-mei".
