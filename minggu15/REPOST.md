@@ -137,3 +137,26 @@ berfungsi untuk melakukan traversal perulangan untuk menampilkan seluruh elemen 
 ###
 
 error kompilasi pada program. Arraylist List tidak memiliki method push(), empty(), dan pop().
+
+5, Ganti elemen terakhir dari dari objek fruits menjadi “Strawberry”!
+#### Jawab:
+
+<img width="422" height="308" alt="image" src="https://github.com/user-attachments/assets/2530d556-3a08-468b-b73a-b3efa87d404f" />
+<img width="361" height="227" alt="image" src="https://github.com/user-attachments/assets/b2868ee8-a488-4b2a-982d-d0f2fc4041a9" />
+
+###
+
+6, Tambahkan 3 buah seperti “Mango”,”guava”, dan “avocado” kemudian dilakukan sorting!
+#### jawab:
+
+<img width="433" height="467" alt="image" src="https://github.com/user-attachments/assets/9b994a88-03b1-43a7-bad5-5b4046c8079a" />
+<img width="346" height="125" alt="image" src="https://github.com/user-attachments/assets/58a08e5b-3b75-4e74-bf17-4abb32a44456" />
+
+###
+
+###
+Output tanpa sort
+
+<img width="245" height="94" alt="image" src="https://github.com/user-attachments/assets/cd5b398d-5615-4460-905c-953a16d2c16a" />
+
+###
