@@ -36,6 +36,12 @@ karena instansiasi objek l pada kode List l = new ArrayList(); tidak mendefinisi
 #### modifikasi ContohList08
 <img width="739" height="388" alt="image" src="https://github.com/user-attachments/assets/2dbdd472-745c-4f60-93b9-9cff4c4f0ea3" />
 
+Output:
+###
+
+<img width="459" height="185" alt="image" src="https://github.com/user-attachments/assets/c4f32a7b-f22e-4abf-858e-3e18db9bc38d" />
+
+###
 
 3, Modifikasi baris kode 25-36 seingga data yang ditampung hanya satu jenis atau spesifik tipe tertentu!
 #### Jawab:
