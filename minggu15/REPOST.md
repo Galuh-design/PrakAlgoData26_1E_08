@@ -43,5 +43,40 @@ Output:
 
 ###
 
-3, Modifikasi baris kode 25-36 seingga data yang ditampung hanya satu jenis atau spesifik tipe tertentu!
+3, Ubah kode pada baris kode 38 menjadi seperti ini
+
+<img width="405" height="39" alt="image" src="https://github.com/user-attachments/assets/ec9758df-9c44-4ce7-bda9-b0d00e293a22" />
+
 #### Jawab:
+
+#### modifikasi ContohList08
+<img width="432" height="77" alt="image" src="https://github.com/user-attachments/assets/00e2810e-533a-4b0e-bfb9-c12a3c3154f9" />
+
+Output:
+###
+
+<img width="452" height="128" alt="image" src="https://github.com/user-attachments/assets/9b4217da-1ff3-42f2-803d-48684b2f28d5" />
+
+
+###
+
+4, Tambahkan juga baris berikut ini, untuk memberikan perbedaan dari tampilan yang sebelumnya
+
+<img width="610" height="83" alt="image" src="https://github.com/user-attachments/assets/e4176e06-0140-48ce-9d5e-ff2d9aac91ba" />
+
+#### Jawab:
+
+#### modifikasi ContohList08
+<img width="672" height="196" alt="image" src="https://github.com/user-attachments/assets/ff50d920-c963-4995-82f6-8090f5230726" />
+
+
+Output:
+###
+
+<img width="546" height="154" alt="image" src="https://github.com/user-attachments/assets/d21f94a0-cb33-4256-a06e-f436ed6678d6" />
+
+
+
+###
+
+
