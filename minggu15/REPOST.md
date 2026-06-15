@@ -1,0 +1,86 @@
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 16 Collection
+
+<h4>Nama : Galuh Pramudya Ananta<h4>
+<h4>NIM : 254107020127<h4>
+<h4>Kelas : TI-1E<h4>
+
+
+
+## Praktikum 1  
+
+Code program ContohList08 :
+###
+
+<img width="764" height="678" alt="image" src="https://github.com/user-attachments/assets/3711eb28-675f-4cb1-befe-d15754af6a77" />
+
+###
+
+Output :
+###
+
+<img width="460" height="222" alt="image" src="https://github.com/user-attachments/assets/817fd28b-99a8-4d1c-b4e0-2affbe4b755a" />
+
+###
+
+### Pertanyaan Praktikum 1
+
+1, Perhatikan baris kode 25-36, mengapa semua jenis data bisa ditampung ke dalam sebuah Arraylist?
+#### Jawab:
+
+karena instansiasi objek l pada kode List l = new ArrayList(); tidak mendefinisikan tipe data
+
+
+2, Modifikasi baris kode 25-36 seingga data yang ditampung hanya satu jenis atau spesifik tipe tertentu!
+#### Jawab:
+
+#### modifikasi ContohList08
+<img width="739" height="388" alt="image" src="https://github.com/user-attachments/assets/2dbdd472-745c-4f60-93b9-9cff4c4f0ea3" />
+
+Output:
+###
+
+<img width="459" height="185" alt="image" src="https://github.com/user-attachments/assets/c4f32a7b-f22e-4abf-858e-3e18db9bc38d" />
+
+###
+
+3, Ubah kode pada baris kode 38 menjadi seperti ini
+
+<img width="405" height="39" alt="image" src="https://github.com/user-attachments/assets/ec9758df-9c44-4ce7-bda9-b0d00e293a22" />
+
+#### Jawab:
+
+#### modifikasi ContohList08
+<img width="432" height="77" alt="image" src="https://github.com/user-attachments/assets/00e2810e-533a-4b0e-bfb9-c12a3c3154f9" />
+
+Output:
+###
+
+<img width="452" height="128" alt="image" src="https://github.com/user-attachments/assets/9b4217da-1ff3-42f2-803d-48684b2f28d5" />
+
+
+###
+
+4, Tambahkan juga baris berikut ini, untuk memberikan perbedaan dari tampilan yang sebelumnya
+
+<img width="610" height="83" alt="image" src="https://github.com/user-attachments/assets/e4176e06-0140-48ce-9d5e-ff2d9aac91ba" />
+
+#### Jawab:
+
+#### modifikasi ContohList08
+<img width="672" height="196" alt="image" src="https://github.com/user-attachments/assets/ff50d920-c963-4995-82f6-8090f5230726" />
+
+
+Output:
+###
+
+<img width="546" height="154" alt="image" src="https://github.com/user-attachments/assets/d21f94a0-cb33-4256-a06e-f436ed6678d6" />
+
+
+
+###
+
+5, Dari penambahan kode tersebut, silakan dijalankan dan apakah yang dapat Anda jelaskan!
+#### Jawab:
+
+Fungsi push() adalah operasi Stack. 
+Ketika names.push("Mei-mei") dipanggil, elemen "Mei-mei" akan dimasukkan ke indeks ke-0 dan menjadi head. saat names.getFirst() dipanggil, elemen yang keluar adalah "Mei-mei".
