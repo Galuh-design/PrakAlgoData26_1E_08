@@ -197,3 +197,20 @@ konsep Varargs, ditandai dengan sintaks (...) setelah tipe data parameter. Keleb
 
 2, Pada fungsi linearSearch() di atas, silakan diganti dengan fungsi binarySearch() dari collection!
 #### Jawab:
+
+Modifikasi Code Program ListMahasiswa08 :
+
+###
+
+<img width="718" height="547" alt="image" src="https://github.com/user-attachments/assets/cb7ed298-2f9f-40ce-b670-9ddbc2af1f39" />
+
+###
+
+Output:
+
+###
+
+<img width="360" height="206" alt="image" src="https://github.com/user-attachments/assets/4f26b389-181f-48c3-99cd-55a2d6b06e80" />
+
+###
+
