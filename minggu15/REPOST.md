@@ -186,3 +186,14 @@ Output:
 <img width="369" height="190" alt="image" src="https://github.com/user-attachments/assets/f540e6d9-9aa4-4c08-a5ee-a28a9a94bcce" />
 
 ###
+
+### Pertanyaan Praktikum 3
+
+1, Pada fungsi tambah() yang menggunakan unlimited argument itu menggunakan konsep apa? Dan kelebihannya apa?
+#### Jawab:
+
+konsep Varargs, ditandai dengan sintaks (...) setelah tipe data parameter. Kelebihan dapat memasukkan data seluruh mahasiswa sekaligus daripada memasukkannnya satu persatu.
+
+
+2, Pada fungsi linearSearch() di atas, silakan diganti dengan fungsi binarySearch() dari collection!
+#### Jawab:
