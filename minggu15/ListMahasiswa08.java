@@ -3,11 +3,12 @@ package minggu15;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class ListMahasiswa08 {
     List<Mahasiswa08> mahasiswas = new ArrayList<>();
 
-  
     public void tambah(Mahasiswa08... mahasiswa) {
         mahasiswas.addAll(Arrays.asList(mahasiswa));
     }
@@ -34,13 +35,31 @@ public class ListMahasiswa08 {
         });
     }
 
-    int linearSearch(String nim) {
-        for (int i = 0; i < mahasiswas.size(); i++) {
-            if (nim.equals(mahasiswas.get(i).nim)) {
-                return i;
+    int binarySearch(String nim) {
+
+        Collections.sort(mahasiswas, new Comparator<Mahasiswa08>() {
+            @Override
+            public int compare(Mahasiswa08 m1, Mahasiswa08 m2) {
+                return m1.nim.compareTo(m2.nim);
             }
-        }
-        return -1;
+        });
+
+        Mahasiswa08 dummy = new Mahasiswa08(nim, "", "");
+
+        return Collections.binarySearch(mahasiswas, dummy, new Comparator<Mahasiswa08>() {
+            @Override
+            public int compare(Mahasiswa08 m1, Mahasiswa08 m2) {
+                return m1.nim.compareTo(m2.nim);
+            }
+        });
+    }
+
+    public void sortByNimAsc() {
+        Collections.sort(mahasiswas, (m1, m2) -> m1.nim.compareTo(m2.nim));
+    }
+
+    public void sortByNimDesc() {
+        Collections.sort(mahasiswas, (m1, m2) -> m2.nim.compareTo(m1.nim));
     }
 
     public static void main(String[] args) {
@@ -49,14 +68,22 @@ public class ListMahasiswa08 {
         Mahasiswa08 m1 = new Mahasiswa08("201235", "Akhleema", "021xx2");
         Mahasiswa08 m2 = new Mahasiswa08("201236", "Shannum", "021xx3");
 
-    
         lm.tambah(m, m1, m2);
         lm.tampil();
 
-        int index = lm.linearSearch("201235");
+        int index = lm.binarySearch("201236");
+        System.out.println("indexbinary=" + index);
         lm.update(index, new Mahasiswa08("201235", "Akhleema Lela", "021xx2"));
- 
+
         System.out.println("");
+        lm.tampil();
+
+        System.out.println("Sort ASC");
+        lm.sortByNimAsc();
+        lm.tampil();
+
+         System.out.println("Sort DSC");
+        lm.sortByNimDesc();
         lm.tampil();
     }
 }
