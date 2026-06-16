@@ -233,3 +233,47 @@ Output:
 
 
 ###
+
+
+## Tugas
+
+Code Program tugasMHS08:
+###
+
+<img width="571" height="346" alt="image" src="https://github.com/user-attachments/assets/a5e86540-9c9e-4d4d-bfd9-ff0a8858a05a" />
+
+###
+
+Code Program Matakuliah08:
+###
+
+<img width="920" height="386" alt="image" src="https://github.com/user-attachments/assets/7c03a8c3-84d3-460c-b9c1-1b01d4decc7d" />
+
+###
+
+Code Program Nilai08:
+###
+
+<img width="796" height="347" alt="image" src="https://github.com/user-attachments/assets/c8a5549e-552e-4a6e-bc23-8a55480e13fc" />
+
+###
+
+Code Program SistemMain08:
+
+###
+
+<img width="582" height="692" alt="image" src="https://github.com/user-attachments/assets/28259c0b-c046-4e3e-bee0-d2809396ee92" />
+<img width="604" height="613" alt="image" src="https://github.com/user-attachments/assets/a7757b50-b17c-450d-ac34-97b8ac8325f1" />
+<img width="665" height="595" alt="image" src="https://github.com/user-attachments/assets/f903aca6-a691-4d8a-bff7-1f881a8d46bc" />
+<img width="662" height="383" alt="image" src="https://github.com/user-attachments/assets/d2629bf4-c424-4347-80de-bf8ca62d062f" />
+
+###
+
+Output:
+###
+
+<img width="442" height="600" alt="image" src="https://github.com/user-attachments/assets/83519e3a-a08c-4754-9b04-b358448af305" />
+<img width="558" height="579" alt="image" src="https://github.com/user-attachments/assets/861ccf1b-c34a-4e69-b4b9-75cab2ffcfeb" />
+<img width="516" height="297" alt="image" src="https://github.com/user-attachments/assets/0b5b1ae6-e94a-46a6-9287-596a085208fc" />
+
+
