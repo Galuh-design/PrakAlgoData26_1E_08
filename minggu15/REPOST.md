@@ -214,3 +214,22 @@ Output:
 
 ###
 
+3, Tambahkan fungsi sorting baik secara ascending ataupun descending pada class tersebut!
+#### Jawab:
+
+Modifikasi Code Program ListMahasiswa08 :
+
+###
+
+<img width="656" height="486" alt="image" src="https://github.com/user-attachments/assets/ae32f920-c956-4f31-a9e2-c5f70b74781e" />
+
+###
+
+Output:
+
+###
+
+<img width="384" height="260" alt="image" src="https://github.com/user-attachments/assets/96f1f676-fbe3-445f-9efd-0d9b2a4d966e" />
+
+
+###
