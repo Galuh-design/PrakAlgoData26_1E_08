@@ -160,3 +160,29 @@ Output tanpa sort
 <img width="245" height="94" alt="image" src="https://github.com/user-attachments/assets/cd5b398d-5615-4460-905c-953a16d2c16a" />
 
 ###
+
+## Praktikum 3
+
+Code Program Mahasiswa08:
+
+###
+
+<img width="841" height="502" alt="image" src="https://github.com/user-attachments/assets/0d946b6d-09e0-4061-83c6-391631a240a0" />
+
+###
+
+Code Program ListMahasiswa08 :
+
+###
+
+<img width="484" height="650" alt="image" src="https://github.com/user-attachments/assets/6004c5da-8242-4907-ab6a-4f8ac858b8f4" />
+
+###
+
+Output:
+
+###
+
+<img width="369" height="190" alt="image" src="https://github.com/user-attachments/assets/f540e6d9-9aa4-4c08-a5ee-a28a9a94bcce" />
+
+###
